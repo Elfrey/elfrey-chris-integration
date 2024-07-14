@@ -1,0 +1,1037 @@
+{
+  "Драконорождённый": {
+    "Губительное дыхание": {
+      "ruId": "KL7wx9Q8XNJQir0k",
+      "pick": true,
+      "items": [
+        {
+          "engName": "Breath Weapon (Green)",
+          "engId": "DFZdXgeeKeVEywZ6",
+          "ruName": "Дыхание зеленого дракона - Яд"
+        },
+        {
+          "engName": "Breath Weapon (Brass)",
+          "engId": "FdfHmaxXCeDoI5wO",
+          "ruName": "Дыхание латунного дракона - Огонь"
+        },
+        {
+          "engName": "Breath Weapon (White)",
+          "engId": "G6Uriw2zIT0jhyou",
+          "ruName": "Дыхание белого дракона - Холод"
+        },
+        {
+          "engName": "Breath Weapon (Gold)",
+          "engId": "MnErrp5i5EcgvYkC",
+          "ruName": "Дыхание золотого дракона - Огонь"
+        },
+        {
+          "engName": "Breath Weapon (Copper)",
+          "engId": "TNY39mWsEy1crOwF",
+          "ruName": "Дыхание медного дракона - Кислота"
+        },
+        {
+          "engName": "Breath Weapon (Bronze)",
+          "engId": "Zi4dPRWGBfXrVl2U",
+          "ruName": "Дыхание бронзового дракона - Молния"
+        },
+        {
+          "engName": "Breath Weapon (Red)",
+          "engId": "iWt1y7g1NhQ8i2cA",
+          "ruName": "Дыхание красного дракона - Огонь"
+        },
+        {
+          "engName": "Breath Weapon (Silver)",
+          "engId": "mnUKM7IquwkZwm1j",
+          "ruName": "Жыхание серебряного дракона - Холод"
+        },
+        {
+          "engName": "Breath Weapon (Black)",
+          "engId": "sdfHZHOOho127CBt",
+          "ruName": "Дыхание черного дракона - Кислота"
+        },
+        {
+          "engName": "Breath Weapon (Blue)",
+          "engId": "vU3dvRttJ2qgDiJR",
+          "ruName": "Дыхание синего дракона - Молния"
+        }
+      ]
+    }
+  },
+  "Драконорождённый Цветной": {
+    "Наследие цветного дракона": {
+      "ruId": "4MosgM3pKsmrtxIv",
+      "pick": true,
+      "items": [
+        {
+          "engName": "Lightning Breath Weapon",
+          "engId": "4l4egagRGpcI7Ghx",
+          "ruName": "Дыхание синего дракона - Молния"
+        },
+        {
+          "engName": "Cold Breath Weapon",
+          "engId": "BqHy66c4t3MSgSm4",
+          "ruName": "Дыхание белого дракона - Холод"
+        },
+        {
+          "engName": "Fire Breath Weapon",
+          "engId": "GbXVG7azWdsZc6WX",
+          "ruName": "Дыхание красного дракона - Огонь"
+        },
+        {
+          "engName": "Acid Breath Weapon",
+          "engId": "MCEXKSQRJcuiIRgV",
+          "ruName": "Дыхание черного дракона - Кислота"
+        },
+        {
+          "engName": "Poison Breath Weapon",
+          "engId": "HdnrmqOStMj5hgcm",
+          "ruName": "Дыхание зеленого дракона - Яд"
+        }
+      ]
+    },
+    "Защита цветного дракона": {
+      "ruId": "TKg2bxdSzkP9IBq8",
+      "pick": true,
+      "items": [
+        {
+          "engName": "Chromatic Warding (Acid)",
+          "engId": "BRQ9b9sQ13ef4oLX",
+          "ruName": "Дыхание черного дракона - Кислота"
+        },
+        {
+          "engName": "Chromatic Warding (Poison)",
+          "engId": "BmczxIyNHwJ7MUvC",
+          "ruName": "Дыхание зеленого дракона - Яд"
+        },
+        {
+          "engName": "Chromatic Warding (Cold)",
+          "engId": "NGxaDm2jmoTKvh5D",
+          "ruName": "Дыхание белого дракона - Холод"
+        },
+        {
+          "engName": "Chromatic Warding (Fire)",
+          "engId": "OxvFBrXBZJq5g3Sa",
+          "ruName": "Дыхание красного дракона - Огонь"
+        },
+        {
+          "engName": "Chromatic Warding (Lightning)",
+          "engId": "h9JoTDqOP4C2jpo8",
+          "ruName": "Дыхание синего дракона - Молния"
+        }
+      ]
+    }
+  },
+  "Драконорождённый Самоцветный": {
+    "Наследие самоцветного дракона": {
+      "ruId": "waDb0hbxk7bqaMJV",
+      "pick": true,
+      "items": [
+        {
+          "engName": "Breath Weapon (Radiant)",
+          "engId": "ovfzTWNgfuqpa9sf",
+          "ruName": "Дыхание кристального дракона - Лучистый"
+        },
+        {
+          "engName": "Breath Weapon (Thunder)",
+          "engId": "EYZA605lwzdBHGe3",
+          "ruName": "Дыхание сапфирового дракона - Гром"
+        },
+        {
+          "engName": "Breath Weapon (Necrotic)",
+          "engId": "HGfW5KbxFuo1ZaQx",
+          "ruName": "Дыхание топазового дракона - Некротический"
+        },
+        {
+          "engName": "Breath Weapon (Force)",
+          "engId": "KiqDmJWdlGhaR2sP",
+          "ruName": "Дыхание аметистового дракона - Сила"
+        },
+        {
+          "engName": "Breath Weapon (Psychic)",
+          "engId": "Umw781tDVxzh6lPn",
+          "ruName": "Дыхание изумрудного дракона - Психическое"
+        }
+      ]
+    },
+    "Полёт самоцветного дракона": {
+      "ruId": "G8jyDtGFSFKiQQYU",
+      "items": [
+        {
+          "engName": "Gem Flight",
+          "engId": "Zz6ruEjCFdCClj96"
+        }
+      ]
+    }
+  },
+  "Драконорождённый Металлический": {
+    "Наследие металлического дракона": {
+      "ruId": "tB0l6Xtfeesdwte0",
+      "pick": true,
+      "items": [
+        {
+          "engName": "Breath Weapon (Fire)",
+          "engId": "LdLJ4KBTMDpcANsI",
+          "ruName": "Дыхание красного дракона - Огонь"
+        },
+        {
+          "engName": "Breath Weapon (Cold)",
+          "engId": "Sn0WrqWvOkbL9GBL",
+          "ruName": "Дыхание белого дракона - Холод"
+        },
+        {
+          "engName": "Breath Weapon (Lightning)",
+          "engId": "co6OpUWLRG9TsBpV",
+          "ruName": "Дыхание синего дракона - Молния"
+        },
+        {
+          "engName": "Breath Weapon (Acid)",
+          "engId": "mxvr0iCP6jNPkEVh",
+          "ruName": "Дыхание черного дракона - Кислота"
+        }
+      ]
+    },
+    "Металлическое оружие дыхания": {
+      "ruId": "azMfTgvDIdhcFwHz",
+      "items": [
+        {
+          "engName": "Metallic Breath Weapon",
+          "engId": "k2Vx8lQch5Njo4Zp"
+        }
+      ]
+    }
+  },
+  "Драконорождённый — Равенит": {
+    "Губительное дыхание": {
+      "ruId": "KL7wx9Q8XNJQir0k",
+      "pick": true,
+      "items": [
+        {
+          "engName": "Breath Weapon (Green)",
+          "engId": "DFZdXgeeKeVEywZ6",
+          "ruName": "Дыхание зеленого дракона - Яд"
+        },
+        {
+          "engName": "Breath Weapon (Brass)",
+          "engId": "FdfHmaxXCeDoI5wO",
+          "ruName": "Дыхание латунного дракона - Огонь"
+        },
+        {
+          "engName": "Breath Weapon (White)",
+          "engId": "G6Uriw2zIT0jhyou",
+          "ruName": "Дыхание белого дракона - Холод"
+        },
+        {
+          "engName": "Breath Weapon (Gold)",
+          "engId": "MnErrp5i5EcgvYkC",
+          "ruName": "Дыхание золотого дракона - Огонь"
+        },
+        {
+          "engName": "Breath Weapon (Copper)",
+          "engId": "TNY39mWsEy1crOwF",
+          "ruName": "Дыхание медного дракона - Кислота"
+        },
+        {
+          "engName": "Breath Weapon (Bronze)",
+          "engId": "Zi4dPRWGBfXrVl2U",
+          "ruName": "Дыхание бронзового дракона - Молния"
+        },
+        {
+          "engName": "Breath Weapon (Red)",
+          "engId": "iWt1y7g1NhQ8i2cA",
+          "ruName": "Дыхание красного дракона - Огонь"
+        },
+        {
+          "engName": "Breath Weapon (Silver)",
+          "engId": "mnUKM7IquwkZwm1j"
+        },
+        {
+          "engName": "Breath Weapon (Black)",
+          "engId": "sdfHZHOOho127CBt",
+          "ruName": "Жыхание серебряного дракона - Холод"
+        },
+        {
+          "engName": "Breath Weapon (Blue)",
+          "engId": "vU3dvRttJ2qgDiJR",
+          "ruName": "Дыхание черного дракона - Кислота"
+        }
+      ]
+    }
+  },
+
+  "Кованый": {
+    "Устойчивость конструкции": {
+      "ruId": "pLyFMHOMwx4lUrZj",
+      "items": [
+        {
+          "engName": "Constructed Resilience",
+          "engId": "yv6sNGrDmMuWINIG"
+        }
+      ]
+    }
+  },
+  "Полурослик легконогий": {
+    "Удача": {
+      "ruId": "LOMdcNAGWh5xpfm4",
+      "items": [
+        {
+          "engName": "Lucky",
+          "engId": "8ITEUJVZ5CPWSb9C"
+        }
+      ]
+    },
+    "Храбрость": {
+      "ruId": "7Yoo9hG0hfPSmBoC",
+      "items": [
+        {
+          "engName": "Brave",
+          "engId": "FcHoncVk7qdOB5e0"
+        }
+      ]
+    }
+  },
+  "Полурослик Лотосденский": {
+    "Удача": {
+      "ruId": "LOMdcNAGWh5xpfm4",
+      "items": [
+        {
+          "engName": "Lucky",
+          "engId": "8ITEUJVZ5CPWSb9C"
+        }
+      ]
+    },
+    "Храбрость": {
+      "ruId": "7Yoo9hG0hfPSmBoC",
+      "items": [
+        {
+          "engName": "Brave",
+          "engId": "FcHoncVk7qdOB5e0"
+        }
+      ]
+    }
+  },
+  "Полурослик призрачный": {
+    "Удача": {
+      "ruId": "LOMdcNAGWh5xpfm4",
+      "items": [
+        {
+          "engName": "Lucky",
+          "engId": "8ITEUJVZ5CPWSb9C"
+        }
+      ]
+    },
+    "Храбрость": {
+      "ruId": "7Yoo9hG0hfPSmBoC",
+      "items": [
+        {
+          "engName": "Brave",
+          "engId": "FcHoncVk7qdOB5e0"
+        }
+      ]
+    }
+  },
+  "Полурослик крепкий": {
+    "Удача": {
+      "ruId": "LOMdcNAGWh5xpfm4",
+      "items": [
+        {
+          "engName": "Lucky",
+          "engId": "8ITEUJVZ5CPWSb9C"
+        }
+      ]
+    },
+    "Храбрость": {
+      "ruId": "7Yoo9hG0hfPSmBoC",
+      "items": [
+        {
+          "engName": "Brave",
+          "engId": "FcHoncVk7qdOB5e0"
+        }
+      ]
+    },
+    "Стойкость к яду": {
+      "ruId": "ufysTkqet2Ctmtyi",
+      "items": [
+        {
+          "engName": "Stout Resilience",
+          "engId": "z7wnMJqR0yOlhQIy"
+        }
+      ]
+    }
+  },
+  "Mетка Гостеприимства — Полурослик": {
+    "Удача": {
+      "ruId": "LOMdcNAGWh5xpfm4",
+      "items": [
+        {
+          "engName": "Lucky",
+          "engId": "8ITEUJVZ5CPWSb9C"
+        }
+      ]
+    },
+    "Храбрость": {
+      "ruId": "7Yoo9hG0hfPSmBoC",
+      "items": [
+        {
+          "engName": "Brave",
+          "engId": "FcHoncVk7qdOB5e0"
+        }
+      ]
+    },
+    "Всегда гостеприимен": {
+      "ruId": "JEgasrmtKVOOP15c",
+      "items": [
+        {
+          "engName": "Ever Hospitable",
+          "engId": "KXFeUdSxepWKwTPX"
+        }
+      ]
+    }
+  },
+  "Mетка Исцеления — Полурослик": {
+    "Удача": {
+      "ruId": "LOMdcNAGWh5xpfm4",
+      "items": [
+        {
+          "engName": "Lucky",
+          "engId": "8ITEUJVZ5CPWSb9C",
+          "ruName": "Удача"
+        }
+      ]
+    },
+    "Храбрость": {
+      "ruId": "7Yoo9hG0hfPSmBoC",
+      "items": [
+        {
+          "engName": "Brave",
+          "engId": "FcHoncVk7qdOB5e0"
+        }
+      ]
+    },
+    "Медицинская интуиция": {
+      "ruId": "atxd5yuEEPBpfJED",
+      "items": [
+        {
+          "engName": "Medical Intuition",
+          "engId": "T4SxBIZHrS9xTRDS"
+        }
+      ]
+    }
+  },
+  "Эльф шадар-каи": {
+    "Благословение Королевы воронов": {
+      "ruId": "MU26WUfzjJgysIlC",
+      "items": [
+        {
+          "engName": "Blessing of the Raven Queen",
+          "engId": "cpGbPh5mwpLFjWzs"
+        }
+
+      ]
+    }
+  },
+  "Грунг": {
+    "Ядовитая кожа": {
+      "ruId": "tTXlNvrb54C4ZHgk",
+      "items": [
+        {
+          "engName": "Poisonous Skin",
+          "engId": "SMviMje2dfbi6UiA",
+          "ruName": "Ядовитая кожа"
+        },
+        {
+          "engName": "Grung Poison",
+          "engId": "m4l9c75g9ZXS2u3n",
+          "ruName": "Яд грунга"
+        }
+      ]
+    }
+  },
+  "Эльф лесной": {
+    "Наследие фей": {
+      "ruId": "cnTbpPPeGW7vGjOV",
+      "items": [
+        {
+          "engName": "Fey Ancestry",
+          "engId": "d4O33eV9dRFvjCv1"
+        }
+      ]
+    }
+  },
+  "Дварф горный": {
+    "Стойкость к яду": {
+      "ruId": "ufysTkqet2Ctmtyi",
+      "items": [
+        {
+          "engName": "Dwarven Resilience",
+          "engId": "6DG4nowSzqQsJApc"
+        }
+      ]
+    }
+  },
+  "Mетка Опеки — Дварф": {
+    "Стойкость к яду": {
+      "ruId": "ufysTkqet2Ctmtyi",
+      "items": [
+        {
+          "engName": "Dwarven Resilience",
+          "engId": "6DG4nowSzqQsJApc"
+        }
+      ]
+    },
+    "Интуиция надзирателя": {
+      "ruId": "gXT5aqw01wh2z6jz",
+      "items": [
+        {
+          "engName": "Warder's Intuition",
+          "engId": "T1n69diwDa1oV6Nx"
+        }
+      ]
+    }},
+
+  "Вердан": {
+    "Телепатическая проницательность": {
+      "ruId": "csITgBij8nESRarA",
+      "items": [
+        {
+          "engName": "Telepathic Insight",
+          "engId": "cQF5OywEFSDFGr9y"
+        }
+      ]
+    }
+  },
+  "Драконорождённый — Драконокровный": {
+    "Довлеющее присутствие": {
+      "ruId": "gUVzlVMADja1v6Wm",
+      "items": [
+        {
+          "engName": "Forceful Presence",
+          "engId": "m5xjNA0Vf2hznX7j"
+        }
+
+      ]
+    },
+    "Губительное дыхание": {
+      "ruId": "KL7wx9Q8XNJQir0k",
+      "pick": true,
+      "items": [
+        {
+          "engName": "Breath Weapon (Green)",
+          "engId": "DFZdXgeeKeVEywZ6",
+          "ruName": "Дыхание зеленого дракона - Яд"
+        },
+        {
+          "engName": "Breath Weapon (Brass)",
+          "engId": "FdfHmaxXCeDoI5wO",
+          "ruName": "Дыхание латунного дракона - Огонь"
+        },
+        {
+          "engName": "Breath Weapon (White)",
+          "engId": "G6Uriw2zIT0jhyou",
+          "ruName": "Дыхание белого дракона - Холод"
+        },
+        {
+          "engName": "Breath Weapon (Gold)",
+          "engId": "MnErrp5i5EcgvYkC",
+          "ruName": "Дыхание золотого дракона - Огонь"
+        },
+        {
+          "engName": "Breath Weapon (Copper)",
+          "engId": "TNY39mWsEy1crOwF",
+          "ruName": "Дыхание медного дракона - Кислота"
+        },
+        {
+          "engName": "Breath Weapon (Bronze)",
+          "engId": "Zi4dPRWGBfXrVl2U",
+          "ruName": "Дыхание бронзового дракона - Молния"
+        },
+        {
+          "engName": "Breath Weapon (Red)",
+          "engId": "iWt1y7g1NhQ8i2cA",
+          "ruName": "Дыхание красного дракона - Огонь"
+        },
+        {
+          "engName": "Breath Weapon (Silver)",
+          "engId": "mnUKM7IquwkZwm1j",
+          "ruName": "Жыхание серебряного дракона - Холод"
+        },
+        {
+          "engName": "Breath Weapon (Black)",
+          "engId": "sdfHZHOOho127CBt",
+          "ruName": "Дыхание черного дракона - Кислота"
+        },
+        {
+          "engName": "Breath Weapon (Blue)",
+          "engId": "vU3dvRttJ2qgDiJR",
+          "ruName": "Дыхание синего дракона - Молния"
+        }
+      ]
+    }
+  },
+  "Гитзерай": {
+    "Ментальная дисциплина": {
+      "ruId": "T5UAcqgrwfhrFskr",
+      "items": [
+        {
+          "engName": "Mental Discipline (Githzerai)",
+          "engId": "UvMOOwI6Haft3VOS"
+        }
+      ]
+    }
+  },
+
+
+  "Аасимар-защитник": {
+    "Сияющая душа": {
+      "ruId": "zbhTBCV6omk2Ynr3",
+      "items": [
+        {
+          "engName": "Celestial Revelation (Radiant Soul)",
+          "engId": "tFFmiZ2q27uC1lS2"
+        }
+      ]
+    },
+    "Исцеляющие руки": {
+      "ruId": "QirCe7Z1YZRsbLKO",
+      "items": [
+        {
+          "engName": "Healing Hands",
+          "engId": "jNZZlVPWl5dgvGC1"
+        }
+      ]
+    }
+  },
+  "Минотавр": {
+    "Зов лабиринта": {
+      "ruId": "UezUGQcawSHNiEfa",
+      "items": [
+        {
+          "engName": "Labyrinthine Recall",
+          "engId": "5nuimWl53ZE7EAGY"
+        }
+      ]
+    }
+  },
+  "Дварф холмовой": {
+    "Стойкость к яду": {
+      "ruId": "ufysTkqet2Ctmtyi",
+      "items": [
+        {
+          "engName": "Dwarven Resilience",
+          "engId": "6DG4nowSzqQsJApc"
+        }
+      ]
+    }
+  },
+  "Mетка Созидания — Человек": {
+    "Интуиция ремесленника": {
+      "ruId": "hFwC5N5GVIfANPUn",
+      "items": [
+        {
+          "engName": "Artisan's Intuition",
+          "engId": "PFps4HYyiTrnpVav"
+        }
+      ]
+    }
+  },
+  "Дварф серый (Двергар)": {
+    "Стойкость к яду": {
+      "ruId": "ufysTkqet2Ctmtyi",
+      "items": [
+        {
+          "engName": "Dwarven Resilience",
+          "engId": "6DG4nowSzqQsJApc"
+        }
+      ]
+    }
+  },
+  "Аасимар-падший": {
+    "Исцеляющие руки": {
+      "ruId": "QirCe7Z1YZRsbLKO",
+      "items": [
+        {
+          "engName": "Healing Hands",
+          "engId": "jNZZlVPWl5dgvGC1"
+        }
+      ]
+    },
+    "Саван смерти": {
+      "ruId": "5YmzGjfXPl0J2FrV",
+      "items": [{
+        "engName": "Celestial Revelation (Necrotic Shroud)",
+        "engId": "ASZ6kJzW8OvQ45hH"
+      }]
+    }
+  },
+  "Mетка Тени —Эльф": {
+    "Хитрая интуиция": {
+      "ruId": "9g67Yan1RnlHU8n3",
+      "items": [
+        {
+          "engName": "Cunning Intuition",
+          "engId": "OZNACeYXFBA4A4jZ"
+        }
+      ]
+    }
+  },
+  "Орк": {
+    "Несгибаемая стойкость": {
+      "ruId": "97c8i9Z28thvZuA8",
+      "items": [
+        {
+          "engName": "Relentless Endurance",
+          "engId": "Uyn9d15niuUb3nP9"
+        }
+      ]
+    }
+  },
+  "Шифтер (Дикий охотник)": {
+    "Смена формы: Дикий охотник": {
+      "ruId": "KYGOQrbZ1G2LKeLd",
+      "items": [
+        {
+          "engName": "Shift - Wildhunt",
+          "engId": "o43gFJomvrIe6mnb"
+        }
+      ]
+    }
+  },
+  "Гитьянки": {
+    "Астральное знание": {
+      "ruId": "1szYz6sDYYX8WbXq",
+      "items": [
+        {
+          "engName": "Astral Knowledge",
+          "engId": "wbsqkUsDv9gDy9JW"
+        }
+      ]
+    }
+  },
+  "Фирболг": {
+    "Незримая поступь": {
+      "ruId": "yJmJklEG6cvfzmE1",
+      "items": [
+        {
+          "engName": "Hidden Step",
+          "engId": "Wm5bgGIRype1NZhh"
+        }
+
+      ]
+    }
+  },
+  "Гном скальный": {
+    "Гномья хитрость": {
+      "ruId": "EHhr9umJ5kxJFCQH",
+      "items": [
+        {
+          "engName": "Gnome Cunning",
+          "engId": "ESV7UiE58OuSlmw3"
+        }
+      ]
+    }
+  },
+  "Mетка Письма — Гном": {
+    "Одаренный писец": {
+      "ruId": "Ao4RrFJYiDim8O8L",
+      "items": [
+        {
+          "engName": "Gifted Scribe",
+          "engId": "r56BHPKXBizmz4PJ"
+        }
+      ]
+    },
+    "Гномья хитрость": {
+      "ruId": "EHhr9umJ5kxJFCQH",
+      "items": [
+        {
+          "engName": "Gnome Cunning",
+          "engId": "ESV7UiE58OuSlmw3"
+        }
+      ]
+    }
+  },
+  "Гном лесной": {
+    "Гномья хитрость": {
+      "ruId": "EHhr9umJ5kxJFCQH",
+      "items": [
+        {
+          "engName": "Gnome Cunning",
+          "engId": "ESV7UiE58OuSlmw3"
+        }
+      ]
+    }
+  },
+  "Mетка Бури — Полуэльф": {
+    "Интуиция ветродела": {
+      "ruId": "rCzrrXLpovtp6S99",
+      "items": [
+        {
+          "engName": "Windwright's Intuition",
+          "engId": "8a4ttmuQEVdp7Dat"
+        }
+      ]
+    }
+  },
+  "Людоящер": {
+    "Голодная пасть": {
+      "ruId": "yJgKo3NhX5CswusJ",
+      "items": [
+        {
+          "engName": "Hungry Jaws",
+          "engId": "oVM5ZKCPmQD6tRD6"
+        }
+      ]
+    }
+  },
+  "Багбер": {
+    "Длинные конечности": {
+      "ruId": "QQkoIXheXSGjtXfd",
+      "items": [
+        {
+          "engName": "Long-Limbed",
+          "engId": "oV0wV7s1bPTy61OA"
+        }
+      ]
+    }
+  },
+  "Аасимар-каратель": {
+    "Исцеляющие руки": {
+      "ruId": "QirCe7Z1YZRsbLKO",
+      "items": [
+        {
+          "engName": "Healing Hands",
+          "engId": "jNZZlVPWl5dgvGC1"
+        }
+      ]
+    },"Испускание сияния": {
+      "ruId": "NkusfPZ1TWA6VBk3",
+      "items": [
+        {
+          "engName": "Celestial Revelation (Radiant Consumption)",
+          "engId": "HSbyf8ciDBjz78Xv"
+        }
+      ]
+    }
+  },
+  "Полуорк": {
+    "Яростные атаки": {
+      "ruId": "0kUsT4sMUOr5FcoX",
+      "items": [
+        {
+          "engName": "Savage Attacks",
+          "engId": "if6IC4akTRHmkXrd"
+        }
+      ]
+    }
+  },
+  "Эльф астральный": {
+    "Наследие фей": {
+      "ruId": "lBAEybWaxc2HrEHf",
+      "items": [
+        {
+          "engName": "Fey Ancestry",
+          "engId": "5HVUzURFTsmrdn1L"
+        }
+      ]
+    },
+    "Звёздный шаг": {
+      "ruId": "m58130kCJpJXI2ia",
+      "items": [
+        {
+          "engName": "Starlight Step",
+          "engId": "HD1zXe4AANnU2bLk"
+        }
+      ]
+    },
+    "Астральный транс": {
+      "ruId": "tDfk4Kj9w1BGwhAB",
+      "items": [
+        {
+          "engName": "Astral Trance",
+          "engId": "MrIhCnVoNCaDyUyC"
+        }
+      ]
+    }
+  },
+  "Дампир": {
+    "Паучьи лапы": {
+      "ruId": "rRS9wxOkYjDwCiPu",
+      "items": [
+        {
+          "engName": "Spider Climb",
+          "engId": "UwI0X3nnYAQHU9L0"
+        }
+      ]
+    },
+    "Вампирский укус": {
+      "ruId": "znINpFuoFGUw48JD",
+      "items": [
+        {
+          "engName": "Fanged Bite",
+          "engId": "7tL7oFYhp2ANTYye"
+        }
+      ]
+    }
+  },
+  "Эладрин": {
+    "Фейский шаг": {
+      "ruId": "RWVj1oerprHinWDO",
+      "items": [
+        {
+          "engName": "Fey Step",
+          "engId": "gmaYjUKX7t6HrTEH"
+        },
+        {
+          "engName": "Change Season",
+          "engId": "sRs1AxaAkEnrReLZ"
+        }
+      ]
+    },
+    "Наследие фей": {
+      "ruId": "lBAEybWaxc2HrEHf",
+      "items": [
+        {
+          "engName": "Fey Ancestry",
+          "engId": "d4O33eV9dRFvjCv1"
+        }
+      ]
+    }
+  },
+  "Эльф бледный": {
+    "Острые чувства": {
+      "ruId": "xncfwJkCBaV1stlj",
+      "items": [
+        {
+          "engName": "Incisive Sense",
+          "engId": "ohiHLzwnDN38gM0c"
+        }
+      ]
+    },
+    "Наследие фей": {
+      "ruId": "lBAEybWaxc2HrEHf",
+      "items": [
+        {
+          "engName": "Fey Ancestry",
+          "engId": "d4O33eV9dRFvjCv1"
+        }
+      ]
+    }
+  },
+  "Гифф": {
+    "Астральная искра": {
+      "ruId": "7awtO6fu1VpJRHEy",
+      "items": [
+        {
+          "engName": "Astral Spark",
+          "engId": "5uyLQNAxxeMPP31W",
+          "keepEngName": true
+        }
+
+      ]
+    }
+  },
+  "Голиаф": {
+    "Выносливость камня": {
+      "ruId": "b9VuYeoASZdlf2VF",
+      "items": [
+        {
+          "engName": "Stone's Endurance",
+          "engId": "NiMRg1SvodUGoH4Q"
+        }
+      ]
+    }
+  },
+  "Хадози": {
+    "Устойчивость хадози": {
+      "ruId": "Z9qq2TnARPLGTBMp",
+      "items": [
+        {
+          "engName": "Hadozee Dodge",
+          "engId": "b8DQqew1izbnS1Wz"
+        }
+      ]
+    }
+  },
+  "Mетка Обнаружения — Полуэльф": {
+    "Наследие фей": {
+      "ruId": "lBAEybWaxc2HrEHf",
+      "items": [
+        {
+          "engName": "Fey Ancestry",
+          "engId": "d4O33eV9dRFvjCv1"
+        }
+      ]
+    },
+    "Дедуктивная интуиция": {
+      "ruId": "SWkvhZ14tDyMM1NH",
+      "items": [
+        {
+          "engName": "Deductive Intuition",
+          "engId": "G3ZRUqpWttHX1iSE"
+        }
+      ]
+    }
+  },
+  "Харенгон": {
+    "Удачный манёвр": {
+      "ruId": "hupC1yoF6GHBEWnh",
+      "items": [
+        {
+          "engName": "Lucky Footwork",
+          "engId": "WA0L167QopK809Cr"
+        }
+
+      ]
+    }
+  },
+  "Калаштар": {
+    "Двойной разум": {
+      "ruId": "QsqOA39FL5sn7U8e",
+      "items": [
+        {
+          "engName": "Dual Mind",
+          "engId": "OJPi9N1sG1xuUJZL"
+        }
+      ]
+    },
+    "Психическая дисциплина": {
+      "ruId": "hmO20eZxFm4jDMAg",
+      "items": [
+        {
+          "engName": "Mental Discipline (Kalashtar)",
+          "engId": "QaDPr7YTFdwVIVLy"
+        }
+      ]
+    }
+  },
+  "Плазмоид": {
+    "Аморфный": {
+      "ruId": "x4WM2S735GU8jDbv",
+      "items": [
+        {
+          "engName": "Amorphous",
+          "engId": "MKqHeudZThcNThHf"
+        }
+      ]
+    },
+    "Естественная": {
+      "ruId": "LHzwtUZBjHUZEQ82",
+      "items": [
+        {
+          "engName": "Natural Resilience",
+          "engId": "UDsvEV9HVbc7dpBE"
+        }
+      ]
+    }
+  },
+  "Кобольд": {
+    "Рёв дракона": {
+      "ruId": "rHrW6lEtFKIeIu5K",
+      "items": [
+        {
+          "engName": "Draconic Cry",
+          "engId": "F3QTZy7Y68lXtKHV"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.ect-window-container {
+  padding: 8px 0;
+}
+.ect-result-text {
+  text-align: left;
+  line-height: 1.4;
+}
+.ect-pick-item-container {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  padding-bottom: 20px;
+  //noinspection CssNoGenericFontName
+  h1 {
+    font-family: var(--font-fancy);
+    font-weight: 700;
+  }
+  form {
+    flex-basis: 100%;
+  }
+  h3 {
+    font-size: var(--text-xl);
+    font-weight: 600;
+  }
+  h4 {
+    margin: 0;
+    font-size: var(--font-size-14);
+    font-weight: 600;
+  }
+  .flexcol {
+    gap: 8px;
+  }
+  select {
+    width: auto;
+    max-width: 100%;
+  }
+  .border-bottom:not(:last-child) {
+    padding: 4px 0 12px;
+    border-bottom: 1px solid var(--color-border-dark-2);
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "Черта: Искажённая метка дракона": {
+    "ruId": "saVoB2UIcGBNpWBk",
+    "items": [
+      {
+        "engName": "Aberrant Dragonmark",
+        "engId": "RB1ndHgNPVPRa4Us"
+      }
+    ]
+  },
+  "Черта: Агент порядка": {
+    "ruId": "F4Fwg8c9k0pOQqMz",
+    "items": [
+      {
+        "engName": "Agent of Order: Stasis Strike",
+        "engId": "GnXZZSXwakKgUcry"
+      }
+    ]
+  },
+  "Черта: Зловещий наследник": {
+    "ruId": "lHyeGOc9D0NXJn4p",
+    "items": [
+      {
+        "engName": "Baleful Scion: Grasp of Avarice",
+        "engId": "QWIUmZP7kIQLParp"
+      }
+    ]
+  },
+  "Черта: Картомант": {
+    "ruId": "EjVOkkTm2SbFfYgi",
+    "items": [
+      {
+        "engName": "Cartomancer: Hidden Ace - Imbue Card",
+        "engId": "iJ6CfOU8bBD6FcHY"
+      }
+    ]
+  },
+  "Черта: Крушитель": {
+    "ruId": "4QoIw2ZoFmqEoZFU",
+    "items": [
+      {
+        "engName": "Crusher",
+        "engId": "rLmv9LZtMbn3STYR",
+        "ruName": "Черта: Крушитель"
+      },
+      {
+        "engName": "Crusher: Critical",
+        "engId": "ZN0Bv8dMrldxWoIs",
+        "ruName": "Черта: Крушитель - Критический"
+      }
+    ]
+  },
+  "Черта: Обоерукий": {
+    "ruId": "bwf426BUMVRhZ9Pr",
+    "items": [
+      {
+        "engName": "Dual Wielder",
+        "engId": "KX93xnvNojAmcpze"
+      }
+    ]
+  },
+  "Черта: Адепт стихии": {
+    "ruId": "HknkSdHRc3t5Zf2W",
+    "pick": true,
+    "items": [
+      {
+        "engName": "Elemental Adept (Acid)",
+        "engId": "Ha2O3HDXQqGi21kz",
+        "ruName": "Черта: Адепт стихии - Кислота"
+      },
+      {
+        "engName": "Elemental Adept (Cold)",
+        "engId": "mKWwAIF8ATxBtlmM",
+        "ruName": "Черта: Адепт стихии - Холод"
+      },
+      {
+        "engName": "Elemental Adept (Fire)",
+        "engId": "yJwDY6LyI7SiNyXV",
+        "ruName": "Черта: Адепт стихии - Огонь"
+      },
+      {
+        "engName": "Elemental Adept (Lightning)",
+        "engId": "wJsU8B9SzyRwFFff",
+        "ruName": "Черта: Адепт стихии - Молния"
+      },
+      {
+        "engName": "Elemental Adept (Thunder)",
+        "engId": "Cquxr3N4dgfAM8il",
+        "ruName": "Черта: Адепт стихии - Гром"
+      }
+    ]
+  },
+  "Черта: Пылкость огненного великана": {
+    "ruId": "fVQTmnTN2PpLRTf9",
+    "items": [
+      {
+        "engName": "Ember of the Fire Giant: Searing Ignition",
+        "engId": "dIgMq55wbLWGG9rE"
+      }
+    ]
+  },
+  "Черта: Неистовство морозного великана": {
+    "ruId": "T0XPHey2LvqweBVX",
+    "items": [
+      {
+        "engName": "Fury of the Frost Giant: Frigid Retaliation",
+        "engId": "kQyNQ9am7bGNI0t5"
+      }
+    ]
+  },
+  "Черта: Дар цветного дракона": {
+    "ruId": "idljlYdOFLIFihrA",
+    "items": [
+      {
+        "engName": "Gift of the Chromatic Dragon: Chromatic Infusion",
+        "engId": "NXdkaUqoXlDd5hKy",
+        "ruName": "Черта: Дар цветного дракона - Цветная инфузия"
+      },
+      {
+        "engName": "Gift of the Chromatic Dragon: Reactive Resistance",
+        "engId": "WtSmkmnlbxAicVsJ",
+        "ruName": "Черта: Дар цветного дракона - Мгновенная устойчивость"
+      }
+    ]
+  },
+  "Черта: Коварство облачного великана": {
+    "ruId": "hetfakE4qDkvYmhQ",
+    "items": [
+      {
+        "engName": "Guile of the Cloud Giant: Cloudy Escape",
+        "engId": "VQaRit5FSYpdjGSO"
+      }
+    ]
+  },
+  "Черта: Мастер тяжёлой брони": {
+    "ruId": "yH9dymrxWq5OCp8B",
+    "items": [
+      {
+        "engName": "Heavy Armor Master",
+        "engId": "sVjIie4xj3XjoqIb"
+      }
+    ]
+  },
+  "Черта: Чуткость каменного великана": {
+    "ruId": "4foYlDuLZdVnxSXs",
+    "items": [
+      {
+        "engName": "Keenness of the Stone Giant: Stone Throw",
+        "engId": "BMJllBcjCN0L7YTI",
+        "ruName": "Черта: Чуткость каменного великана - Бросок камня"
+      }
+    ]
+  },
+  "Черта: Орочье буйство": {
+    "ruId": "PmUpVIioCb3MIemX",
+    "items": [
+      {
+        "engName": "Orcish Fury - Extra Damage",
+        "engId": "svxGjhxcDkqbqteK"
+      }
+    ]
+  },
+  "Черта: Пронзатель": {
+    "ruId": "XE1Vn7oatA9tq1jP",
+    "items": [
+      {
+        "engName": "Piercer: Critical Hit",
+        "engId": "n4t3qrJFcDnfDA3R",
+        "ruName": "Черта: Пронзатель - Критический удар"
+      },
+      {
+        "engName": "Piercer: Reroll Damage",
+        "engId": "Q4jIjVd5UNWLYHnl",
+        "ruName": "Черта: Пронзатель - Переброс урона"
+      }
+    ]
+  },
+  "Черта: Планарный странник": {
+    "ruId": "Bhdsz73nuQFCW8cb",
+    "items": [
+      {
+        "engName": "Planar Wanderer: Planar Adaptation",
+        "engId": "QpkzS9Qs23wkz83Y"
+      },
+      {
+        "engName": "Planar Wanderer: Portal Cracker",
+        "engId": "REQOqbS7BNZOdmBv"
+      }
+    ]
+  },
+  "Черта: Праведный наследник": {
+    "ruId": "FwKzJ3ZGY81F588n",
+    "items": [
+      {
+        "engName": "Righteous Heritor: Soothe Pain",
+        "engId": "cXeJN2LJKicj2pn3"
+      }
+    ]
+  },
+  "Черта: Неистово атакующий": {
+    "ruId": "DxbmDhyiyjJoII7M",
+    "items": [
+      {
+        "engName": "Savage Attacker",
+        "engId": "aibGRrevWEvzGqkh"
+      }
+    ]
+  },
+  "Черта: Наследник внешних планов": {
+    "ruId": "xTy5XmPHJ3G8QKDu",
+    "pick": true,
+    "items": [
+      {
+        "engName": "Scion of the Outer Planes (Chaotic Outer Plane)",
+        "engId": "wNSEEZyXCceDyDMa",
+        "ruName": "Черта: Наследник внешних планов - Хаотичный Внешний план"
+      },
+      {
+        "engName": "Scion of the Outer Planes (Evil Outer Plane)",
+        "engId": "LN4Fd1igCgRwFw7q",
+        "ruName": "Черта: Наследник внешних планов - Злой Внешний план"
+      },
+      {
+        "engName": "Scion of the Outer Planes (Good Outer Plane)",
+        "engId": "S3datEzNWPjAKD39",
+        "ruName": "Черта: Наследник внешних планов - Добрый Внешний план"
+      },
+      {
+        "engName": "Scion of the Outer Planes (Lawful Outer Plane)",
+        "engId": "zZLlk9UM4PUQzYG0",
+        "ruName": "Черта: Наследник внешних планов - Принципиальный Внешний план"
+      },
+      {
+        "engName": "Scion of the Outer Planes (The Outlands)",
+        "engId": "Fb2s2IhY0Gss8sfA",
+        "ruName": "Черта: Наследник внешних планов - Внешние земли"
+      }
+    ]
+  },
+  "Черта: Жестокий": {
+    "ruId": "R4H9bzOVZp9Aw9YC",
+    "items": [
+      {
+        "engName": "Slasher: Critical Hit",
+        "engId": "Ew0yVWXtF2MqDVsv"
+      },
+      {
+        "engName": "Slasher: Reduce Speed",
+        "engId": "oJVPmnbJd62bzrE0"
+      }
+    ]
+  },
+  "Черта: Душа штормового великана": {
+    "ruId": "2ALr8G8AZ0htPUfe",
+    "items": [
+      {
+        "engName": "Soul of the Storm Giant: Maelstrom Aura",
+        "engId": "UCBPhHIfGWHc40R4"
+      }
+    ]
+  },
+  "Черта: Удар великанов": {
+    "ruId": "unbQQwlHxrDhNtcz",
+    "pick": true,
+    "items": [
+      {
+        "engName": "Strike of the Giants: Cloud Strike",
+        "engId": "7bskA5hFleLq9a2y",
+        "ruName": "Черта: Удар великанов - Облачный удар"
+      },
+      {
+        "engName": "Strike of the Giants: Fire Strike",
+        "engId": "15saxRIYkkb4jHXj",
+        "ruName": "Черта: Удар великанов - Огненный удар"
+      },
+      {
+        "engName": "Strike of the Giants: Frost Strike",
+        "engId": "ZGbH1W0wjeo4XZmi",
+        "ruName": "Черта: Удар великанов - Ледяной удар"
+      },
+      {
+        "engName": "Strike of the Giants: Hill Strike",
+        "engId": "d8rBn60aumYhY9pq",
+        "ruName": "Черта: Удар великанов - Холмовой удар"
+      },
+      {
+        "engName": "Strike of the Giants: Stone Strike",
+        "engId": "JiGq15igXCKvbLdM",
+        "ruName": "Черта: Удар великанов - Каменный удар"
+      },
+      {
+        "engName": "Strike of the Giants: Storm Strike",
+        "engId": "f1MxxWbANa1mnV2F",
+        "ruName": "Черта: Удар великанов - Штормовой удар"
+      }
+    ]
+  },
+  "Черта: Телекинетик": {
+    "ruId": "Oa4GR5MqmjDBJBI8",
+    "items": [
+      {
+        "engName": "Telekinetic: Shove",
+        "engId": "DtLEjZmLtAReovT5"
+      }
+    ]
+  },
+  "Черта: Стойкость холмового великана": {
+    "ruId": "97P7PbYFFuZ08ht1",
+    "items": [
+      {
+        "engName": "Vigor of the Hill Giant: Bulwark",
+        "engId": "sI14YIlOx5R7E4dJ"
+      }
+    ]
+  }
+}

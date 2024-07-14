@@ -1,0 +1,23 @@
+<div class="ect-window-container">
+  <div class="ect-pick-item-container">
+    <h3>{{localize "ECI.pickFeatExplain"}}</h3>
+    {{#each data}}
+      <div class="flexcol border-bottom">
+        <label for="{{this.name}}">
+          <h4 class="flexrow">
+            {{localize "ECI.pickFeatOption"}}
+          </h4>
+        </label>
+        <div class="item-name">{{{ dnd5e-linkForUuid this.uuid }}}</div>
+
+
+        <select name="{{@key}}">
+          {{#each this.items}}
+            <option value="{{this._id}}">{{{fixFeatName this.name}}}</option>
+          {{/each}}
+        </select>
+      </div>
+    {{/each}}
+  </div>
+  <button id="get-selected-items">{{localize "ECI.selectButton"}}</button>
+</div>

@@ -1,0 +1,2443 @@
+{
+  "Изобретатель": {
+    "Бронник": {
+      "Модель доспеха": {
+        "rudId": "FUSNyGJMz7YY5rDr",
+        "pick": true,
+        "items": [
+          {
+            "engName": "Arcane Armor: Guardian Model",
+            "engId": "3FGMYgPY0W5NuNWX",
+            "ruName": "Модель доспеха: Страж"
+          },
+          {
+            "engName": "Arcane Armor: Infiltrator Model",
+            "engId": "zJZMOMpFwD92sdQD",
+            "ruName": "Модель доспеха: Лазутчик"
+          }
+        ]
+      },
+      "Модификация доспеха": {
+        "ruName": "Модификация доспеха",
+        "ruId": "S4YcAdv4noFtXf89",
+        "items": [
+          {
+            "engName": "Armor Modifications",
+            "engId": "qFJx7QEA6tROTXoI"
+          }
+        ]
+      }
+    },
+    "Артиллерист": {
+      "Мистическая пушка": {
+        "ruId": "cMARZiwZkrFNczcd",
+        "items": [
+          {
+            "engName": "Create Eldritch Cannon",
+            "engId": "LyXaaQNDNwNq2OTo"
+          }
+        ]
+      }
+    },
+    "Алхимик": {
+      "Учёный алхимик": {
+        "ruId": "sDngvxm6j42ASXJL",
+        "items": [
+          {
+            "engName": "Alchemical Savant",
+            "engId": "WQbl14r7MDcXBkVG"
+          }
+        ]
+      },
+      "Экспериментальный эликсир": {
+        "ruId": "x9bEMouWyRIzSBWj",
+        "items": [
+          {
+            "engName": "Experimental Elixir",
+            "engId": "cJt5KXWosbIj3rjF"
+          }
+        ]
+      }
+    },
+    "Боевой кузнец": {
+      "Стальной защитник": {
+        "ruId": "YROrMkiyeOcmew8D",
+        "items": [
+          {
+            "engName": "Steel Defender",
+            "engId": "Web45Fcp5hG24lkG"
+          }
+        ]
+      },
+      "Магическая встряска": {
+        "ruId": "LeYUNL24vNGciSKT",
+        "items": [
+          {
+            "engName": "Arcane Jolt",
+            "engId": "XbqV6ZFniv8zr1GO"
+          }
+        ]
+      }
+    }
+  },
+  "Варвар": {
+    "base": {
+      "Ярость": {
+        "ruId": "VoR0SUrNX5EJVPIO",
+        "items": [
+          {
+            "engName": "Rage",
+            "engId": "rLaHWfhm9R1nZoR9"
+          }
+        ]
+      },
+      "Защита без брони": {
+        "ruId": "SZbsNbaxFFGwBpNK",
+        "items": [
+          {
+            "engName": "Unarmored Defense (Barbarian)",
+            "engId": "7Mrba9HuN6tegGw9"
+          }
+        ]
+      },
+      "Чутьё на опасность": {
+        "ruId": "vt31lWAULygEl7yk",
+        "items": [
+          {
+            "engName": "Danger Sense",
+            "engId": "5AfpFIYTuyqJaN1Q"
+          }
+        ]
+      },
+      "Бесконечная ярость": {
+        "ruId": "l8tUhZ5Pecm9wz7I",
+        "items": [
+          {
+            "engName": "Persistent Rage",
+            "engId": "rpwAtJYydBp17GQC"
+          }
+        ]
+      }
+    },
+    "Путь дикой магии": {
+      "Всплеск дикости": {
+        "ruId": "m1g7DeG8FpSVNMSY",
+        "items": [
+          {
+            "engName": "Wild Surge",
+            "engId": "1hTmVirX5TwJzymi"
+          }
+        ]
+      },
+      "Поддерживающая магия": {
+        "ruId": "mqcWV5FKwrfCvyxa",
+        "items": [
+          {
+            "engName": "Bolstering Magic",
+            "engId": "yvGwUDPk7eaE8XdM"
+          }
+        ]
+      },
+      "Нестабильная отдача": {
+        "ruId": "5TRDeIQys0VH026M",
+        "items": [
+          {
+            "engName": "Unstable Backlash",
+            "engId": "YhZyyDsXZxG7yN0E"
+          }
+        ]
+      },
+      "Контролируемый всплеск": {
+        "ruId": "5JZtWwBiraKPCMfT",
+        "items": [
+          {
+            "engName": "Controlled Surge",
+            "engId": "shncY7B4GjARivan"
+          }
+        ]
+      }
+    },
+    "Путь воителя тотема": {
+      "Дух тотема: Медведь": {
+        "ruId": "FZBNhfy77d7qx2Dv",
+        "items": [
+          {
+            "engName": "Totem Spirit: Bear",
+            "engId": "Dejo0yyAU8xvZqlN"
+          }
+        ]
+      }
+    },
+    "Путь великана": {
+      "Великанье разрушение": {
+        "ruId": "kBSamRxsFkABh35t",
+        "items": [
+          {
+            "engName": "Giant's Havoc: Giant Stature",
+            "engId": "KqKjHObFQEh1ZPJJ"
+          },
+          {
+            "engName": "Giant's Havoc: Crushing Throw",
+            "engId": "skdp05RIS8bnITdI"
+          }
+        ]
+      },
+      "Стихийный тесак": {
+        "ruId": "9wXvocenyjYw3PpI",
+        "items": [
+          {
+            "engName": "Elemental Cleaver",
+            "engId": "UHToXG4TixFjuxaQ"
+          }
+        ]
+      },
+      "Пробуждение мощи": {
+        "ruId": "U8Vow7hrTGCYa1vp",
+        "items": [
+          {
+            "engName": "Mighty Impel",
+            "engId": "WSeZJSh4hRybGscj"
+          }
+        ]
+      },
+      "Демиург-колосс": {
+        "ruId": "y9382sLOrTk5H1YQ",
+        "items": [
+          {
+            "engName": "Demiurgic Colossus",
+            "engId": "tjLt4mJ8cns33otz"
+          }
+        ]
+      }
+    },
+    "Путь зверя": {
+      "Форма зверя": {
+        "ruId": "QuZj112AUI1aYmfz",
+        "items": [
+          {
+            "engName": "Form of the Beast",
+            "engId": "YZ1HmQyNOloTvuk8"
+          }
+        ]
+      },
+      "Звериная душа": {
+        "ruId": "MKuQwy706qzkfcUZ",
+        "items": [
+          {
+            "engName": "Bestial Soul",
+            "engId": "nPovPjRsZL3rqQW3"
+          }
+        ]
+      },
+      "Заразная ярость": {
+        "ruId": "E1uRiKLJ26DoWmgk",
+        "items": [
+          {
+            "engName": "Infectious Fury",
+            "engId": "XwCx8YakujT1R9iW"
+          }
+        ]
+      },
+      "Зов охоты": {
+        "ruId": "8VpEJS0GSYnytd7K",
+        "items": [
+          {
+            "engName": "Call the Hunt",
+            "engId": "yGC6XkzujkWzKNx2"
+          }
+        ]
+      }
+    },
+    "Путь предка-хранителя": {
+      "Древние защитники": {
+        "ruId": "7Qcd5grBkUcROxeG",
+        "items": [
+          {
+            "engName": "Ancestral Protectors",
+            "engId": "jcjKUw9anGc1ClOA"
+          }
+        ]
+      }
+    },
+    "Путь фанатика": {
+      "Божественный гнев": {
+        "ruId": "dKHMv8GKykt5xTFT",
+        "pick": true,
+        "items": [
+          {
+            "engName": "Divine Fury: Necrotic",
+            "engId": "5GD7w8mXkk6vwk9g"
+          },
+          {
+            "engName": "Divine Fury: Radiant",
+            "engId": "YuC2EUjyWrRa4nmj"
+          }
+        ]
+      },
+      "Фанатичное присутствие": {
+        "ruId": "Q1TbG2xWqHvCvg3y",
+        "items": [
+          {
+            "engName": "Zealous Presence",
+            "engId": "XCNnLs20hNly5nNN"
+          }
+        ]
+      }
+    }
+  },
+  "Паладин": {
+    "base": {
+      "Возложение рук": {
+        "ruId": "OdrvL3afwLOPeuYZ",
+        "items": [
+          {
+            "engName": "Lay on Hands Pool",
+            "engId": "JaiY3Q1Ycbz0QWug"
+          }
+        ]
+      },
+      "Божественная кара": {
+        "ruId": "ySMPQ6zNSlvkrl2f",
+        "items": [
+          {
+            "engName": "Divine Smite",
+            "engId": "mcDW9RQiGUYYDxeE"
+          }
+        ]
+      },
+      "Аура защиты": {
+        "ruId": "carGDhkIdoduTC0I",
+        "items": [
+          {
+            "engName": "Aura of Protection",
+            "engId": "ET9HAbfXOHohIm5w"
+          }
+        ]
+      },
+      "Аура отваги": {
+        "ruId": "nahSkBO6LH4HkpaT",
+        "items": [
+          {
+            "engName": "Aura of Courage",
+            "engId": "SceobJxMKJUMIRYs"
+          }
+        ]
+      }
+    },
+    "Клятва древних": {
+      "Проведение энергии: Гнев природы": {
+        "ruId": "K4ws1dcRlUIpa9oK",
+        "items": [
+          {
+            "engName": "Channel Divinity: Nature's Wrath",
+            "engId": "9mfRYZb08LaT1N9c"
+          }
+        ]
+      },
+      "Проведение энергии: Изгнание неверных": {
+        "ruId": "2VvC38qagntNkvit",
+        "items": [
+          {
+            "engName": "Channel Divinity: Turn the Faithless",
+            "engId": "8UE029uf5uIMM7jp"
+          }
+        ]
+      },
+      "Аура оберега": {
+        "ruId": "LBRwwZY4xqOUB7I0",
+        "items": [
+          {
+            "engName": "Aura of Warding",
+            "engId": "1Qgzn2JdmVFuHvEN"
+          }
+        ]
+      }
+    },
+    "Клятвопреступник": {
+      "Проведение энергии: Управление нежитью": {
+        "ruId": "u91AvOjPzoUC9vT7",
+        "items": [
+          {
+            "engName": "Channel Divinity: Control Undead",
+            "engId": "plVzDNfoglJarubs"
+          }
+        ]
+      },
+      "Проведение энергии: Жуткая внешность": {
+        "ruId": "Tlb6ujNBuvw7vz5A",
+        "items": [
+          {
+            "engName": "Channel Divinity: Dreadful Aspect",
+            "engId": "MTeJMPcRIDvePxbb"
+          }
+        ]
+      },
+      "Властелин ужаса": {
+        "ruId": "oJxmvkAMRsZLP6qw",
+        "items": [
+          {
+            "engName": "Dread Lord",
+            "engId": "Oro6tcNFxYiBsSUI"
+          }
+        ]
+      }
+    },
+    "Клятва славы": {
+      "Проведение энергии: Впечатляющий удар": {
+        "ruId": "rvD9rtG9y2kwNFKZ",
+        "items": [
+          {
+            "engName": "Channel Divinity: Inspiring Smite",
+            "engId": "NBfRvKI7GO96khMo"
+          }
+        ]
+      },
+      "Проведение энергии: Несравненный атлет": {
+        "ruId": "jRiBqTZD0McF19qc",
+        "items": [
+          {
+            "engName": "Channel Divinity: Peerless Athlete",
+            "engId": "Mv8RUJYdHfyMGAF4"
+          }
+        ]
+      },
+      "Аура рвения": {
+        "ruId": "UuXrApZeESb1nCtI",
+        "items": [
+          {
+            "engName": "Aura of Alacrity",
+            "engId": "CPuRjyEXsr2Yg61U"
+          }
+        ]
+      }
+    },
+    "Клятва верности": {
+      "Проведение энергии: Священное оружие": {
+        "ruId": "xNN0JMKqlG4hKVYu",
+        "items": [
+          {
+            "engName": "Channel Divinity: Sacred Weapon",
+            "engId": "GiwbxsAGw2ziQfYt"
+          }
+        ]
+      },
+      "Аура верности": {
+        "ruId": "M2DxVsgLeZgXOznT",
+        "items": [
+          {
+            "engName": "Aura of Devotion",
+            "engId": "Sg8EeOBuD1EjlDpT"
+          }
+        ]
+      },
+      "Очищение духа": {
+        "ruId": "ZHJyYrqMYSLub4RY",
+        "items": [
+          {
+            "engName": "Purity of Spirit",
+            "engId": "0H6qTeHocYXWPtDs"
+          }
+        ]
+      },
+      "Священный нимб": {
+        "ruId": "ANE5gjojvhNEagzz",
+        "items": [
+          {
+            "engName": "Holy Nimbus",
+            "engId": "xbXNjohRXxhooG6y"
+          }
+        ]
+      }
+    }
+  },
+  "Друид": {
+    "base": {
+      "Дикий облик": {
+        "ruId": "swK0r5TOIxredxWS",
+        "items": [
+          {
+            "engName": "Wild Shape",
+            "engId": "xy4e8kMjMSoSjRWw"
+          }
+        ]
+      }
+    },
+    "Круг Луны": {
+      "Формы круга друидов": {
+        "ruId": "no6ApbUnx6COvnK2",
+        "items": [
+          {
+            "engName": "Circle Forms",
+            "engId": "2HlFNDZrmfsIWTyd"
+          }
+        ]
+      },
+      "Первобытный удар": {
+        "ruId": "FHAwrJCT04zQGQkW",
+        "items": [
+          {
+            "engName": "Primal Strike",
+            "engId": "tBk5cBMlLBiTAc6t"
+          }
+        ]
+      }
+    },
+    "Круг Дикого Огня": {
+      "Призыв духа дикого огня": {
+        "ruId": "XfYcrVMD9Nnr7Uby",
+        "items": [
+          {
+            "engName": "Summon Wildfire Spirit",
+            "engId": "m5iHyYClgb3GlnbP"
+          }
+        ]
+      },
+      "Усиленная связь": {
+        "ruId": "bCL8lxkYKt0VZpdC",
+        "items": [
+          {
+            "engName": "Enhanced Bond",
+            "engId": "fbpdobUcbLov9cdq"
+          }
+        ]
+      }
+    },
+    "Круг Звёзд": {
+      "Звёздная форма": {
+        "ruId": "g3G3G4qZ6sxnBJ6T",
+        "items": [
+          {
+            "engName": "Starry Form",
+            "engId": "ZNiJigje1uOoHbho"
+          }
+        ]
+      },
+      "Мерцающие созвездия": {
+        "ruId": "LkENvadngj2FRPsm",
+        "items": [
+          {
+            "engName": "Twinkling Constellations",
+            "engId": "1dqdPGv6FrSjUtmm"
+          }
+        ]
+      }
+    },
+    "Круг Снов": {
+      "Утешение Летнего двора": {
+        "ruId": "WqBmWWYrjSCycS9j",
+        "items": [
+          {
+            "engName": "Balm of the Summer Court",
+            "engId": "sGkHIvDTcHwWTRLn"
+          }
+        ]
+      },
+      "Очаг лунного света и тени": {
+        "ruId": "KhtvkXKVW4GLdb3r",
+        "items": [
+          {
+            "engName": "Hearth of Moonlight and Shadow",
+            "engId": "nrRlxaBCZHls3Ej2"
+          }
+        ]
+      },
+      "Скрытые пути": {
+        "ruId": "Ca3uIthNUMl4HvsP",
+        "items": [
+          {
+            "engName": "Hidden Paths",
+            "engId": "MKiss9hPOBePgJPA"
+          }
+        ]
+      }
+    }
+  },
+  "Чародей": {
+    "base": {
+      "Очки чар": {
+        "ruId": "FhO0bbl06RGhrRwY",
+        "items": [
+          {
+            "engName": "Sorcery Points",
+            "engId": "6IJdtKFmX0OpwCKc"
+          }
+        ]
+      },
+      "Метамагия: Сдвоенное заклинание": {
+        "ruId": "Qb391hakCfmH4w8p",
+        "items": [
+          {
+            "engName": "Metamagic - Twinned Spell",
+            "engId": "0ge0BpiLGlCFpbrO"
+          }
+        ]
+      },
+      "Метамагия: Ищущее заклинание": {
+        "ruId": "4MfPjEUMECnMpnyv",
+        "items": [
+          {
+            "engName": "Metamagic - Seeking Spell",
+            "engId": "CXdSQ5cdQIr6YxU2"
+          }
+        ]
+      },
+      "Метамагия: Осторожное заклинание": {
+        "ruId": "zElYrOcCFFMhB6Xl",
+        "items": [
+          {
+            "engName": "Metamagic - Careful Spell",
+            "engId": "EktbOPhsT2482Rv3"
+          }
+        ]
+      },
+      "Метамагия: Повышенное заклинание": {
+        "ruId": "tNG2qi9zhmXEkecA",
+        "items": [
+          {
+            "engName": "Metamagic - Heightened Spell",
+            "engId": "FOvyneYKP7j6jN2S"
+          }
+        ]
+      },
+      "Метамагия: Мощное заклинание": {
+        "ruId": "IWpe0Y9uAStHGiH1",
+        "items": [
+          {
+            "engName": "Metamagic - Empowered Spell",
+            "engId": "P3yvzrfb7PePl9d4"
+          }
+        ]
+      },
+      "Метамагия: Преобразованное заклинание": {
+        "ruId": "hRgizWSgLp78b2gu",
+        "items": [
+          {
+            "engName": "Metamagic - Transmuted Spell",
+            "engId": "TXODc8bbGaZFz8ny"
+          }
+        ]
+      }
+    },
+    "Теневая магия": {
+      "Сила могилы": {
+        "ruId": "EGHJWlTpG8aNKNwz",
+        "items": [
+          {
+            "engName": "Strength of the Grave",
+            "engId": "3Cg95SfeQvlfe3C8"
+          }
+        ]
+      }
+    },
+    "Штормовое колдовство": {
+      "Бурная магия": {
+        "ruId": "GAYp16ZUqrNR0J7X",
+        "items": [
+          {
+            "engName": "Heart of the Storm",
+            "engId": "inq74zf71rbvTdoQ"
+          }
+        ]
+      }
+    },
+    "Божественная душа": {
+      "Любимчик богов": {
+        "ruId": "aPcZd3s9nTD81PhD",
+        "items": [
+          {
+            "engName": "Favored by the Gods",
+            "engId": "nwv9Vq0T27GFRwoj"
+          }
+        ]
+      }
+    }
+  },
+  "Воин": {
+    "Мастер битвы": {
+      "Кость превосходства": {
+        "ruId": "ngtqrIFUqjs53pQs",
+        "items": [
+          {
+            "engName": "Superiority Dice",
+            "engId": "7rzbfDAYjJGCPfWn"
+          }
+        ]
+      },
+      "Манёвр: Перебежка": {
+        "ruId": "KQPGiJFenUIHcdrb",
+        "items": [
+          {
+            "engName": "Maneuvers: Evasive Footwork",
+            "engId": "1RNZzStWrEApafCO"
+          }
+        ]
+      },
+      "Манёвр: Атака с манёвром": {
+        "ruId": "vNiAq0z9nesUpJzx",
+        "items": [
+          {
+            "engName": "Maneuvers: Maneuvering Attack",
+            "engId": "1svKRHqCWLxLjbPO"
+          }
+        ]
+      },
+      "Манёвр: Парирование": {
+        "ruId": "AMSbjxtA627JjANk",
+        "items": [
+          {
+            "engName": "Maneuvers: Parry",
+            "engId": "4heUmpYVADDjaEkP"
+          }
+        ]
+      },
+      "Манёвр: Подмена": {
+        "ruId": "U26fd9BhHiNu4bkJ",
+        "items": [
+          {
+            "engName": "Maneuvers: Bait and Switch",
+            "engId": "5zw0PMDuXAeckNcn"
+          }
+        ]
+      },
+      "Манёвр: Атака с захватом": {
+        "ruId": "ShsveaVVD0etP6D0",
+        "items": [
+          {
+            "engName": "Maneuvers: Grappling Strike",
+            "engId": "A7nV0HmoxD34qmzw"
+          }
+        ]
+      },
+      "Манёвр: Атака с финтом": {
+        "ruId": "TXoqfwwVk5vjcocn",
+        "items": [
+          {
+            "engName": "Maneuvers: Feinting Attack",
+            "engId": "DKt1io3vb4iUNgVL"
+          }
+        ]
+      },
+      "Манёвр: Круговая атака": {
+        "ruId": "awcqWSqwnmZUM101",
+        "items": [
+          {
+            "engName": "Maneuvers: Sweeping Attack",
+            "engId": "Fn58X1jZN4UYaoKe"
+          }
+        ]
+      },
+      "Манёвр: Точная атака": {
+        "ruId": "Leva9FGIT1sBIsVR",
+        "items": [
+          {
+            "engName": "Maneuvers: Precision Attack",
+            "engId": "KZmWxfvlO3vaSa9b"
+          }
+        ]
+      },
+      "Манёвр: Отвлекающий удар": {
+        "ruId": "YWtfCNMgpZejbOQV",
+        "items": [
+          {
+            "engName": "Maneuvers: Distracting Strike",
+            "engId": "LFoqpYT9NGOufQ3b"
+          }
+        ]
+      },
+      "Манёвр: Толкающая атака": {
+        "ruId": "SCq1DswQ1oKF4KSz",
+        "items": [
+          {
+            "engName": "Maneuvers: Pushing Attack",
+            "engId": "LPgJ33mvSXiKHxpB"
+          }
+        ]
+      },
+      "Манёвр: Атака с выпадом": {
+        "ruId": "u9GItCYCNolqtYbr",
+        "items": [
+          {
+            "engName": "Maneuvers: Lunging Attack",
+            "engId": "PQkTLy77Wzxcl1DR"
+          }
+        ]
+      },
+      "Манёвр: Контратака": {
+        "ruId": "BKA5yGZIhgkxnL7Y",
+        "items": [
+          {
+            "engName": "Maneuvers: Riposte",
+            "engId": "UoV0yjJtL45LMKj1"
+          }
+        ]
+      },
+      "Манёвр: Провоцирующая атака": {
+        "ruId": "73FaVm2oVVzUSdAD",
+        "items": [
+          {
+            "engName": "Maneuvers: Goading Attack",
+            "engId": "Up2UliHjoJwtR3aK"
+          }
+        ]
+      },
+      "Манёвр: Засада": {
+        "ruId": "jwHHbpBYTQPM9Dyy",
+        "items": [
+          {
+            "engName": "Maneuvers: Ambush",
+            "engId": "ZuPZNEiqxNW4Cp9T"
+          }
+        ]
+      },
+      "Манёвр: Готовность": {
+        "ruId": "JL21roUpVdJJRPhb",
+        "items": [
+          {
+            "engName": "Maneuvers: Brace",
+            "engId": "a9fOjoLuUX2cdqdP"
+          }
+        ]
+      },
+      "Манёвр: Быстрый бросок": {
+        "ruId": "63sXU0630w86CbKx",
+        "items": [
+          {
+            "engName": "Maneuvers: Quick Toss",
+            "engId": "hdPjNlE4B85MYkFl"
+          }
+        ]
+      },
+      "Манёвр: Поддержка": {
+        "ruId": "y6mRCyHvYGKcpN7x",
+        "items": [
+          {
+            "engName": "Maneuvers: Rally",
+            "engId": "ldMpBUoBPKyS7Q5b"
+          }
+        ]
+      },
+      "Манёвр: Тактическая оценка": {
+        "ruId": "7KUtnyyOZAySF0mr",
+        "items": [
+          {
+            "engName": "Maneuvers: Tactical Assessment",
+            "engId": "mdoN2liU3Ziymngd"
+          }
+        ]
+      },
+      "Манёвр: Угрожающая атака": {
+        "ruId": "tozvPK83VSL8HLPz",
+        "items": [
+          {
+            "engName": "Maneuvers: Menacing Attack",
+            "engId": "pGl73FehNQ89wb9n"
+          }
+        ]
+      },
+      "Манёвр: Атака-подсечка": {
+        "ruId": "tSZjbB7wirqbzNLc",
+        "items": [
+          {
+            "engName": "Maneuvers: Trip Attack",
+            "engId": "pQiaAKAHaVUIJ1Dq"
+          }
+        ]
+      },
+      "Манёвр: Обезоруживающая атака": {
+        "ruId": "kc9bG9TQdm0JFinY",
+        "items": [
+          {
+            "engName": "Maneuvers: Disarming Attack",
+            "engId": "xx3GvWOUqgNQSxWZ"
+          }
+        ]
+      },
+      "Манёвр: Удар командира": {
+        "ruId": "mfJfOTqSGuv6egA1",
+        "items": [
+          {
+            "engName": "Maneuvers: Commander's Strike",
+            "engId": "ymQIS6MeqJfkv5M1"
+          }
+        ]
+      },
+      "Несгибаемость": {
+        "ruId": "A9Z2b0uXXXGshcR8",
+        "items": [
+          {
+            "engName": "Relentless",
+            "engId": "tuEQ6zyIBkM0ACfS"
+          }
+        ]
+      }
+    },
+    "Рыцарь Эхо": {
+      "Манифест Эхо": {
+        "ruId": "nOMl7K5WYLvGuRgv",
+        "items": [
+          {
+            "engName": "Manifest Echo",
+            "engId": "DVqj9yFSLAFIQF2U"
+          }
+        ]
+      },
+      "Раскрыть потенциал": {
+        "ruId": "M8IiqYJRgbqZ7VmN",
+        "items": [
+          {
+            "engName": "Unleash Incarnation",
+            "engId": "s6e1STUT4JG9CS55"
+          }
+        ]
+      },
+      "Эхо-аватар": {
+        "ruId": "dNC3sbnYu3C1YJ0o",
+        "items": [
+          {
+            "engName": "Echo Avatar",
+            "engId": "I9Vb2tytxW2dK3Xa"
+          }
+        ]
+      },
+      "Поглотить потенциал": {
+        "ruId": "WIks1FaNC1HBa6Zg",
+        "items": [
+          {
+            "engName": "Reclaim Potential",
+            "engId": "wbcoagJAOy2vWR7K"
+          }
+        ]
+      },
+      "Легион одного": {
+        "ruId": "ViFy3xGNZup0mqTa",
+        "items": [
+          {
+            "engName": "Legion of One",
+            "engId": "V1ETK3lTPRDDpYSE"
+          }
+        ]
+      }
+    },
+    "Самурай": {
+      "Боевой дух": {
+        "ruId": "CQrsMfrv7SSZjQc4",
+        "items": [
+          {
+            "engName": "Fighting Spirit",
+            "engId": "IQ46nzEV31gyQUcA"
+          }
+        ]
+      }
+    },
+    "Стрелок": {
+      "Адепт стрелкового оружия": {
+        "ruId": "ShFQ9TMsMRAZOlEH",
+        "items": [
+          {
+            "engName": "Adept Marksman",
+            "engId": "WUErE0LF3E0gped5"
+          },
+          {
+            "engName": "Reload Firearm",
+            "engId": "l8QdSUbfrvqS3LUS",
+            "ruName": "Зарядка оружия",
+            "ruDesc": "<p><em><strong>Зарядка</strong></em>. Из оружия можно выстрелить количество раз, равное его значению свойства «Зарядка». После этого нужно потратить 1 атаку или действие, чтобы перезарядить оружие. Для совершения перезарядки хотя бы одна рука должна быть свободна.</p>"
+          },
+          {
+            "engName": "Repair Firearm",
+            "engId": "nvYZ8QrLPTfFcBCN",
+            "ruName": "Ремонт оружия",
+            "ruDesc": "<p><em><strong>Осечка</strong></em>. Всякий раз, когда вы совершаете атаку огнестрельным оружием, и значение на кости атаки равно или ниже значения «Осечки», ваше оружие клинит. Вы промахиваетесь и не можете использовать это оружие, пока оно не будет отремонтировано. Починить оружие можно потратив действие на успешную проверку Инструментов механика (СЛ = 8 + показатель Осечки). При провале оружие считается серьезно поврежденным и может быть восстановлено только вне боя за четверть стоимости оружия.</p>"
+          }
+        ]
+      },
+      "Быстрая реакция": {
+        "ruId": "RHq8i36iOhCxV1CP",
+        "items": [
+          {
+            "engName": "Quickdraw",
+            "engId": "6zx66IQ4cA8Q4bLA"
+          }
+        ]
+      },
+      "Быстрый ремонт": {
+        "ruId": "V3iefm9TNeNinngX",
+        "items": [
+          {
+            "engName": "Rapid Repair",
+            "engId": "kpyECOdot6CI6ORl"
+          }
+        ]
+      },
+      "Молниеносная перезарядка": {
+        "ruId": "4E64fC3cjblMlr3t",
+        "items": [
+          {
+            "engName": "Lightning Reload",
+            "engId": "t8FXt6ybahH1ESRN"
+          }
+        ]
+      },
+      "Злобное намерение": {
+        "ruId": "swJ6xdoljl4x4hfF",
+        "items": [
+          {
+            "engName": "Vicious Intent",
+            "engId": "mJZaApCdMiDAAyia"
+          }
+        ]
+      },
+      "Критическое кровотечение": {
+        "ruId": "dOU6EI1jbKk7gN6P",
+        "items": [
+          {
+            "engName": "Hemorrhaging Critical",
+            "engId": "wmIIkO0OZz4NFLMm"
+          }
+        ]
+      },
+
+      "Запугивающий выстрел": {
+        "ruId": "oOjufyLdnmEJKPiM",
+        "items": [
+          {
+            "engName": "Bullying Shot",
+            "engId": "J6QdOKtjJJKbG9MZ"
+          }
+        ]
+      },
+      "Головокружительный выстрел": {
+        "ruId": "SKujLuPUrhr9INCE",
+        "items": [
+          {
+            "engName": "Dazing Shot",
+            "engId": "V59wtSg7Di0mr8jw"
+          }
+        ]
+      },
+      "Жестокий выстрел": {
+        "ruId": "vXIgvLDKy0wPkneX",
+        "items": [
+          {
+            "engName": "Violent Shot",
+            "engId": "XWP2bx5kFQTgLKUz"
+          }
+        ]
+      },
+      "Мощный выстрел": {
+        "ruId": "3LnSmT02po4LFhXh",
+        "items": [
+          {
+            "engName": "Forceful Shot",
+            "engId": "dbRXOpHnQD4jacSa"
+          }
+        ]
+      },
+      "Размашистый выстрел": {
+        "ruId": "KE16u0amNcGCNwYW",
+        "items": [
+          {
+            "engName": "Winging Shot",
+            "engId": "jmx8NUe3EXhScm1j"
+          }
+        ]
+      },
+      "Меткий выстрел": {
+        "ruId": "J4gaCZU43eGaJ0kM",
+        "items": [
+          {
+            "engName": "Deadeye Shot",
+            "engId": "krDYvuNnAFlwFwi7"
+          }
+        ]
+      },
+      "Обезоруживающий выстрел": {
+        "ruId": "sAXIPdOta2Bmrn1k",
+        "items": [
+          {
+            "engName": "Disarming Shot",
+            "engId": "s06LvCtWBU8UQkzg"
+          }
+        ]
+      },
+      "Пробивающий выстрел": {
+        "ruId": "bFM6emgyYGzTncEr",
+        "items": [
+          {
+            "engName": "Piercing Shot",
+            "engId": "wb6OQO64qBvX8Zq7"
+          }
+        ]
+      }
+
+    }
+  },
+  "Бард": {
+    "base": {
+      "Бардовское вдохновение (1, 5, 10, 15 ур)": {
+        "ruId": "hpLNiGq7y67d2EHA",
+        "items": [
+          {
+            "engName": "Bardic Inspiration",
+            "engId": "n2qNOOSjGx4E4gxD"
+          }
+        ]
+      },
+      "Магическое вдохновение (Опционально)": {
+        "ruId": "ceIWRwivu5DtVuXV",
+        "items": [
+          {
+            "engName": "Magical Inspiration",
+            "engId": "wXkRhIq0GhanqfxS"
+          }
+        ]
+      }
+    },
+    "Коллегия Созидания": {
+      "Ноты потенциала": {
+        "ruId": "45Z4Q9yPCAYnEZph",
+        "items": [
+          {
+            "engName": "Mote of Potential",
+            "engId": "ulp8IlXppnV9Wsrt"
+          }
+        ]
+      },
+      "Песнь оживления": {
+        "ruId": "TQJECjyfZJUVzJDe",
+        "items": [
+          {
+            "engName": "Animating Performance",
+            "engId": "AUwHWCIlPZnSnlvz"
+          }
+        ]
+      }
+    },
+    "Коллегия Мечей": {
+      "Цветение клинков": {
+        "ruId": "qDRuySW6197wSH4l",
+        "items": [
+          {
+            "engName": "Blade Flourish",
+            "engId": "Oktne29IRzRBaWa6"
+          },
+          {
+            "engName": "Blade Flourish Movement",
+            "engId": "mkvE0uXALHnea0CR"
+          }
+        ]
+      },
+      "Оборонительное цветение": {
+        "ruId": "GNEFMJ9wywBDRXoo",
+        "items": [
+          {
+            "engName": "Defensive Flourish",
+            "engId": "jgVnYpXI3iZR7bVk"
+          }
+        ]
+      },
+      "Мобильное цветение": {
+        "ruId": "2XMLsrqdr4ICCsmD",
+        "items": [
+          {
+            "engName": "Mobile Flourish",
+            "engId": "qSyUbw526PGzyPMm"
+          }
+        ]
+      },
+      "Режущее цветение": {
+        "ruId": "gIAbFIaFGx5nYMnS",
+        "items": [
+          {
+            "engName": "Slashing Flourish",
+            "engId": "nEMGGvXZFUnAUyFX"
+          }
+        ]
+      },
+
+      "Мастерское цветение": {
+        "ruId": "2CBi1sXX75w4yXTb",
+        "items": [
+          {
+            "engName": "Master's Flourish",
+            "engId": "PuhzHJ6eJzRKpx1k"
+          }
+        ]
+      }
+    }
+  },
+  "Плут": {
+    "base": {
+      "Атака исподтишка": {
+        "ruId": "DPN2Gfk8yi1Z5wp7",
+        "items": [
+          {
+            "engName": "Sneak Attack",
+            "engId": "CFLovkOW9CuRCwQI"
+          }
+        ]
+      },
+      "Изворотливость": {
+        "ruId": "a4P4DNMmH8CqSNkC",
+        "items": [
+          {
+            "engName": "Evasion",
+            "engId": "wrJMIAyqHD1YzK8w"
+          }
+        ]
+      }
+    },
+    "Клинок души": {
+      "Псионическая энергия": {
+        "ruId": "TcP4zPGj0qAnp2TP",
+        "items": [
+          {
+            "engName": "Psionic Power: Psionic Energy",
+            "engId": "2DdpjL4AvYzbP8u7"
+          }
+        ]
+      },
+      "Психические клинки": {
+        "ruId": "qGHbpEDabylw3SFG",
+        "items": [
+          {
+            "engName": "Psychic Blades",
+            "engId": "lswqi4XYAGdALs2X"
+          }
+        ]
+      },
+      "Кость пси-энергии": {
+        "ruId": "OD03axPlHw54bsDg",
+        "items": [
+          {
+            "engName": "Psionic Power: Recovery",
+            "engId": "qP1WWWpdfrUr6GMu"
+          }
+        ]
+      },
+      "Клинок души": {
+        "ruId": "RWiK0xUWWyc4GjOG",
+        "items": [
+          {
+            "engName": "Soul Blades: Homing Strikes",
+            "engId": "U2D5kdfi2VZsvIo4"
+          }
+        ]
+      },
+      "Расщепление разума": {
+        "ruId": "5bZDHFGVLEg7o0mB",
+        "items": [
+          {
+            "engName": "Rend Mind",
+            "engId": "6690taxHL2Iw2YD7"
+          }
+        ]
+      }
+    },
+    "Сыщик": {
+      "Проницательный бой": {
+        "ruId": "UF89iwto11wY351p",
+        "items": [
+          {
+            "engName": "Insightful Fighting",
+            "engId": "Tk3yHxs5iiiL1paF"
+          }
+        ]
+      },
+      "Взгляд на слабость": {
+        "ruId": "BBQ5afQbVls1UDiT",
+        "items": [
+          {
+            "engName": "Eye for Weakness",
+            "engId": "W4NiFX2JlqJArJxq"
+          }
+        ]
+      }
+    },
+    "Дуэлянт": {
+      "Лихая удаль": {
+        "ruId": "Zv23uTAdHXGVTlVC",
+        "items": [
+          {
+            "engName": "Rakish Audacity",
+            "engId": "THv2Kqennu9NnFmE"
+          }
+        ]
+      }
+    }
+  },
+  "Следопыт": {
+    "base": {
+      "Предпочтительный противник (Опционально)": {
+        "ruId": "1bYhiozXkE8eHCbF",
+        "items": [
+          {
+            "engName": "Favored Foe",
+            "engId": "sNHYH1OjZh6QnYOh"
+          }
+        ]
+      }
+    },
+    "Странник фей": {
+      "Ужасающие удары": {
+        "ruId": "Jq6T9U0CrSziLjMc",
+        "items": [
+          {
+            "engName": "Dreadful Strikes",
+            "engId": "0TIKY0XApUgSTJh1"
+          }
+        ]
+      },
+      "Заманивающий трюк": {
+        "ruId": "SEwHXJV3pPDL4fL1",
+        "items": [
+          {
+            "engName": "Beguiling Twist",
+            "engId": "hUIfniTHahcI3ifU"
+          }
+        ]
+      }
+    },
+    "Повелитель зверей": {
+      "Первичный спутник (Опционально)": {
+        "ruId": "ci3UvWoN712LgmCW",
+        "items": [
+          {
+            "engName": "Primal Companion",
+            "engId": "EPy9Dlhj5Sb0aBCz"
+          }
+        ]
+      }
+    },
+    "Наездник на дрейке": {
+      "Дрейк-компаньон": {
+        "ruId": "GsoisQ8t9QDlVN1Y",
+        "items": [
+          {
+            "engName": "Drake Companion: Summon",
+            "engId": "zbp23ax8ZHZPdqQM"
+          }
+        ]
+      }
+    },
+    "Сумрачный охотник": {
+      "Угроза из засады": {
+        "ruId": "PchA4ZVTZIy1DZzq",
+        "items": [
+          {
+            "engName": "Dread Ambusher",
+            "engId": "C4BN4HEjL7KG1Vqv"
+          }
+        ]
+      },
+      "Теневой взор": {
+        "ruId": "BYUxoNpCLuz8Y6zt",
+        "items": [
+          {
+            "engName": "Umbral Sight",
+            "engId": "PoYMnh528iTEol4g"
+          }
+        ]
+      }
+    }
+  },
+  "Кровавый охотник": {
+    "base": {
+      "Алый обряд": {
+        "ruId": "b61J4JT5pfbAlnWC",
+        "items": [
+          {
+            "engName": "Crimson Rite",
+            "engId": "ElfOGGUaWIWyrMhm"
+          }
+        ]
+      },
+      "Клеймо наказания": {
+        "ruId": "PmvZTcRZZlsyapWp",
+        "items": [
+          {
+            "engName": "Brand of Castigation",
+            "engId": "Gfi1agGI64wdG2Ai"
+          }
+        ]
+      },
+      "Проклятие помутнённого рассудка": {
+        "ruId": "dS3mPun8vNHa1ZOM",
+        "items": [
+          {
+            "engName": "Blood Curse of the Muddled Mind",
+            "engId": "Exsai0esr8GcUbKI"
+          }
+        ]
+      },
+      "Проклятие павшей марионетки": {
+        "ruId": "n9zPZfK1U21HrPI2",
+        "items": [
+          {
+            "engName": "Blood Curse of the Fallen Puppet",
+            "engId": "IKk6xJMgCYaTxJbh"
+          }
+        ]
+      },
+      "Проклятие привязки": {
+        "ruId": "MtinZBESMbFzZ5xg",
+        "items": [
+          {
+            "engName": "Blood Curse of Binding",
+            "engId": "V9OqHUkbOzZlUX8a"
+          }
+        ]
+      }
+    },
+    "Орден Мутантов": {
+
+      "Стужа": {
+        "ruId": "Rbt22V2T4U5ZFGzQ",
+        "items": [
+          {
+            "engName": "Formulas: Gelid",
+            "engId": "2AzUThUTPEZGTvWl"
+          }
+        ]
+      },
+      "Соблазнительность": {
+        "ruId": "w2YTGLgTBc4I7mIM",
+        "items": [
+          {
+            "engName": "Formulas: Alluring",
+            "engId": "3svz1KbiCFotix3F"
+          }
+        ]
+      },
+      "Эфир": {
+        "ruId": "XS6W6PREgj91zFyu",
+        "items": [
+          {
+            "engName": "Formulas: Aether",
+            "engId": "5OOlVQEXUACrrHoI"
+          }
+        ]
+      },
+      "Сообразительность": {
+        "ruId": "18SpfpmFDc11Snzd",
+        "items": [
+          {
+            "engName": "Formulas: Conversant",
+            "engId": "75DstPoSaCngZPYD"
+          }
+        ]
+      },
+      "Щит": {
+        "ruId": "WEqddgM7kVrsN8iE",
+        "items": [
+          {
+            "engName": "Formulas: Shielded",
+            "engId": "9L8yKB1DHk7S24jK"
+          }
+        ]
+      },
+      "Восприимчивость": {
+        "ruId": "cqf0yPhdUYCSuWt6",
+        "items": [
+          {
+            "engName": "Formulas: Percipient",
+            "engId": "Eanf4NxSfyYCQFDj"
+          }
+        ]
+      },
+      "Скорость": {
+        "ruId": "53Nn4hmB25vX9liw",
+        "items": [
+          {
+            "engName": "Formulas: Rapidity",
+            "engId": "JNYySXfjBrOH5WlS"
+          }
+        ]
+      },
+      "Киноварь": {
+        "ruId": "SuOj1VVpKR120R3Q",
+        "items": [
+          {
+            "engName": "Formulas: Vermillion",
+            "engId": "VA0zOAPeV9hKoGsb"
+          }
+        ]
+      },
+      "Прозорливость": {
+        "ruId": "P4kRMEGu2RqKxjN6",
+        "items": [
+          {
+            "engName": "Formulas: Sagacity",
+            "engId": "ZWeDqzOymGuGRXAI"
+          }
+        ]
+      },
+      "Несокрушимость": {
+        "ruId": "lIVTbuTBJswlr1pg",
+        "items": [
+          {
+            "engName": "Formulas: Unbreakable",
+            "engId": "cCv644vctEBiQVOo"
+          }
+        ]
+      },
+      "Точность": {
+        "ruId": "GjAl3VEWKxq00qfJ",
+        "items": [
+          {
+            "engName": "Formulas: Precision",
+            "engId": "ekchgMD2OJLTakqL"
+          }
+        ]
+      },
+      "Стремительность": {
+        "ruId": "S2IW8XqetMwJbVWo",
+        "items": [
+          {
+            "engName": "Formulas: Celerity",
+            "engId": "hITq4mPy2mJfGN5m"
+          }
+        ]
+      },
+      "Восстановление": {
+        "ruId": "gC2swURICgm3hq5k",
+        "items": [
+          {
+            "engName": "Formulas: Reconstruction",
+            "engId": "qEiFXIxkM7hON9jL"
+          }
+        ]
+      },
+      "Жестокость": {
+        "ruId": "6GuyvHZgQU18oGNI",
+        "items": [
+          {
+            "engName": "Formulas: Cruelty",
+            "engId": "qbdZnW1IiUbgLShz"
+          }
+        ]
+      },
+      "Мощь": {
+        "ruId": "7Aj63P0mk3m25Y2p",
+        "items": [
+          {
+            "engName": "Formulas: Potency",
+            "engId": "qsMdXcMZHDAh5x8N"
+          }
+        ]
+      },
+      "Ночное зрение": {
+        "ruId": "6Ch1VBV1zrY16bpX",
+        "items": [
+          {
+            "engName": "Formulas: Nighteye",
+            "engId": "r5QO97mqG96Kpk2E"
+          }
+        ]
+      },
+      "Непроницаемость": {
+        "ruId": "1J3EmXhLlnSNsqrR",
+        "items": [
+          {
+            "engName": "Formulas: Impermeable",
+            "engId": "sYSjMiXvgzkFvqFp"
+          }
+        ]
+      },
+      "Угли": {
+        "ruId": "XgpcVdKSOnZ1mV5m",
+        "items": [
+          {
+            "engName": "Formulas: Embers",
+            "engId": "twFCzgjxaAjr7ROc"
+          }
+        ]
+      },
+      "Проворство": {
+        "ruId": "KRERDv1sVqq8LN8t",
+        "items": [
+          {
+            "engName": "Formulas: Deftness",
+            "engId": "ysih6qXje9zsO8nv"
+          }
+        ]
+      },
+      "Мобильность": {
+        "ruId": "g9G1SND5scRhrEcH",
+        "items": [
+          {
+            "engName": "Formulas: Mobility",
+            "engId": "zCJ1YIm2Wyq1k9bL"
+          }
+        ]
+      },
+
+      "Создание мутагенов": {
+        "ruId": "OoHhBdRaMarQ0qpU",
+        "items": [
+          {
+            "engName": "Mutagencraft - Create Mutagen",
+            "engId": "XHjrJxx6UfXc10J1"
+          }
+        ]
+      },
+      "Странный метаболизм": {
+        "ruId": "us9PLVu1lmSqLB5c",
+        "items": [
+          {
+            "engName": "Strange Metabolism",
+            "engId": "HelI1J1YkhxmQoFS"
+          }
+        ]
+      },
+      "Клеймо аксиомы": {
+        "ruId": "y54XPjMOZReEKaij",
+        "items": []
+      },
+      "Проклятие разъедания": {
+        "ruId": "NHsbYkvqUgTiGaVT",
+        "items": []
+      },
+      "Высшая мутация": {
+        "ruId": "Hn0MFEEfYocnpAtv",
+        "items": []
+      }
+    },
+    "Орден Ликантропов": {
+      "Обостренные чувства": {
+        "ruId": "7VPh5iXTyp5Et0tq",
+        "items": [
+          {
+            "engName": "Heightened Senses",
+            "engId": "vu6zjBVULcpdAyZb"
+          }
+        ]
+      },
+      "Гибридная трансформация": {
+        "ruId": "zFrOPMvwQXhTyaMs",
+        "items": [
+          {
+            "engName": "Hybrid Transformation",
+            "engId": "bkDG421Pu2WVacht"
+          }
+        ]
+      },
+      "Мастерство преследователя": {
+        "ruId": "IqBiY24vgtR0CXJ0",
+        "items": [
+          {
+            "engName": "Stalker's Prowess",
+            "engId": "9BCXuAmNZxJambn8"
+          }
+        ]
+      }
+    }
+  },
+  "Монах": {
+    "base": {
+      "Защита без брони": {
+        "ruId": "UAvV7N7T4zJhxdfI",
+        "items": [
+          {
+            "engName": "Unarmored Defense (Monk)",
+            "engId": "yaVzNhaTy14LkcTd"
+          }
+        ]
+      },
+      "Безоружный удар": {
+        "ruId": "eGxoNmSMWKNzChCO",
+        "items": [
+          {
+            "engName": "Unarmed Strike (Monk)",
+            "engId": "Qg1ptVz5cNJKzhMv"
+          }
+        ]
+      },
+      "Ци": {
+        "ruId": "10b6z2W1txNkrGP7",
+        "items": [
+          {
+            "engName": "Ki Points",
+            "engId": "6855O8NLuHWN2qPJ"
+          }
+        ]
+      },
+      "Ци: Терпеливая защита": {
+        "ruId": "TDglPcxIVEzvVSgK",
+        "items": [
+          {
+            "engName": "Patient Defense",
+            "engId": "YWjg9zu3RYbwX69u"
+          }
+        ]
+      },
+      "Ци: Шокирующий удар": {
+        "ruId": "pvRc6GAu1ok6zihC",
+        "items": [
+          {
+            "engName": "Stunning Strike",
+            "engId": "WE6hBmFomUSMvM5M"
+          }
+        ]
+      },
+      "Изворотливость": {
+        "ruId": "a4P4DNMmH8CqSNkC",
+        "items": [
+          {
+            "engName": "Evasion",
+            "engId": "XWqLXIAMnd2InNXR"
+          }
+        ]
+      },
+      "Покой разума": {
+        "ruId": "ZmC31XKS4YNENnoc",
+        "items": [
+          {
+            "engName": "Stillness of Mind",
+            "engId": "CPdsvCPD0eSmBQo4"
+          }
+        ]
+      },
+      "Ускоренное исцеление (Опционально)": {
+        "ruId": "YuqIIQAtrf8w5qrH",
+        "items": [
+          {
+            "engName": "Quickened Healing",
+            "engId": "dz5kDrqV6dDWyJhv"
+          }
+        ]
+      },
+      "Фокусировка на цели (Опционально)": {
+        "ruId": "BV29uIZ1inDRn4Ah",
+        "items": [
+          {
+            "engName": "Focused Aim",
+            "engId": "kQhWntLdQEnpVOt6"
+          }
+        ]
+      }
+    },
+    "Путь Тени": {
+      "Шаг теней": {
+        "ruId": "RHOyrQW3OhxOKCEZ",
+        "items": [
+          {
+            "engName": "Shadow Step",
+            "engId": "d4O0CGH4k0dMHLUu"
+          }
+        ]
+      }
+    },
+    "Путь Восходящего Дракона": {
+      "Ученик дракона": {
+        "ruId": "6o1f2wjpSeOo8RRX",
+        "items": [
+          {
+            "engName": "Draconic Strike",
+            "engId": "OntEYk2m2o6KVkxM",
+            "ruName": "Ученик дракона - Удар дракона"
+          }
+        ]
+      },
+      "Дыхание дракона": {
+        "ruId": "fYUAlmZFVTwzDL1B",
+        "items": [
+          {
+            "engName": "Breath of the Dragon",
+            "engId": "sXPqjzGZ7xBrSgAt"
+          }
+        ]
+      },
+      "Аспект восхождения": {
+        "ruId": "l89dwr9I5aoD94Oc",
+        "items": [
+          {
+            "engName": "Augment Breath",
+            "engId": "Nglws7fhH4IOw7Wc"
+          }
+        ]
+      }
+    }
+  },
+  "Волшебник": {
+    "Школа некромантии": {
+      "Мрачный жнец": {
+        "ruId": "prROoDBLLo9YX10n",
+        "items": [
+          {
+            "engName": "Grim Harvest",
+            "engId": "Y6cXBSUzBOMOu7jw"
+          }
+        ]
+      },
+      "Слуги-нежить": {
+        "ruId": "TXB98ULiDdN3Kzvd",
+        "items": [
+          {
+            "engName": "Undead Thralls",
+            "engId": "AHuP2iTujfuJf2Bu"
+          }
+        ]
+      }
+    },
+    "Школа поющего клинка": {
+      "Песнь клинков": {
+        "ruId": "v6eluCoe6aqdx9za",
+        "items": [
+          {
+            "engName": "Bladesong",
+            "engId": "c4FGPtOZA6Q7kbxE"
+          }
+        ]
+      },
+      "Песнь защиты": {
+        "ruId": "rlEhMTMr5D6DyBBp",
+        "items": [
+          {
+            "engName": "Song of Defense",
+            "engId": "QcdCtjpZ43nJFmED"
+          }
+        ]
+      },
+      "Песнь победы": {
+        "ruId": "wmRcB0zRHn1GEVa2",
+        "items": [
+          {
+            "engName": "Song of Victory",
+            "engId": "BgJ3uvlH1BiZaNwo"
+          }
+        ]
+      }
+    },
+    "Школа прорицания": {
+      "Мастер прорицания": {
+        "ruId": "pnmLEYYj3asliYSc",
+        "items": [
+          {
+            "engName": "Expert Divination",
+            "engId": "J5iX4F9DvFq2j6TZ"
+          }
+        ]
+      }
+    },
+    "Школа ордена писцов": {
+      "Пробужденная книга заклинаний": {
+        "ruId": "3XDtCWG3YYIodkI2",
+        "items": [
+          {
+            "engName": "Awakened Spellbook: Replace Damage",
+            "engId": "uLcXKm89B5soKnIp"
+          }
+        ]
+      },
+      "Пробуждение разума": {
+        "ruId": "PblXOUCom6FjomxW",
+        "items": [
+          {
+            "engName": "Manifest Mind: Summon",
+            "engId": "Jm3xTkRY8ICmm6fb",
+            "ruName": "Пробуждение разума - Призыв"
+          }
+        ]
+      }
+    },
+    "Школа преграждения": {
+      "Магический оберег": {
+        "ruId": "Jh0RqVznenhCOzw8",
+        "items": [
+          {
+            "engName": "Arcane Ward",
+            "engId": "JIo3EiXJiEYwgN2f"
+          }
+        ]
+      },
+      "Проекция оберега": {
+        "ruId": "WVBqFYjyxuyfIayx",
+        "items": [
+          {
+            "engName": "Projected Ward",
+            "engId": "ZLDrIzKxsVUJZbow"
+          }
+        ]
+      }
+    },
+    "Школа эвокации": {
+      "Лепка заклинаний": {
+        "ruId": "6VBXkjjBgjSpNElh",
+        "items": [
+          {
+            "engName": "Sculpt Spells",
+            "engId": "knxPfWH1WQ9ZpD5O"
+          }
+        ]
+      },
+      "Сильный фокус": {
+        "ruId": "evEWCpE5MYgr5RRW",
+        "items": [
+          {
+            "engName": "Potent Cantrip",
+            "engId": "XpGBKVTI9ePzKV77"
+          }
+        ]
+      },
+      "Усиленная эвокация": {
+        "ruId": "7O85kj6uDEG5NzUE",
+        "items": [
+          {
+            "engName": "Empowered Evocation",
+            "engId": "sblqdDc71uTyOg5k"
+          }
+        ]
+      },
+      "Переполнение энергией": {
+        "ruId": "VUtSLeCzFubGXmGx",
+        "items": [
+          {
+            "engName": "Overchannel",
+            "engId": "UnN6672wL6qn7ejp"
+          }
+        ]
+      }
+    },
+    "Школа военной магии": {
+      "Стойкая магия": {
+        "ruId": "iSiNYN90X2Cm5hym",
+        "items": [
+          {
+            "engName": "Durable Magic",
+            "engId": "xCdoHObuUBswmJtP"
+          }
+        ]
+      }
+    }
+  },
+  "Жрец": {
+    "base": {
+      "Благословенные удары (опционально)": {
+        "ruId": "XXg29SJBaE3ts5sQ",
+        "items": [
+          {
+            "engName": "Blessed Strikes",
+            "engId": "9kg2sPMpvjXFh3De"
+          }
+        ]
+      },
+      "Божественный удар": {
+        "ruId": "a6whPasNCXjgUHLw",
+        "items": [
+          {
+            "engName": "Divine Strike",
+            "engId": "ohP60ePfBRswa91i"
+          }
+        ]
+      },
+      "Проведение энергии: Изгнание нежити": {
+        "ruId": "r91UIgwFdHwkXdia",
+        "items": [
+          {
+            "engName": "Channel Divinity: Turn Undead",
+            "engId": "H02Z3EHPO6hLPduW"
+          }
+        ]
+      },
+      "Сильные заклинания": {
+        "ruId": "NfxqQxT0J1bYAvfN",
+        "items": [
+          {
+            "engName": "Potent Spellcasting",
+            "engId": "IvrJgAtTNWlVN9sJ"
+          }
+        ]
+      },
+      "Праведное восстановление (Опционально)": {
+        "ruId": "u5HvbL43kJapU8HG",
+        "items": [
+          {
+            "engName": "Harness Divine Power",
+            "engId": "DFEToVdczPisxj6s"
+          }
+        ]
+      }
+    },
+    "Домен мира": {
+      "Ободряющая связь": {
+        "ruId": "9NHi5BWs5UGFgc1E",
+        "items": [
+          {
+            "engName": "Emboldening Bond",
+            "engId": "6ZCOmO03AnjctKDb"
+          }
+        ]
+      },
+      "Проведение энергии: Целебный бальзам мира": {
+        "ruId": "RGtcLN2ba9XfYamh",
+        "items": [
+          {
+            "engName": "Channel Divinity: Balm of Peace",
+            "engId": "7vkkc9exT6TUV6HD"
+          }
+        ]
+      },
+      "Защитная связь": {
+        "ruId": "trEWchRMS9JxockJ",
+        "items": [
+          {
+            "engName": "Protective Bond",
+            "engId": "QqtILxgvAD4jdo69"
+          }
+        ]
+      },
+      "Расширенная связь": {
+        "ruId": "w7NhrHLYmaVc85ZU",
+        "items": [
+          {
+            "engName": "Expansive Bond",
+            "engId": "2EB3tFWUd8mzmsoQ"
+          }
+        ]
+      }
+    },
+    "Домен смерти": {
+      "Жнец": {
+        "ruId": "W756YvZlpscE958e",
+        "items": [
+          {
+            "engName": "Reaper",
+            "engId": "45BZ5ekDZPHJvNln"
+          }
+        ]
+      }
+    },
+    "Домен сумрака": {
+      "Глаза ночи": {
+        "ruId": "ZRApxZwFPG4vuNbA",
+        "items": [
+          {
+            "engName": "Eyes of Night",
+            "engId": "y9oZ8t2C9jr0Ev9m"
+          }
+        ]
+      },
+      "Бдительное благословение": {
+        "ruId": "1eK0cb1IAxP0rCrV",
+        "items": [
+          {
+            "engName": "Vigilant Blessing",
+            "engId": "HxechAPL8VFdwDi4"
+          }
+        ]
+      },
+      "Проведение энергии: Сумеречное святилище": {
+        "ruId": "FSBgTKd7HQRoV60V",
+        "items": [
+          {
+            "engName": "Channel Divinity: Twilight Sanctuary",
+            "engId": "KMfQ6dofJRIpkoGj"
+          }
+        ]
+      },
+      "Шаги ночи": {
+        "ruId": "VnQv4Vw1fTKUvoFU",
+        "items": [
+          {
+            "engName": "Steps of Night",
+            "engId": "PGY7JPY8vb6Yrq4R"
+          }
+        ]
+      },
+      "Сумеречный саван": {
+        "ruId": "WdlTW8EiCohsMEYH",
+        "items": [
+          {
+            "engName": "Twilight Shroud",
+            "engId": "45YXgTlQjrsearIC"
+          }
+        ]
+      }
+    },
+    "Домен упокоения": {
+      "Круг смерти": {
+        "ruId": "VjCQZaQ4wBG1gyfa",
+        "items": [
+          {
+            "engName": "Circle of Mortality",
+            "engId": "UESMlKuZTOkGHijF"
+          }
+        ]
+      },
+      "Проведение энергии: Путь к могиле": {
+        "ruId": "DymnCxpJv5JPoQWP",
+        "items": [
+          {
+            "engName": "Channel Divinity: Path to the Grave",
+            "engId": "4bxbwpyAoD8B0bQb"
+          }
+        ]
+      }
+    },
+    "Домен света": {
+      "Проведение энергии: Сияние зари": {
+        "ruId": "yMrmGsMJn8bAhJ5f",
+        "items": [
+          {
+            "engName": "Channel Divinity: Radiance of the Dawn",
+            "engId": "AvZFSyTbBbYm2hw6"
+          }
+        ]
+      }
+    },
+    "Домен бури": {
+      "Ярость грозы": {
+        "ruId": "PcF7RVGrXNd8VrUM",
+        "items": [
+          {
+            "engName": "Wrath of the Storm",
+            "engId": "OUYqXxsVRRy7OUBp"
+          }
+        ]
+      },
+      "Проведение энергии: Разрушительный гнев": {
+        "ruId": "UIJ04WbAQCYXnTbU",
+        "items": [
+          {
+            "engName": "Channel Divinity: Destructive Wrath",
+            "engId": "xw3CFUafjY5lqrkx"
+          }
+        ]
+      },
+      "Удар грома": {
+        "ruId": "gSdBpaEIh3EO69ya",
+        "items": [
+          {
+            "engName": "Thunderbolt Strike",
+            "engId": "kE4WDLhttt1Gw8dz"
+          }
+        ]
+      }
+    },
+    "Домен природы": {
+      "Проведение энергии: Обворожение животных и растений": {
+        "ruId": "0rPsb5e0DCuX5cPe",
+        "items": [
+          {
+            "engName": "Channel Divinity: Charm Animals and Plants",
+            "engId": "VuO4A56GSkgj7cdN"
+          }
+        ]
+      }
+    },
+    "Домен жизни": {
+      "Проведение энергии: Сохранение жизни": {
+        "ruId": "hEymt45rICi4f9eL",
+        "items": [
+          {
+            "engName": "Channel Divinity: Preserve Life",
+            "engId": "cjoiV4JJ3ex5eFgx"
+          }
+        ]
+      }
+    },
+    "Домен магии": {
+      "Проведение энергии: Ограждение магией": {
+        "ruId": "2vK4oIzWjheAWcbl",
+        "items": [
+          {
+            "engName": "Channel Divinity: Arcane Abjuration",
+            "engId": "qVQGxxPir9K3nzBq"
+          }
+        ]
+      }
+    },
+    "Домен кузни": {
+      "Благословение кузницы": {
+        "ruId": "SMX9KrKAxpLQEeCD",
+        "items": [
+          {
+            "engName": "Blessing of the Forge",
+            "engId": "zQLztRmVrCGrF9UV"
+          }
+        ]
+      }
+    }
+  },
+  "Колдун": {
+    "base": {
+      "Инвокация: Хватка Хадара": {
+        "ruId": "osvE1IoHOMmCcBJk",
+        "items": [
+          {
+            "engName": "Eldritch Invocations: Grasp of Hadar",
+            "engId": "2EnT8CAP1HhgHKda"
+          }
+        ]
+      },
+      "Инвокация: Безумное проклятие": {
+        "ruId": "UjN817abnQgZC4aE",
+        "items": [
+          {
+            "engName": "Maddening Hex",
+            "engId": "5FZo6NXjgvC2yaH2"
+          }
+        ]
+      },
+      "Инвокация: Мистическая кара": {
+        "ruId": "05ESzQbiCwZdDofy",
+        "items": [
+          {
+            "engName": "Eldritch Smite",
+            "engId": "CCBN8FCAV2OjMViv"
+          }
+        ]
+      },
+      "Инвокация: Разряд Агонии": {
+        "ruId": "2fyuw7MiCnocDeAU",
+        "items": [
+          {
+            "engName": "Eldritch Invocations: Agonizing Blast",
+            "engId": "SHE9p7haITgFDArE"
+          }
+        ]
+      },
+      "Инвокация: Дьявольское зрение": {
+        "ruId": "3sN91lT1R3oxcDKd",
+        "items": [
+          {
+            "engName": "Devil's Sight",
+            "engId": "T5ocL8WMnSneDZ4R"
+          }
+        ]
+      },
+      "Инвокация: Безжалостное проклятие": {
+        "ruId": "wzhKnChhNYk2gQAO",
+        "items": [
+          {
+            "engName": "Relentless Hex",
+            "engId": "YfEGK27XoalRyL7D"
+          }
+        ]
+      },
+      "Инвокация: Улучшенное оружие договора": {
+        "ruId": "D6SUvttEWajlQOcK",
+        "items": [
+          {
+            "engName": "Eldritch Invocations: Improved Pact Weapon",
+            "engId": "bpvJT0nXISjEtMMw"
+          }
+        ]
+      },
+      "Инвокация: Дар мастера цепи": {
+        "ruId": "eHZIc5IisNwhBUoP",
+        "items": [
+          {
+            "engName": "Eldritch Invocations: Investment of the Chain Master",
+            "engId": "hK9oEhurXuByDUvZ"
+          }
+        ]
+      },
+      "Инвокация: Отбрасывающий разряд": {
+        "ruId": "rdBPd6CwqXT64iJM",
+        "items": [
+          {
+            "engName": "Eldritch Invocations: Repelling Blast",
+            "engId": "vdBHFsf2Z0PI9WhG"
+          }
+        ]
+      },
+      "Инвокация: Единство с тенями": {
+        "ruId": "KfnUyjUWAk0bAAus",
+        "items": [
+          {
+            "engName": "One with Shadows",
+            "engId": "zkb7CEADjtYwiGLN"
+          }
+        ]
+      },
+      "Договор клинка": {
+        "ruId": "9dSSa68mIPoX2ezA",
+        "items": [
+          {
+            "engName": "Create Pact Weapon",
+            "engId": "nJPUIdVMj0rEoSyO"
+          }
+        ]
+      }
+    },
+    "Нежить": {
+      "Облик ужаса": {
+        "ruId": "QItLQLYLi4yLc5JW",
+        "items": [
+          {
+            "engName": "Form of Dread: Fear",
+            "engId": "C7pk98rHxZH700Kq"
+          },
+          {
+            "engName": "Form of Dread",
+            "engId": "jgFtl3zQl2niDc8g"
+          }
+        ]
+      },
+      "Могильное касание": {
+        "ruId": "CKJ15lvm1WmfxmDA",
+        "items": [
+          {
+            "engName": "Grave Touched",
+            "engId": "0WNQzS6WUdzqdxsY"
+          }
+        ]
+      }
+    },
+    "Гений": {
+      "Сосуд гения": {
+        "ruId": "CM8W5Ip14fQ5dNBt",
+        "pick": true,
+        "items": [
+          {
+            "engName": "Genie's Vessel: Genie's Wrath (Djinni)",
+            "engId": "4EpUIdBDAlEH2UQt",
+            "ruName": "Сосуд гения - Джинн"
+          },
+          {
+            "engName": "Genie's Vessel: Genie's Wrath (Dao)",
+            "engId": "Fr7KtNDnFatr9tB4",
+            "ruName": "Сосуд гения - Дао"
+          },
+          {
+            "engName": "Genie's Vessel: Genie's Wrath (Efreeti)",
+            "engId": "PVcZIruNwUGBKVlf",
+            "ruName": "Сосуд гения - Ифрит"
+          },
+          {
+            "engName": "Genie's Vessel: Genie's Wrath (Marid)",
+            "engId": "UZYD9AOEQWldJKoL",
+            "ruName": "Сосуд гения - Марид"
+          }
+        ]
+      },
+      "Стихийный дар": {
+        "ruId": "8OdTFOd8rAC3AxIS",
+        "pick": true,
+        "always": [
+          "Elemental Gift - Flight"
+        ],
+        "items": [
+          {
+            "engName": "Elemental Gift: Elemental Gift (Efreeti)",
+            "engId": "GNtDcSXYt09uo6ak",
+            "ruName": "Стихийный дар - Ифрит"
+          },
+          {
+            "engName": "Elemental Gift: Elemental Gift (Marid)",
+            "engId": "H9wy6uzWz10HbORo",
+            "ruName": "Стихийный дар - Марид"
+          },
+          {
+            "engName": "Elemental Gift: Elemental Gift (Dao)",
+            "engId": "X33rAVsRxnckiaKU",
+            "ruName": "Стихийный дар - Дао"
+          },
+          {
+            "engName": "Elemental Gift: Elemental Gift (Djinni)",
+            "engId": "cR5K7c415DQLh6Ie",
+            "ruName": "Стихийный дар - Джинн"
+          },
+          {
+            "engName": "Elemental Gift - Flight",
+            "engId": "tq9HeAwX46SKf7mz",
+            "ruName": "Стихийный дар - Полет"
+          }
+        ]
+      }
+    },
+    "Небожитель": {
+      "Лечащий свет": {
+        "ruId": "VGvVxgeCHYpgqROJ",
+        "items": [
+          {
+            "engName": "Healing Light",
+            "engId": "tYjejVr2YBbFHqL0"
+          }
+        ]
+      },
+      "Сияющая душа": {
+        "ruId": "PIxsWoHDKS4dgSY2",
+        "items": [
+          {
+            "engName": "Radiant Soul",
+            "engId": "9CHkt3CrKsGBUdgm"
+          }
+        ]
+      }
+    },
+    "Ведьмовской клинок": {
+      "Проклятие ведьмовского клинка": {
+        "ruId": "ysMmBBOtNj7NPz80",
+        "items": [
+          {
+            "engName": "Hexblade's Curse",
+            "engId": "NYEVO2nlgNMoGPaV"
+          }
+        ]
+      },
+      "Проклятый воитель": {
+        "ruId": "uu8nod2zpbFsRKl4",
+        "items": [
+          {
+            "engName": "Hex Warrior",
+            "engId": "EtbereWLGBsf2GHs"
+          }
+        ]
+      }
+    },
+    "Архифея": {
+      "Сила феи": {
+        "ruId": "2VgdV9CFyb9Slg66",
+        "items": [
+          {
+            "engName": "Fey Presence",
+            "engId": "tuxZwTLIfxfbTIOO"
+          }
+        ]
+      },
+      "Туманное бегство": {
+        "ruId": "2ejw7td6cHwAqPLx",
+        "items": [
+          {
+            "engName": "Misty Escape",
+            "engId": "IJFygR8crJTasl5s"
+          }
+        ]
+      }
+    },
+    "Бездонный": {
+      "Щупальце из глубин": {
+        "ruId": "lTLyXBslMtrKpjLz",
+        "items": [
+          {
+            "engName": "Tentacle of the Deeps: Summon",
+            "engId": "YpQ7Oaarmr3gqX44"
+          }
+        ]
+      }
+    },
+    "Бестия": {
+      "Благословение Тёмного": {
+        "ruId": "Jv0zu4BtUi8bFCqJ",
+        "items": [
+          {
+            "engName": "Dark One's Blessing",
+            "engId": "wybuLvIU1H1hAkYK"
+          }
+        ]
+      },
+      "Удача Тёмного": {
+        "ruId": "OQSb0bO1yDI4aiMx",
+        "items": [
+          {
+            "engName": "Dark One's Own Luck",
+            "engId": "qDgkaHXic7Zhu3VL"
+          }
+        ]
+      }
+    }
+  }
+}
