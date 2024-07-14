@@ -1,0 +1,17 @@
+{
+  "ECI.integrateButton": "Интеграция с Chris's Premades",
+  "ECI.pickOptions": "Выберите варианты",
+  "ECI.pickFeatExplain": "Найдены способностьи, для которых нужно выбрать вариант.",
+  "ECI.pickFeatOption": "Выберите вариант для способности: ",
+  "ECI.selectButton": "Принять",
+  "ECI.updatedFeatures": "Обновленные способности",
+  "ECI.level": "уровень",
+  "ECI.feat": "Черты",
+  "ECI.class": "Классовые способности",
+  "ECI.race": "Расовые способности",
+  "ECI.spell": "Заклинания",
+  "ECI.updateFinished": "Готово",
+  "ECI.updatedText": "обновлен, посмотреть результаты можно в журнале",
+  "ECI.CONVERT_START": "Начинаю поиск способностей для автоматизации...",
+  "ECI.CONVERT_END": "Закончил поиск способностей для автоматизации."
+}
