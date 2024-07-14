@@ -18,14 +18,29 @@
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.1.2",
+          "verified": "3.2.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "chris-premades",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.11.5",
+          "verified": "0.11.13"
+        }
+      }
+    ]
   },
   "esmodules": [
     "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
   ],
   "styles": [
     "styles/module.css"
@@ -42,11 +57,5 @@
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
-  "media": [],
-  "flags": {
-    "hotReload": {
-      "extensions": ["css", "hbs", "json", "js"],
-      "paths": ["languages", "scripts"]
-    }
-  }
+  "media": []
 }
