@@ -57,5 +57,11 @@
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
-  "media": []
+  "protected": false,
+  "media": [
+    {
+      "type": "icon",
+      "url": ""
+    }
+  ]
 }
