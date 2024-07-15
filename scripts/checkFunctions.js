@@ -135,6 +135,10 @@ export const searchItems = async (actor, items, searchType = 'feat', cprPack = c
             }
           }
         };
+        if (searchType === 'spell') {
+          tmpItem['system.preparation.mode'] = actorItem.system.preparation.mode;
+          tmpItem['system.preparation.value'] = actorItem.system.preparation.value;
+        }
         if (itemData.pick) {
           if (!manualUpdate[`${itemNameRu}`]) {
             manualUpdate[`${itemNameRu}`] = {

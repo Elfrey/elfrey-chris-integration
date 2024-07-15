@@ -21,11 +21,13 @@ export const updateJournal = async (actor, sourceData) => {
     spell: [],
     feat: [],
     ['class']: [],
-    race: []
+    race: [],
+    ['unknown']: []
   };
   sourceData.forEach((item) => {
-    const type = item.type === 'spell' ? item.type : item.system.type.value
-    data[item.type === 'spell' ? item.type : item.system.type.value].push(item);
+    const itemType = item.type === 'spell' ? item.type : item.system.type.value
+
+    data[itemType !== '' ? itemType : 'unknown'].push(item);
   });
   const journalData = []
   let mainJournal = game.journal.find(({name}) => name === mainJournalName);
