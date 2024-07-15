@@ -174,7 +174,8 @@ export const searchSpells = async (actor, data) => {
 export const searchRaceFeatures = async (actor, data) => {
   let raceFeatures = {};
   const race = actor.data.items.find(item => item.type === 'race');
-  if (data[race.name]) {
+
+  if (data[race?.name || '']) {
     raceFeatures = await searchItems(actor, data[race.name], 'race', chrisRaceFeaturesCompendium);
   }
   return raceFeatures
