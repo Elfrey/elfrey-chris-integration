@@ -12,7 +12,7 @@ import {updateJournal} from './journal.js';
 const chris = chrisPremades.helpers;
 
 async function loadJsonData(fileType = 'feats') {
-  const allowedTypes = ['feats', 'abilities', 'items', 'races'];
+  const allowedTypes = ['feats', 'abilities', 'items', 'races', 'spells'];
   try {
     const response = await fetch(`modules/${moduleName}/scripts/data/${allowedTypes.includes(fileType) ? fileType : 'feats'}.json`);
     if (!response.ok) {
@@ -48,12 +48,12 @@ const checkActor = async (doc) => {
   const featData = await loadJsonData('feats');
   const abilitiesData = await loadJsonData('abilities');
   const raceData = await loadJsonData('races');
-
+  const spellData = await loadJsonData('spells');
 
   const updatedData = await Promise.all([
     searchItems(doc, featData, 'feat'),
     searchClassFeatures(doc, abilitiesData),
-    searchSpells(doc),
+    searchSpells(doc, spellData),
     searchRaceFeatures(doc, raceData)
   ]);
 

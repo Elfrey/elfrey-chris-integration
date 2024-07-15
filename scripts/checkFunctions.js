@@ -1,6 +1,7 @@
-import {moduleNameShort, flagsName, moduleName} from './consts.js'
+import { flagsName } from './consts.js'
 
 const laaruFeatsCompendium = 'laaru-dnd5-hw.classfeatures';
+const laaruSpellsCompendium = 'laaru-dnd5-hw.spells';
 const chrisFeatsCompendium = 'chris-premades.CPR Feats';
 const chrisClassFeaturesCompendium = 'chris-premades.CPR Class Features';
 const chrisRaceFeaturesCompendium = 'chris-premades.CPR Race Features';
@@ -8,7 +9,7 @@ const chrisSpellsCompendium = 'chris-premades.CPR Spells';
 
 const notSafeToRename = {
   feat: [],
-  spells: ['Zone of Truth'],
+  spell: ['Zone of Truth'],
   race: ['Astral Spark'],
   class: [
     "Formulas: Gelid",
@@ -105,7 +106,7 @@ export const searchClassFeatures = async (actor, data) => {
   return classFeatures;
 }
 
-export const searchItems = async (actor, items, searchType = 'feat', cprPack = chrisFeatsCompendium) => {
+export const searchItems = async (actor, items, searchType = 'feat', cprPack = chrisFeatsCompendium, laaruPack = laaruFeatsCompendium) => {
   let manualUpdate = {};
   const itemById = {};
   const addItems = [];
@@ -113,7 +114,7 @@ export const searchItems = async (actor, items, searchType = 'feat', cprPack = c
   for (const itemNameRu in items) {
     const itemData = items[itemNameRu];
     const actorItem = await actor.items.getName(itemNameRu);
-    const laaruItem = await chris.getItemFromCompendium(laaruFeatsCompendium, itemNameRu);
+    const laaruItem = await chris.getItemFromCompendium(laaruPack, itemNameRu);
     if (actorItem != null) {
       for (const item of itemData.items) {
 
@@ -162,36 +163,8 @@ export const searchItems = async (actor, items, searchType = 'feat', cprPack = c
   };
 }
 
-export const searchSpells = async (actor) => {
-  const addSpells = [];
-  const removeSpells = [];
-  for (const spell of actor.items) {
-    if (spell.type === 'spell' && !spell.flags["chris-premades"]) {
-      const [_, engName] = spell.name.split(' / ');
-      const chrisSpell = await chris.getItemFromCompendium(chrisSpellsCompendium, engName, true);
-      if (chrisSpell) {
-        const keepEngName = notSafeToRename.spells.includes(engName);
-        addSpells.push({
-          ...chrisSpell,
-          name: keepEngName ? chrisSpell.name : spell.name,
-          'system.preparation.mode': spell.system.preparation.mode,
-          'system.description.value': updateDescription(spell, chrisSpell, keepEngName),
-          flags: {
-            ...chrisSpell.flags,
-            [flagsName]: {
-              oldId: spell.id,
-              oldOwner: actor.id,
-            }
-          }
-        });
-        removeSpells.push(spell.id);
-      }
-    }
-  }
-  return {
-    addItems: addSpells,
-    removeItems: removeSpells
-  };
+export const searchSpells = async (actor, data) => {
+  return await searchItems(actor, data, 'spell', chrisSpellsCompendium, laaruSpellsCompendium);
 }
 
 export const searchRaceFeatures = async (actor, data) => {
