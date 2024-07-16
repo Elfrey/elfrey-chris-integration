@@ -1312,5 +1312,1319 @@
         "engId": "Mm1adVOl3H48Yhgh"
       }
     ]
+  },
+  "Раскалённый металл": {
+    "ruId": "0zwVCQEHMClekNMB",
+    "items": [
+      {
+        "engName": "Heat Metal",
+        "engId": "2HtMbFz9eerR3bxy"
+      }
+    ]
+  },
+  "Шоковое прикосновение": {
+    "ruId": "1Jx4KuqbfUXKGYwZ",
+    "items": [
+      {
+        "engName": "Shocking Grasp",
+        "engId": "19uettRyHOyKBlt6"
+      }
+    ]
+  },
+  "Клинок зелёного пламени": {
+    "ruId": "1XSJGqT8m6RZ8xMi",
+    "items": [
+      {
+        "engName": "Green-Flame Blade",
+        "engId": "vCCwhhTkah7rfv5q"
+      }
+    ]
+  },
+  "Заимствованные знания": {
+    "ruId": "1yKp4rpFjUtRFWUO",
+    "items": [
+      {
+        "engName": "Borrowed Knowledge",
+        "engId": "VDcHxgCwFWHcXgxn"
+      }
+    ]
+  },
+  "Расщепление разума": {
+    "ruId": "20hXiTscFGnQtJkB",
+    "items": [
+      {
+        "engName": "Mind Sliver",
+        "engId": "aHIupHzDjDUkfjXD"
+      }
+    ]
+  },
+  "Призыв духа исчадия": {
+    "ruId": "24IA6xKSySVzSzlT",
+    "items": [
+      {
+        "engName": "Summon Fiend",
+        "engId": "wCEsl0v2poi5lV7D"
+      }
+    ]
+  },
+  "Облако тумана": {
+    "ruId": "2CzE8KsLIdmcvsy6",
+    "items": [
+      {
+        "engName": "Fog Cloud",
+        "engId": "xutnuvZdB3StdDZq"
+      }
+    ]
+  },
+  "Защита от зла и от добра": {
+    "ruId": "31Wl6sI9H1RspwYu",
+    "items": [
+      {
+        "engName": "Protection from Evil and Good",
+        "engId": "Jnm58Im2Nzd8FNOd"
+      }
+    ]
+  },
+  "Рой саранчи": {
+    "ruId": "3vXqVsHj7YmBQ1SI",
+    "items": [
+      {
+        "engName": "Insect Plague",
+        "engId": "SuiY3LUZxRpgF0OF"
+      }
+    ]
+  },
+  "Полёт": {
+    "ruId": "47PSRe6ceAe5UfNM",
+    "items": [
+      {
+        "engName": "Fly",
+        "engId": "5gOLfNSnRVebpQFm"
+      }
+    ]
+  },
+  "Порыв ветра": {
+    "ruId": "4TFtW7zG8mAENjQb",
+    "items": [
+      {
+        "engName": "Gust of Wind",
+        "engId": "NMOmVeQlL80mmFmt"
+      }
+    ]
+  },
+  "Место истины": {
+    "ruId": "5dN5AZgmsr5KTJ5j",
+    "items": [
+      {
+        "engName": "Zone of Truth",
+        "engId": "6baqAf8ODJ1JO7IT"
+      }
+    ]
+  },
+  "Едкое варево Таши": {
+    "ruId": "75m6KrhiY5TFGfAs",
+    "items": [
+      {
+        "engName": "Tasha's Caustic Brew",
+        "engId": "3LN6mBZR8fZJ86NU"
+      }
+    ]
+  },
+  "Защитные узы": {
+    "ruId": "75pryJqrWaBp5att",
+    "items": [
+      {
+        "engName": "Warding Bond",
+        "engId": "iAPZZuTkdzHywwB6"
+      }
+    ]
+  },
+  "Призыв духа конструкции": {
+    "ruId": "7h2ltRAnROKhHySM",
+    "items": [
+      {
+        "engName": "Summon Construct",
+        "engId": "aJ8QOSgUDuCoQc15"
+      }
+    ]
+  },
+  "Защита от смерти": {
+    "ruId": "7w4b1s2PWBI83hET",
+    "items": [
+      {
+        "engName": "Death Ward",
+        "engId": "bqrDnZc0nJNtuHrE"
+      }
+    ]
+  },
+  "Броня Агафиса": {
+    "ruId": "87yMRXySQKuKGyTS",
+    "items": [
+      {
+        "engName": "Armor of Agathys",
+        "engId": "4UQPHY2v2uOs2akn"
+      }
+    ]
+  },
+  "Ошеломляющая кара": {
+    "ruId": "8fmkuWCUeal7nDdN",
+    "items": [
+      {
+        "engName": "Staggering Smite",
+        "engId": "lo30UqKoptmmbLsN"
+      }
+    ]
+  },
+  "Корона безумия": {
+    "ruId": "9EnNDCfjzoeo6ReK",
+    "items": [
+      {
+        "engName": "Crown of Madness",
+        "engId": "3pkwvyUzy7HhdIhK"
+      }
+    ]
+  },
+  "Огненный щит": {
+    "ruId": "A38TKmeBfSxdEKX7",
+    "items": [
+      {
+        "engName": "Fire Shield",
+        "engId": "SirVRTXG70rVc6ij"
+      }
+    ]
+  },
+  "Исцеляющий дух": {
+    "ruId": "ALtMfMgfDyJaGtgb",
+    "items": [
+      {
+        "engName": "Healing Spirit",
+        "engId": "G8LbK9iumqQ5znzH"
+      }
+    ]
+  },
+  "Голод Хадара": {
+    "ruId": "BczWvLLQEeYx24Gg",
+    "items": [
+      {
+        "engName": "Hunger of Hadar",
+        "engId": "GITeI6cYMDIfka5Y"
+      }
+    ]
+  },
+  "Покров духа": {
+    "ruId": "DPOuFHSi8U5ESoDo",
+    "items": [
+      {
+        "engName": "Spirit Shroud",
+        "engId": "yWnYr3kK7z8k28pf"
+      }
+    ]
+  },
+  "Стихийное оружие": {
+    "ruId": "DfL2298AExVMVw7k",
+    "items": [
+      {
+        "engName": "Elemental Weapon",
+        "engId": "ZT3xo289uqXkIIkA"
+      }
+    ]
+  },
+  "Клеймящая кара": {
+    "ruId": "DnhDLeV3znnw36jX",
+    "items": [
+      {
+        "engName": "Branding Smite",
+        "engId": "oN8wTfCGHOPc7bnp"
+      }
+    ]
+  },
+  "Туманный шаг": {
+    "ruId": "DulrpjBUeVVgrrNA",
+    "items": [
+      {
+        "engName": "Misty Step",
+        "engId": "VZ7HLaQuwfw5ZDV4"
+      }
+    ]
+  },
+  "Психическая пика Раулотима": {
+    "ruId": "E3aQ7CXF4j6lR9RZ",
+    "items": [
+      {
+        "engName": "Raulothim's Psychic Lance",
+        "engId": "DX0SNfDcSVDJ1V6T"
+      }
+    ]
+  },
+  "Земляная хватка Максимилиана": {
+    "ruId": "ElYxyMqEt2kKV25O",
+    "items": [
+      {
+        "engName": "Maximilian's Earthen Grasp",
+        "engId": "dBeOOB07mBILVRyH"
+      }
+    ]
+  },
+  "Призрачные стражи": {
+    "ruId": "EwBVFuFBC1mUDpdJ",
+    "items": [
+      {
+        "engName": "Spirit Guardians",
+        "engId": "RHvueaAi6e1ebV0Z"
+      }
+    ]
+  },
+  "Призыв небожителя": {
+    "ruId": "FewmkcmhRT02YT8r",
+    "items": [
+      {
+        "engName": "Conjure Celestial",
+        "engId": "VjRcjxe9zC4oTfAm"
+      }
+    ]
+  },
+  "Волшебная стрела": {
+    "ruId": "FgeTrsMqHnbTEIPl",
+    "items": [
+      {
+        "engName": "Magic Missile",
+        "engId": "o2t2PjlEKgOyCgM0"
+      }
+    ]
+  },
+  "Увядание": {
+    "ruId": "G4MSpIn0FovESvi9",
+    "items": [
+      {
+        "engName": "Blight",
+        "engId": "5W1Y9T5es0ebAufx"
+      }
+    ]
+  },
+  "Приливная волна": {
+    "ruId": "GOjAgEifEkRGs5N7",
+    "items": [
+      {
+        "engName": "Tidal Wave",
+        "engId": "wQltveFNSmlYjTeq"
+      }
+    ]
+  },
+  "Призыв скакуна": {
+    "ruId": "GkTCd40iGyQEsfSE",
+    "items": [
+      {
+        "engName": "Find Steed",
+        "engId": "SxJEoAaDFF3s6Bx6"
+      }
+    ]
+  },
+  "Светоч надежды": {
+    "ruId": "Gox1zLaIqrEjDl8L",
+    "items": [
+      {
+        "engName": "Beacon of Hope",
+        "engId": "sTBBRRgKapfTuYbI"
+      }
+    ]
+  },
+  "Дыхание дракона": {
+    "ruId": "H7rVgBnXOitLqOmH",
+    "items": [
+      {
+        "engName": "Dragon's Breath",
+        "engId": "r006B9kja0e8yshA"
+      }
+    ]
+  },
+  "Цепь молний": {
+    "ruId": "H9L61hpSv3oHvAyJ",
+    "items": [
+      {
+        "engName": "Chain Lightning",
+        "engId": "V6vnNNpVjnUFEqbV"
+      }
+    ]
+  },
+  "Призыв низших демонов": {
+    "ruId": "HcCIneN6dJq7fljx",
+    "items": [
+      {
+        "engName": "Summon Lesser Demons",
+        "engId": "qMGFIAPUJ27WXJj7"
+      }
+    ]
+  },
+  "Рука Бигби": {
+    "ruId": "HhqqY4DMvB6t1qMF",
+    "items": [
+      {
+        "engName": "Bigby's Hand",
+        "engId": "Jg7DyhG8zEAkIZz3"
+      }
+    ]
+  },
+  "Облачение льда": {
+    "ruId": "HlJMirs3QQPo8gJI",
+    "items": [
+      {
+        "engName": "Investiture of Ice",
+        "engId": "2YJdre3DU8y0NeBU"
+      }
+    ]
+  },
+  "Завораживающий узор": {
+    "ruId": "IJPmK3RrJ31aiPzo",
+    "items": [
+      {
+        "engName": "Hypnotic Pattern",
+        "engId": "SvAiEGVtoxiHQ4m2"
+      }
+    ]
+  },
+  "Сфера бури": {
+    "ruId": "IMk6ETJbc1rcgTke",
+    "items": [
+      {
+        "engName": "Storm Sphere",
+        "engId": "BkBMrlUAsTh0T5co"
+      }
+    ]
+  },
+  "Увеличение/уменьшение": {
+    "ruId": "ImfucJ4hO0mnf3W6",
+    "items": [
+      {
+        "engName": "Enlarge/Reduce",
+        "engId": "31u4IUYWOSfEYPgn"
+      }
+    ]
+  },
+  "Кислотная стрела Мелфа": {
+    "ruId": "K5PRpkDVejzKY2x6",
+    "items": [
+      {
+        "engName": "Melf’s Acid Arrow",
+        "engId": "fOckbSljA958AZ2H"
+      }
+    ]
+  },
+  "Изгнание": {
+    "ruId": "K5SkRCCfmvLnsL3i",
+    "items": [
+      {
+        "engName": "Banishment",
+        "engId": "tLnhV6mqRMoexhUi"
+      }
+    ]
+  },
+  "Дезинтеграция": {
+    "ruId": "KMGALOtvIkVjYggc",
+    "items": [
+      {
+        "engName": "Disintegrate",
+        "engId": "waz04oD0xLy2gG6c"
+      }
+    ]
+  },
+  "Приворот гуманоида": {
+    "ruId": "KcziiS01MniKTNZ9",
+    "items": [
+      {
+        "engName": "Charm Person",
+        "engId": "O7nPnyla2UlO4h3n"
+      }
+    ]
+  },
+  "Фейское сияние": {
+    "ruId": "KlVo17qWGwXLevip",
+    "items": [
+      {
+        "engName": "Faerie Fire",
+        "engId": "NEXgAw7Ih4SQp8Aw"
+      }
+    ]
+  },
+  "Призыв феи": {
+    "ruId": "Kn79H32LLWaFdHM8",
+    "items": [
+      {
+        "engName": "Conjure Fey",
+        "engId": "cHaOj8RyHQg2LG3s"
+      }
+    ]
+  },
+  "Касание вампира": {
+    "ruId": "L7gk9eIh1ylqKLCA",
+    "items": [
+      {
+        "engName": "Vampiric Touch",
+        "engId": "sb2JBwWlo9pWstLM"
+      }
+    ]
+  },
+  "Усиление навыка": {
+    "ruId": "LUVBnAA6iq6u23QR",
+    "items": [
+      {
+        "engName": "Skill Empowerment",
+        "engId": "e5IM2IzWInZtx20w"
+      }
+    ]
+  },
+  "Бесследный шаг": {
+    "ruId": "MByqnEhamV1MsaSP",
+    "items": [
+      {
+        "engName": "Pass without Trace",
+        "engId": "5pxZnQ0hjxzcniIb"
+      }
+    ]
+  },
+  "Обнаружение мыслей": {
+    "ruId": "MSM1XtWei12DFoLN",
+    "items": [
+      {
+        "engName": "Detect Thoughts",
+        "engId": "VtAko0IRYFx102qe"
+      }
+    ]
+  },
+  "Рассвет": {
+    "ruId": "MjfvQjoIAAtJlXdF",
+    "items": [
+      {
+        "engName": "Dawn",
+        "engId": "CWHIFzno7u2xFSyk"
+      }
+    ]
+  },
+  "Яростная кара": {
+    "ruId": "N3BGYkgG6OUNYVPC",
+    "items": [
+      {
+        "engName": "Wrathful Smite",
+        "engId": "XMNdLAsSJMeSTwBC"
+      }
+    ]
+  },
+  "Громовая волна": {
+    "ruId": "NKG2Qi9EF7hA2y1r",
+    "items": [
+      {
+        "engName": "Thunderwave",
+        "engId": "CUsptWK5ar8Wa7ko"
+      }
+    ]
+  },
+  "Стрела-молния": {
+    "ruId": "O0Rgf0ZEqvjrCRmw",
+    "items": [
+      {
+        "engName": "Lightning Arrow",
+        "engId": "o5gp6o0mQnZkXWqp"
+      }
+    ]
+  },
+  "Обнаружение магии": {
+    "ruId": "O5tFJkuBe4IhqKEw",
+    "items": [
+      {
+        "engName": "Detect Magic",
+        "engId": "OJiSWZfH8RQyDovJ"
+      }
+    ]
+  },
+  "Дрожь земли": {
+    "ruId": "OAaT1S0JYb4pRTe4",
+    "items": [
+      {
+        "engName": "Earth Tremor",
+        "engId": "MyAegCIbIuhd9DKR"
+      }
+    ]
+  },
+  "Оживление мертвецов": {
+    "ruId": "OQEPzL4bMfxpUjwi",
+    "items": [
+      {
+        "engName": "Animate Dead",
+        "engId": "rTsIr9SCrOTp2i4N"
+      }
+    ]
+  },
+  "Синоптический разряд": {
+    "ruId": "OfXAQrMJZoS1vQu9",
+    "items": [
+      {
+        "engName": "Synaptic Static",
+        "engId": "481NEeNmPoLL04YJ"
+      }
+    ]
+  },
+  "Убежище": {
+    "ruId": "Quw3glddwW6I9X4f",
+    "items": [
+      {
+        "engName": "Sanctuary",
+        "engId": "seeNLtZBTXE1oMFn"
+      }
+    ]
+  },
+  "Передача жизни": {
+    "ruId": "R5bXD9vSRJPlFcOm",
+    "items": [
+      {
+        "engName": "Life Transference",
+        "engId": "EOY089KFwRljtV1z"
+      }
+    ]
+  },
+  "Ледяная буря": {
+    "ruId": "RYG0oYTpaqFgTKh3",
+    "items": [
+      {
+        "engName": "Ice Storm",
+        "engId": "eRkRykjiA5mxLOIK"
+      }
+    ]
+  },
+  "Волна разрушения": {
+    "ruId": "SYEOmA9WWKoQw8Tg",
+    "items": [
+      {
+        "engName": "Destructive Wave",
+        "engId": "Ty4BREgQkKVPeR7E"
+      }
+    ]
+  },
+  "Далекий шаг": {
+    "ruId": "U1d84yECDyYZdEnA",
+    "items": [
+      {
+        "engName": "Far Step",
+        "engId": "XY0eNbnbGFA7tzIW"
+      }
+    ]
+  },
+  "Жгучая кара": {
+    "ruId": "UCbkL21wWQG9Gy4K",
+    "items": [
+      {
+        "engName": "Searing Smite",
+        "engId": "4acnOXDshNMlOGpt"
+      }
+    ]
+  },
+  "Пылающие руки": {
+    "ruId": "UHW6d6xa3pNVVguq",
+    "items": [
+      {
+        "engName": "Burning Hands",
+        "engId": "VPtLi2joiUMZWA4n"
+      }
+    ]
+  },
+  "Тьма": {
+    "ruId": "UWHFKgmUesGUTF37",
+    "items": [
+      {
+        "engName": "Darkness",
+        "engId": "XTyBWdz9fGZn5WHX"
+      }
+    ]
+  },
+  "Слепящая кара": {
+    "ruId": "VNcR5K3j8H9E8Jtg",
+    "items": [
+      {
+        "engName": "Blinding Smite",
+        "engId": "0uUQ6rEV74hquJEw"
+      }
+    ]
+  },
+  "Призыв малых элементалей": {
+    "ruId": "W4T8RDItyjUoWRCb",
+    "items": [
+      {
+        "engName": "Conjure Minor Elementals",
+        "engId": "ZaiWcdoEzo1zOZSg"
+      }
+    ]
+  },
+  "Призыв духа нежити": {
+    "ruId": "X3ifsK036Yudhc3e",
+    "items": [
+      {
+        "engName": "Summon Undead",
+        "engId": "jmZltJKVPAO5unsV"
+      }
+    ]
+  },
+  "Потусторонний разряд": {
+    "ruId": "X4xGjIo0YzDhyXY2",
+    "items": [
+      {
+        "engName": "Eldritch Blast",
+        "engId": "PHxWCFaYmFCxGQEM"
+      }
+    ]
+  },
+  "Призыв духа дракона": {
+    "ruId": "XfXq2LJxcGhiunDf",
+    "items": [
+      {
+        "engName": "Summon Draconic Spirit",
+        "engId": "T0Ii9LrZDhrakSK2"
+      }
+    ]
+  },
+  "Героизм": {
+    "ruId": "Y2So9xXGJcssoHvu",
+    "items": [
+      {
+        "engName": "Heroism",
+        "engId": "mjhguBMugGqKQfCV"
+      }
+    ]
+  },
+  "Стая фамильяров": {
+    "ruId": "YdJylbddCRcAk3Ya",
+    "items": [
+      {
+        "engName": "Flock of Familiars",
+        "engId": "RftoTCDwya8NxPb3"
+      }
+    ]
+  },
+  "Призыв фамильяра": {
+    "ruId": "YgmWbehZcanjQ4pU",
+    "items": [
+      {
+        "engName": "Find Familiar",
+        "engId": "PxSFg8tGarJieArc"
+      }
+    ]
+  },
+  "Град шипов": {
+    "ruId": "ZDOlcAKhaHED8jvD",
+    "items": [
+      {
+        "engName": "Hail of Thorns",
+        "engId": "dH6ohBv3PVZO73oM"
+      }
+    ]
+  },
+  "Потусторонний облик Таши": {
+    "ruId": "ZHRM5kjYcXFMfZXD",
+    "items": [
+      {
+        "engName": "Tasha's Otherworldly Guise",
+        "engId": "WTtYYe92W3xNM2cQ"
+      }
+    ]
+  },
+  "Обессиливающий укол": {
+    "ruId": "ZTkxY9YEXtRXO5I1",
+    "items": [
+      {
+        "engName": "Sapping Sting",
+        "engId": "Sszz6HuGbXuI6kGN"
+      }
+    ]
+  },
+  "Снаряд хаоса": {
+    "ruId": "ZiF5R4vy72RbGuQp",
+    "items": [
+      {
+        "engName": "Chaos Bolt",
+        "engId": "JBRj8pJfDC1v5Q8p"
+      }
+    ]
+  },
+  "Шипастая поросль": {
+    "ruId": "akj1JPqDHE1LVDv5",
+    "items": [
+      {
+        "engName": "Spike Growth",
+        "engId": "MhBZ3xPokcx9rluu"
+      }
+    ]
+  },
+  "Сглаз": {
+    "ruId": "bSOuS0R0iFbAXVXF",
+    "items": [
+      {
+        "engName": "Hex",
+        "engId": "uDO0FGo2Aa8n3LZZ"
+      }
+    ]
+  },
+  "Масло": {
+    "ruId": "bbTImv4AXCPGNw8Q",
+    "items": [
+      {
+        "engName": "Grease",
+        "engId": "yrdF8MELOv0YKPIl"
+      }
+    ]
+  },
+  "Призыв духа аберрации": {
+    "ruId": "brdtpYq1uPGaaQkW",
+    "items": [
+      {
+        "engName": "Summon Aberration",
+        "engId": "Qpp8bdBEoRGz8jY6"
+      }
+    ]
+  },
+  "Погребальный звон": {
+    "ruId": "c3NFl7Bt2doRbbTZ",
+    "items": [
+      {
+        "engName": "Toll the Dead",
+        "engId": "08SJiaq0DJqqAAkz"
+      }
+    ]
+  },
+  "Лассо молнии": {
+    "ruId": "cFFDXtWIjfhKgcdo",
+    "items": [
+      {
+        "engName": "Lightning Lure",
+        "engId": "raNGrgZozCAhoJ15"
+      }
+    ]
+  },
+  "Призрачное оружие": {
+    "ruId": "cuHHUSHiHrOjA8xo",
+    "items": [
+      {
+        "engName": "Spiritual Weapon",
+        "engId": "sCJjKRtyqmy2aPKZ"
+      }
+    ]
+  },
+  "Ледяные пальцы": {
+    "ruId": "eqgg5xJyjX3qpmWN",
+    "items": [
+      {
+        "engName": "Frost Fingers",
+        "engId": "JibbvkAfvGf9lcUU"
+      }
+    ]
+  },
+  "Вихрь искривления": {
+    "ruId": "euH6sJmGa3kPnbWj",
+    "items": [
+      {
+        "engName": "Vortex Warp",
+        "engId": "2fp7LNHgNlKror7u"
+      }
+    ]
+  },
+  "Болезненное сияние": {
+    "ruId": "evCM0gAZEy56BwBz",
+    "items": [
+      {
+        "engName": "Sickening Radiance",
+        "engId": "4V9pSpxUiesCkkZI"
+      }
+    ]
+  },
+  "Призыв животных": {
+    "ruId": "g7Tt7RgVvVr0L3Z3",
+    "items": [
+      {
+        "engName": "Conjure Animals",
+        "engId": "5oj5QZ3zVF2Cfblc"
+      }
+    ]
+  },
+  "Призыв духа феи": {
+    "ruId": "gtJIzFtbXhu8GrEL",
+    "items": [
+      {
+        "engName": "Summon Fey",
+        "engId": "C6kBfr2FuPTNMFHC"
+      }
+    ]
+  },
+  "Паралич гуманоида": {
+    "ruId": "hHdE2G8F8VR08bxF",
+    "items": [
+      {
+        "engName": "Hold Person",
+        "engId": "Yy6Aviq5udfjR0MQ"
+      }
+    ]
+  },
+  "Ослабляющий луч": {
+    "ruId": "hJO87SQO7Eukw6QB",
+    "items": [
+      {
+        "engName": "Ray of Enfeeblement",
+        "engId": "0JDC9zil8IkkXQcf"
+      }
+    ]
+  },
+  "Проклятие": {
+    "ruId": "hYGsKdaaGhHnvibm",
+    "items": [
+      {
+        "engName": "Bestow Curse",
+        "engId": "wuUVFdkxTMoSPtxo"
+      }
+    ]
+  },
+  "Сфера неуязвимости": {
+    "ruId": "hoGJyDJ7yf5kGD05",
+    "items": [
+      {
+        "engName": "Globe of Invulnerability",
+        "engId": "t6wCxugvJaeazzoU"
+      }
+    ]
+  },
+  "Смертельное облако": {
+    "ruId": "iHvXGMyoEAqXOD7z",
+    "items": [
+      {
+        "engName": "Cloudkill",
+        "engId": "eIHf6kIhDlJddBbA"
+      }
+    ]
+  },
+  "Огненный клинок": {
+    "ruId": "iVqDhItbmkyJCPek",
+    "items": [
+      {
+        "engName": "Flame Blade",
+        "engId": "nnvz0xsU33cw6wpk"
+      }
+    ]
+  },
+  "Пляска смерти": {
+    "ruId": "iWoX65OXn2KhBtWl",
+    "items": [
+      {
+        "engName": "Danse Macabre",
+        "engId": "TXte8cv0bRVY9TKx"
+      }
+    ]
+  },
+  "Враждебность": {
+    "ruId": "ibuX31Lz3Chn9wFC",
+    "items": [
+      {
+        "engName": "Antagonize",
+        "engId": "AFQ8JIRwCIjul0tM"
+      }
+    ]
+  },
+  "Аура жизни": {
+    "ruId": "jFGseTLjBWlVt4Tb",
+    "items": [
+      {
+        "engName": "Aura of Life",
+        "engId": "wLJPwydpMmohU8bA"
+      }
+    ]
+  },
+  "Мерцание": {
+    "ruId": "jMVfNqdqSq3GLWgt",
+    "items": [
+      {
+        "engName": "Blink",
+        "engId": "TGiMCdBXI5MXNOyQ"
+      }
+    ]
+  },
+  "Руки Хадара": {
+    "ruId": "jO1VYKlHcU4Gu4oL",
+    "items": [
+      {
+        "engName": "Arms of Hadar",
+        "engId": "ukk2RML6ZmU8szma"
+      }
+    ]
+  },
+  "Сковывающий лёд Райма": {
+    "ruId": "jYAJfGQzP48rxR1f",
+    "items": [
+      {
+        "engName": "Rime's Binding Ice",
+        "engId": "4QLTIDI5xOgcJyvo"
+      }
+    ]
+  },
+  "Благословение": {
+    "ruId": "jYsMCeg6AbSHzq1F",
+    "items": [
+      {
+        "engName": "Bless",
+        "engId": "Z7nyA9bKiohZQO8z"
+      }
+    ]
+  },
+  "Аура чистоты": {
+    "ruId": "ki8ZN7OY2PCOaWba",
+    "items": [
+      {
+        "engName": "Aura of Purity",
+        "engId": "lFOQWjN5wLn25aXK"
+      }
+    ]
+  },
+  "Терновый хлыст": {
+    "ruId": "lozNhkvsoC0iWqJm",
+    "items": [
+      {
+        "engName": "Thorn Whip",
+        "engId": "pu94OubHD1IcQrMP"
+      }
+    ]
+  },
+  "Призыв духа порождения теней": {
+    "ruId": "lpQ5kIGKDI33MbSK",
+    "items": [
+      {
+        "engName": "Summon Shadowspawn",
+        "engId": "7MqtPlFGZ68tWRad"
+      }
+    ]
+  },
+  "Громовая кара": {
+    "ruId": "mGV4Eg53XdlCkkZC",
+    "items": [
+      {
+        "engName": "Thunderous Smite",
+        "engId": "MN4FGQ7aZhIJxORS"
+      }
+    ]
+  },
+  "Облачение тени": {
+    "ruId": "nWzbTBU4QHX42m3y",
+    "items": [
+      {
+        "engName": "Shadow of Moil",
+        "engId": "ZMB4FvFEnChT0ODA"
+      }
+    ]
+  },
+  "Вызов молний": {
+    "ruId": "ncJEB51rHPBfMIyT",
+    "items": [
+      {
+        "engName": "Call Lightning",
+        "engId": "zv30JG81vt3Kwe5e"
+      }
+    ]
+  },
+  "Призыв духа зверя": {
+    "ruId": "niAor8tMV2uAOIEH",
+    "items": [
+      {
+        "engName": "Summon Beast",
+        "engId": "wsYIVCjvcnLDnbXN"
+      }
+    ]
+  },
+  "Страж веры": {
+    "ruId": "obcC8fu3Oh20auBp",
+    "items": [
+      {
+        "engName": "Guardian of Faith",
+        "engId": "nP9Tm1Pswisp1dcm"
+      }
+    ]
+  },
+  "Метка охотника": {
+    "ruId": "p7pqc57hJekgMRhB",
+    "items": [
+      {
+        "engName": "Hunter's Mark",
+        "engId": "snJZg4RWCCMYejhn"
+      }
+    ]
+  },
+  "Вызов на дуэль": {
+    "ruId": "pBux4mtUuaP9aJfB",
+    "items": [
+      {
+        "engName": "Compelled Duel",
+        "engId": "yBAaKAWANerok4vx"
+      }
+    ]
+  },
+  "Ледяное прикосновение": {
+    "ruId": "pFKhunqGel2ldfuY",
+    "items": [
+      {
+        "engName": "Chill Touch",
+        "engId": "uB2xMoc1b7fTZWUJ"
+      }
+    ]
+  },
+  "Поиск высшего скакуна": {
+    "ruId": "q7U9wq4H1KTjMjZM",
+    "items": [
+      {
+        "engName": "Find Greater Steed",
+        "engId": "aIlDPiOhkVs5J8Ov"
+      }
+    ]
+  },
+  "Хроматический шар": {
+    "ruId": "qOMregpsk7pmpsqq",
+    "items": [
+      {
+        "engName": "Chromatic Orb",
+        "engId": "KqCu1bS57K9J82Mj"
+      }
+    ]
+  },
+  "Страж природы": {
+    "ruId": "r7MPzg5aCfuz43mY",
+    "items": [
+      {
+        "engName": "Guardian of Nature",
+        "engId": "8b9nYYhNZLM4uuCR"
+      }
+    ]
+  },
+  "Увядание и цветение": {
+    "ruId": "r9uwOHJ95YE9a0RG",
+    "items": [
+      {
+        "engName": "Wither and Bloom",
+        "engId": "WJmUe0PzNyEPThyo"
+      }
+    ]
+  },
+  "Громовой шаг": {
+    "ruId": "rojhbxxDHCw8td2t",
+    "items": [
+      {
+        "engName": "Thunder Step",
+        "engId": "bkXmmJ0oP0y99REX"
+      }
+    ]
+  },
+  "Газообразность": {
+    "ruId": "sOrfppDC2xrmjLfU",
+    "items": [
+      {
+        "engName": "Gaseous Form",
+        "engId": "iopV7cmkv93py7mt"
+      }
+    ]
+  },
+  "Зеркальное отражение": {
+    "ruId": "tJLAOUVC46nKuVXd",
+    "items": [
+      {
+        "engName": "Mirror Image",
+        "engId": "I7TYgeUjfFxtJjqB"
+      }
+    ]
+  },
+  "Оберег от оружия": {
+    "ruId": "tcOL22WXvMotOcyK",
+    "items": [
+      {
+        "engName": "Blade Ward",
+        "engId": "iJQy6bBGauywXKKY"
+      }
+    ]
+  },
+  "Огненная буря": {
+    "ruId": "tkoSHe2yahZOFNVx",
+    "items": [
+      {
+        "engName": "Fire Storm",
+        "engId": "H2OiCpEeEXWD1gby"
+      }
+    ]
+  },
+  "Разбрасывание карт": {
+    "ruId": "tyVgS4S3aTBY9A9L",
+    "items": [
+      {
+        "engName": "Spray of Cards",
+        "engId": "Qu9OERHdUtBa3DFi"
+      }
+    ]
+  },
+  "Аура жизненной силы": {
+    "ruId": "tzb3TmFy1SfaATZu",
+    "items": [
+      {
+        "engName": "Aura of Vitality",
+        "engId": "MTbqOrqwbJYjVhVZ"
+      }
+    ]
+  },
+  "Щит веры": {
+    "ruId": "udKxenn4q1sL9UYe",
+    "items": [
+      {
+        "engName": "Shield of Faith",
+        "engId": "39J3x1Lg3WTkIZvt"
+      }
+    ]
+  },
+  "Призыв элементаля": {
+    "ruId": "ujk6PzbH20JV5R7x",
+    "items": [
+      {
+        "engName": "Conjure Elemental",
+        "engId": "6xxaLGQsLvV7BiwL"
+      }
+    ]
+  },
+  "Едкий шар": {
+    "ruId": "unAVycDJPFAMYvRg",
+    "items": [
+      {
+        "engName": "Vitriolic Sphere",
+        "engId": "CGVSRWRNtk2l0aYP"
+      }
+    ]
+  },
+  "Священное оружие": {
+    "ruId": "us9VGqpMYQdx9sgy",
+    "items": [
+      {
+        "engName": "Holy Weapon",
+        "engId": "m57SzlJwfyF5vb9a"
+      }
+    ]
+  },
+  "Призыв духа небожителя": {
+    "ruId": "v6oWiq8Fu1EM8fDi",
+    "items": [
+      {
+        "engName": "Summon Celestial",
+        "engId": "vkQ0FeDFrDtIs4kh"
+      }
+    ]
+  },
+  "Облачение огня": {
+    "ruId": "vVHeBSKWO6run9Lk",
+    "items": [
+      {
+        "engName": "Investiture of Flame",
+        "engId": "NhWvsIYpoC5vXCKH"
+      }
+    ]
+  },
+  "Пурга": {
+    "ruId": "vYBEe4zO5taVPW3f",
+    "items": [
+      {
+        "engName": "Sleet Storm",
+        "engId": "enLSxUu5IdEdHT1b"
+      }
+    ]
+  },
+  "Направляющий луч": {
+    "ruId": "wE7p0clFpTiKXGyl",
+    "items": [
+      {
+        "engName": "Guiding Bolt",
+        "engId": "trAtZyEI4pGtRVpH"
+      }
+    ]
+  },
+  "Громовой клинок": {
+    "ruId": "wbBoLMEaiBQj8Hss",
+    "items": [
+      {
+        "engName": "Booming Blade",
+        "engId": "fxUwNNIZZctHII8c"
+      }
+    ]
+  },
+  "Лунный свет": {
+    "ruId": "xJrZI9sitEnagzZJ",
+    "items": [
+      {
+        "engName": "Moonbeam",
+        "engId": "jaqwUawBep3ExhUZ"
+      }
+    ]
+  },
+  "Плащ крестоносца": {
+    "ruId": "xYOk3wHgX0mnEvut",
+    "items": [
+      {
+        "engName": "Crusader's Mantle",
+        "engId": "42IuYfCJIVIifXWb"
+      }
+    ]
+  },
+  "Опаляющий луч": {
+    "ruId": "y8FDrQvmrUsb6zFY",
+    "items": [
+      {
+        "engName": "Scorching Ray",
+        "engId": "UeXhrMgv454Kijwd"
+      }
+    ]
+  },
+  "Телепортация": {
+    "ruId": "yO5QuQIZaPHTRilk",
+    "items": [
+      {
+        "engName": "Teleport",
+        "engId": "qPJHIctg0znSJMyC"
+      }
+    ]
+  },
+  "Призыв духа элементаля": {
+    "ruId": "yTRzYlCDxQFOQpS1",
+    "items": [
+      {
+        "engName": "Summon Elemental",
+        "engId": "iSv49YIO0Rjwm4Hn"
+      }
+    ]
+  },
+  "Теневой клинок": {
+    "ruId": "yd9IlNfN4LsldQnw",
+    "items": [
+      {
+        "engName": "Shadow Blade",
+        "engId": "gkHJMbXDpvxzyzR1"
+      }
+    ]
+  },
+  "Призыв лесных созданий": {
+    "ruId": "yh8IcuTzzGmEbRdI",
+    "items": [
+      {
+        "engName": "Conjure Woodland Beings",
+        "engId": "2Jpbf40WhZgnwd8N"
+      }
+    ]
+  },
+  "Облачение камня": {
+    "ruId": "yhYyHNPX97sWC57j",
+    "items": [
+      {
+        "engName": "Investiture of Stone",
+        "engId": "YJlYbovgVE8fv7zD"
+      }
+    ]
+  },
+  "Массовое исцеление ран": {
+    "ruId": "zvWJUvIHTBKzh5Sn",
+    "items": [
+      {
+        "engName": "Mass Cure Wounds",
+        "engId": "Mm1adVOl3H48Yhgh"
+      }
+    ]
   }
 }

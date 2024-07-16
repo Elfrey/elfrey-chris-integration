@@ -1,4 +1,4 @@
-import { flagsName } from './consts.js'
+import {flagsName} from './consts.js'
 
 const laaruFeatsCompendium = 'laaru-dnd5-hw.classfeatures';
 const laaruSpellsCompendium = 'laaru-dnd5-hw.spells';
@@ -6,6 +6,7 @@ const chrisFeatsCompendium = 'chris-premades.CPR Feats';
 const chrisClassFeaturesCompendium = 'chris-premades.CPR Class Features';
 const chrisRaceFeaturesCompendium = 'chris-premades.CPR Race Features';
 const chrisSpellsCompendium = 'chris-premades.CPR Spells';
+const srdSpellCompendium = 'dnd5e.spells';
 
 const notSafeToRename = {
   feat: [],
@@ -37,6 +38,12 @@ const notSafeToRename = {
 
 const chris = chrisPremades.helpers;
 
+const emptyResult = {
+  addItems: [],
+  removeItems: [],
+  manualUpdate: {},
+  itemById: {},
+}
 
 const updateDescription = (item1, item2, addName = false) => {
   let ruPart = typeof item1 === 'string' ? item1 : item1.system.description.value;
@@ -47,6 +54,9 @@ const updateDescription = (item1, item2, addName = false) => {
 }
 
 export const searchClassFeatures = async (actor, data) => {
+  if (actor.type === 'npc') {
+    return {...emptyResult};
+  }
   let classFeatures = {
     addItems: [],
     removeItems: [],
@@ -107,6 +117,9 @@ export const searchClassFeatures = async (actor, data) => {
 }
 
 export const searchItems = async (actor, items, searchType = 'feat', cprPack = chrisFeatsCompendium, laaruPack = laaruFeatsCompendium) => {
+  if (actor.type === 'npc' && searchType !== 'spell') {
+    return {...emptyResult};
+  }
   let manualUpdate = {};
   const itemById = {};
   const addItems = [];
@@ -114,18 +127,23 @@ export const searchItems = async (actor, items, searchType = 'feat', cprPack = c
   for (const itemNameRu in items) {
     const itemData = items[itemNameRu];
     const actorItem = await actor.items.getName(itemNameRu);
-    const laaruItem = await chris.getItemFromCompendium(laaruPack, itemNameRu);
+    let laaruItem = await chris.getItemFromCompendium(laaruPack, itemNameRu, true);
+    if (!laaruItem) {
+      laaruItem = await chris.getItemFromCompendium(srdSpellCompendium, itemNameRu, true);
+    }
     if (actorItem != null) {
       for (const item of itemData.items) {
 
         const {engName, ruName = '', ruDesc = ''} = item;
         // Work with single feat
-        const chrisItem = await chris.getItemFromCompendium(cprPack, engName);
+        const chrisItem = await chris.getItemFromCompendium(cprPack, engName, true);
         const keepEngName = item.keepEngName || notSafeToRename[searchType].includes(engName);
+        const newNameRu = searchType === 'spell' && itemNameRu.indexOf('/') !== -1 ? itemNameRu.split('/')[0].trim() : itemNameRu;
+
 
         const tmpItem = {
           ...chrisItem,
-          name: keepEngName ? chrisItem.name : `${ruName !== '' ? ruName : itemNameRu} / ${chrisItem.name}`,
+          name: keepEngName ? chrisItem.name : `${ruName !== '' ? ruName : newNameRu} / ${chrisItem.name}`,
           'system.description.value': updateDescription(ruDesc !== '' ? ruDesc : laaruItem, chrisItem, keepEngName),
           flags: {
             ...chrisItem.flags,
@@ -172,6 +190,9 @@ export const searchSpells = async (actor, data) => {
 }
 
 export const searchRaceFeatures = async (actor, data) => {
+  if (actor.type === 'npc') {
+    return {...emptyResult};
+  }
   let raceFeatures = {};
   const race = actor.data.items.find(item => item.type === 'race');
 

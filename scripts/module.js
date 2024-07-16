@@ -123,7 +123,7 @@ Hooks.on('getActorDirectoryEntryContext', (_, options) => {
       const actor = game.actors?.get(actorId);
       // Show the option only if the actor is a player character (PC)
       // @ts-ignore
-      return actor && actor.type === 'character';
+      return actor && (actor.type === 'character' || actor.type === 'npc');
     },
   });
 });
