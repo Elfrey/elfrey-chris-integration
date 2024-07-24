@@ -1094,15 +1094,6 @@
       }
     },
     "Коллегия Созидания": {
-      "Ноты потенциала": {
-        "ruId": "45Z4Q9yPCAYnEZph",
-        "items": [
-          {
-            "engName": "Mote of Potential",
-            "engId": "ulp8IlXppnV9Wsrt"
-          }
-        ]
-      },
       "Песнь оживления": {
         "ruId": "TQJECjyfZJUVzJDe",
         "items": [
@@ -2435,6 +2426,19 @@
           {
             "engName": "Dark One's Own Luck",
             "engId": "qDgkaHXic7Zhu3VL"
+          }
+        ]
+      }
+    }
+  },
+  "Removed": {
+    "Bard": {
+      "Ноты потенциала": {
+        "ruId": "45Z4Q9yPCAYnEZph",
+        "items": [
+          {
+            "engName": "Mote of Potential",
+            "engId": "ulp8IlXppnV9Wsrt"
           }
         ]
       }
