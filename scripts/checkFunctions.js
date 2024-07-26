@@ -138,7 +138,7 @@ export const searchItems = async (actor, items, searchType = 'feat', cprPack = c
         // Work with single feat
         const chrisItem = await chris.getItemFromCompendium(cprPack, engName, true);
         const keepEngName = item.keepEngName || notSafeToRename[searchType].includes(engName);
-        const newNameRu = searchType === 'spell' && itemNameRu.indexOf('/') !== -1 ? itemNameRu.split('/')[0].trim() : itemNameRu;
+        const newNameRu = searchType === 'spell' && itemNameRu.indexOf(' / ') !== -1 ? itemNameRu.split(' / ')[0].trim() : itemNameRu;
 
 
         const tmpItem = {
