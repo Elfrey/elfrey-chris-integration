@@ -70,7 +70,8 @@ export const searchClassFeatures = async (actor, data) => {
         const {
           addItems,
           removeItems,
-          manualUpdate
+          manualUpdate,
+          itemById
         } = await searchItems(actor, data[className].base, 'class', chrisClassFeaturesCompendium, laaruFeatsCompendium);
         classFeatures = {
           addItems: [
@@ -85,6 +86,10 @@ export const searchClassFeatures = async (actor, data) => {
             ...classFeatures.manualUpdate,
             ...manualUpdate
           },
+          itemById: {
+            ...classFeatures.itemById,
+            ...itemById
+          }
         }
       }
     }
@@ -94,7 +99,8 @@ export const searchClassFeatures = async (actor, data) => {
         const {
           addItems,
           removeItems,
-          manualUpdate
+          manualUpdate,
+          itemById
         } = await searchItems(actor, data[className][subClassName], 'class', chrisClassFeaturesCompendium, laaruFeatsCompendium);
         classFeatures = {
           addItems: [
@@ -109,6 +115,10 @@ export const searchClassFeatures = async (actor, data) => {
             ...classFeatures.manualUpdate,
             ...manualUpdate
           },
+          itemById: {
+            ...classFeatures.itemById,
+            ...itemById
+          }
         }
       }
     }
