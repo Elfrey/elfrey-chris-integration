@@ -156,6 +156,7 @@ export const searchItems = async (actor, items, searchType = 'feat', cprPack = c
           name: keepEngName ? chrisItem.name : `${ruName !== '' ? ruName : newNameRu} / ${chrisItem.name}`,
           'system.description.value': updateDescription(ruDesc !== '' ? ruDesc : laaruItem, chrisItem, keepEngName),
           flags: {
+            ...actorItem.flags,
             ...chrisItem.flags,
             [flagsName]: {
               oldId: actorItem.id,
