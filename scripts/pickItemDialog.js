@@ -53,8 +53,12 @@ class PickOptionWindow extends Application {
       const selectedItem = select.value;
       selectedItems.push(selectedItem);
     });
-    await this.onSelect(selectedItems);
     this.close();
+    try {
+      await this.onSelect(selectedItems);
+    } catch (error) {
+      console.error("Error during onSelect:", error);
+    }
   }
 }
 

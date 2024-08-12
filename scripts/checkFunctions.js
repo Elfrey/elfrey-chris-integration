@@ -92,36 +92,38 @@ export const searchClassFeatures = async (actor, data) => {
           }
         }
       }
-    }
-    if (actor.classes[actorClass].subclass) {
-      const subClassName = actor.classes[actorClass].subclass.name;
-      if (data[className][subClassName]) {
-        const {
-          addItems,
-          removeItems,
-          manualUpdate,
-          itemById
-        } = await searchItems(actor, data[className][subClassName], 'class', chrisClassFeaturesCompendium, laaruFeatsCompendium);
-        classFeatures = {
-          addItems: [
-            ...classFeatures.addItems,
-            ...addItems
-          ],
-          removeItems: [
-            ...classFeatures.removeItems,
-            ...removeItems
-          ],
-          manualUpdate: {
-            ...classFeatures.manualUpdate,
-            ...manualUpdate
-          },
-          itemById: {
-            ...classFeatures.itemById,
-            ...itemById
+
+      if (actor.classes[actorClass].subclass) {
+        const subClassName = actor.classes[actorClass].subclass.name;
+        if (data[className][subClassName]) {
+          const {
+            addItems,
+            removeItems,
+            manualUpdate,
+            itemById
+          } = await searchItems(actor, data[className][subClassName], 'class', chrisClassFeaturesCompendium, laaruFeatsCompendium);
+          classFeatures = {
+            addItems: [
+              ...classFeatures.addItems,
+              ...addItems
+            ],
+            removeItems: [
+              ...classFeatures.removeItems,
+              ...removeItems
+            ],
+            manualUpdate: {
+              ...classFeatures.manualUpdate,
+              ...manualUpdate
+            },
+            itemById: {
+              ...classFeatures.itemById,
+              ...itemById
+            }
           }
         }
       }
     }
+
   }
   return classFeatures;
 }
