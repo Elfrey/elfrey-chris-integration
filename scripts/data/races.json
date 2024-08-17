@@ -1,4 +1,42 @@
 {
+  "Аасимар": {
+    "Небесное откровение: Саван смерти": {
+      "ruId": "ASZ6kJzW8OvQ45hH",
+      "items": [
+        {
+          "engName": "Celestial Revelation (Necrotic Shroud)",
+          "engId": "ASZ6kJzW8OvQ45hH"
+        }
+      ]
+    },
+    "Небесное откровение: Испускание сияния": {
+      "ruId": "JLi4U3wFWBmp4H9i",
+      "items": [
+        {
+          "engName": "Celestial Revelation (Radiant Consumption)",
+          "engId": "HSbyf8ciDBjz78Xv"
+        }
+      ]
+    },
+    "Небесное откровение: Сияющая душа": {
+      "ruId": "d0DiDHJ6wv0vPQE3",
+      "items": [
+        {
+          "engName": "Celestial Revelation (Radiant Soul)",
+          "engId": "tFFmiZ2q27uC1lS2"
+        }
+      ]
+    },
+    "Исцеляющие руки": {
+      "ruId": "Trdj9PfD4EmE9Ab8",
+      "items": [
+        {
+          "engName": "Healing Hands",
+          "engId": "jNZZlVPWl5dgvGC1"
+        }
+      ]
+    }
+  },
   "Драконорождённый": {
     "Губительное дыхание": {
       "ruId": "KL7wx9Q8XNJQir0k",
