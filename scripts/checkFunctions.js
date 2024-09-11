@@ -2,10 +2,10 @@ import {flagsName} from './consts.js'
 
 const laaruFeatsCompendium = 'laaru-dnd5-hw.classfeatures';
 const laaruSpellsCompendium = 'laaru-dnd5-hw.spells';
-const chrisFeatsCompendium = 'chris-premades.CPR Feats';
-const chrisClassFeaturesCompendium = 'chris-premades.CPR Class Features';
-const chrisRaceFeaturesCompendium = 'chris-premades.CPR Race Features';
-const chrisSpellsCompendium = 'chris-premades.CPR Spells';
+const chrisFeatsCompendium = 'chris-premades.CPRFeats';
+const chrisClassFeaturesCompendium = 'chris-premades.CPRClassFeatures';
+const chrisRaceFeaturesCompendium = 'chris-premades.CPRRaceFeatures';
+const chrisSpellsCompendium = 'chris-premades.CPRSpells';
 const srdSpellCompendium = 'dnd5e.spells';
 
 const notSafeToRename = {
@@ -36,7 +36,7 @@ const notSafeToRename = {
   ]
 }
 
-const chris = chrisPremades.helpers;
+const chrisCompendiumUtils = chrisPremades.utils.compendiumUtils;
 
 const emptyResult = {
   addItems: [],
@@ -53,7 +53,7 @@ const updateDescription = (item1, item2, addName = false) => {
   return `${ruPart} <hr /> ${item2.system.description.value}`
 }
 
-export const searchClassFeatures = async (actor, data) => {
+export const searchClassFeatures = async (actor, actorItems, chrisItems) => {
   if (actor.type === 'npc') {
     return {...emptyResult};
   }
@@ -65,14 +65,14 @@ export const searchClassFeatures = async (actor, data) => {
   for (let actorClass in actor.classes) {
     const className = actor.classes[actorClass].name;
 
-    if (data[className]) {
-      if (data[className].base) {
+    if (chrisItems[className]) {
+      if (chrisItems[className].base) {
         const {
           addItems,
           removeItems,
           manualUpdate,
           itemById
-        } = await searchItems(actor, data[className].base, 'class', chrisClassFeaturesCompendium, laaruFeatsCompendium);
+        } = await searchItems(actor, actorItems, chrisItems[className].base, 'class', chrisClassFeaturesCompendium, laaruFeatsCompendium);
         classFeatures = {
           addItems: [
             ...classFeatures.addItems,
@@ -92,41 +92,43 @@ export const searchClassFeatures = async (actor, data) => {
           }
         }
       }
-    }
-    if (actor.classes[actorClass].subclass) {
-      const subClassName = actor.classes[actorClass].subclass.name;
-      if (data[className][subClassName]) {
-        const {
-          addItems,
-          removeItems,
-          manualUpdate,
-          itemById
-        } = await searchItems(actor, data[className][subClassName], 'class', chrisClassFeaturesCompendium, laaruFeatsCompendium);
-        classFeatures = {
-          addItems: [
-            ...classFeatures.addItems,
-            ...addItems
-          ],
-          removeItems: [
-            ...classFeatures.removeItems,
-            ...removeItems
-          ],
-          manualUpdate: {
-            ...classFeatures.manualUpdate,
-            ...manualUpdate
-          },
-          itemById: {
-            ...classFeatures.itemById,
-            ...itemById
+
+      if (actor.classes[actorClass].subclass) {
+        const subClassName = actor.classes[actorClass].subclass.name;
+        if (chrisItems[className][subClassName]) {
+          const {
+            addItems,
+            removeItems,
+            manualUpdate,
+            itemById
+          } = await searchItems(actor, actorItems, chrisItems[className][subClassName], 'class', chrisClassFeaturesCompendium, laaruFeatsCompendium);
+          classFeatures = {
+            addItems: [
+              ...classFeatures.addItems,
+              ...addItems
+            ],
+            removeItems: [
+              ...classFeatures.removeItems,
+              ...removeItems
+            ],
+            manualUpdate: {
+              ...classFeatures.manualUpdate,
+              ...manualUpdate
+            },
+            itemById: {
+              ...classFeatures.itemById,
+              ...itemById
+            }
           }
         }
       }
     }
+
   }
   return classFeatures;
 }
 
-export const searchItems = async (actor, items, searchType = 'feat', cprPack = chrisFeatsCompendium, laaruPack = laaruFeatsCompendium) => {
+export const searchItems = async (actor, actorItems, chrisItems, searchType = 'feat', cprPack = chrisFeatsCompendium, laaruPack = laaruFeatsCompendium) => {
   if (actor.type === 'npc' && searchType !== 'spell') {
     return {...emptyResult};
   }
@@ -134,28 +136,33 @@ export const searchItems = async (actor, items, searchType = 'feat', cprPack = c
   const itemById = {};
   const addItems = [];
   const removeItems = [];
-  for (const itemNameRu in items) {
-    const itemData = items[itemNameRu];
-    const actorItem = await actor.items.getName(itemNameRu);
-    let laaruItem = await chris.getItemFromCompendium(laaruPack, itemNameRu, true);
-    if (!laaruItem) {
-      laaruItem = await chris.getItemFromCompendium(srdSpellCompendium, itemNameRu, true);
-    }
-    if (actorItem != null) {
-      for (const item of itemData.items) {
+  for (const actorItem of actorItems) {
+    const itemNameRu = actorItem.name;
+    const chrisItemData = chrisItems[itemNameRu];
+
+    if (actorItem != null && chrisItemData != null) {
+      for (const item of chrisItemData.items) {
 
         const {engName, ruName = '', ruDesc = ''} = item;
         // Work with single feat
-        const chrisItem = await chris.getItemFromCompendium(cprPack, engName, true);
+        const chrisItem = await chrisCompendiumUtils.getItemFromCompendium(cprPack, engName, {ignoreNotFound: true});
+        if (!chrisItem) {
+          console.error(`Item not found in ${cprPack}: ${engName}`);
+          continue;
+        }
         const keepEngName = item.keepEngName || notSafeToRename[searchType].includes(engName);
         const newNameRu = searchType === 'spell' && itemNameRu.indexOf(' / ') !== -1 ? itemNameRu.split(' / ')[0].trim() : itemNameRu;
-
 
         const tmpItem = {
           ...chrisItem,
           name: keepEngName ? chrisItem.name : `${ruName !== '' ? ruName : newNameRu} / ${chrisItem.name}`,
-          'system.description.value': updateDescription(ruDesc !== '' ? ruDesc : laaruItem, chrisItem, keepEngName),
+          system: {
+            description: {
+              value: updateDescription(ruDesc !== '' ? ruDesc : actorItem, chrisItem, keepEngName),
+            }
+          },
           flags: {
+            ...actorItem.flags,
             ...chrisItem.flags,
             [flagsName]: {
               oldId: actorItem.id,
@@ -163,17 +170,18 @@ export const searchItems = async (actor, items, searchType = 'feat', cprPack = c
             }
           }
         };
+
         if (searchType === 'spell') {
           tmpItem['system.preparation.mode'] = actorItem.system.preparation.mode;
           tmpItem['system.preparation.value'] = actorItem.system.preparation.value;
         }
-        if (itemData.pick) {
+        if (chrisItemData.pick) {
           if (!manualUpdate[`${itemNameRu}`]) {
             manualUpdate[`${itemNameRu}`] = {
               items: [],
             }
           }
-          if (itemData.always && itemData.always.includes(chrisItem.name)) {
+          if (chrisItem.always && chrisItem.always.includes(chrisItem.name)) {
             addItems.push(tmpItem);
           } else {
             manualUpdate[`${itemNameRu}`].items.push(tmpItem);
@@ -182,7 +190,7 @@ export const searchItems = async (actor, items, searchType = 'feat', cprPack = c
           addItems.push(tmpItem);
           removeItems.push(actorItem.id);
         }
-        itemById[tmpItem._id] = tmpItem;
+        itemById[actorItem.id] = tmpItem;
       }
     }
   }
@@ -195,8 +203,8 @@ export const searchItems = async (actor, items, searchType = 'feat', cprPack = c
   };
 }
 
-export const searchSpells = async (actor, data) => {
-  return await searchItems(actor, data, 'spell', chrisSpellsCompendium, laaruSpellsCompendium);
+export const searchSpells = async (actor, actorItems, data) => {
+  return await searchItems(actor, actorItems, data, 'spell', chrisSpellsCompendium, laaruSpellsCompendium);
 }
 
 export const searchRaceFeatures = async (actor, data) => {

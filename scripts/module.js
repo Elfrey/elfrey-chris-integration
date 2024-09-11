@@ -1,4 +1,9 @@
-import {flagsName, moduleName, moduleNameShort} from './consts.js';
+import {
+  flagsName,
+  moduleName,
+  moduleNameShort,
+  allowedFeatTypes
+} from './consts.js';
 import {
   searchClassFeatures,
   searchItems,
@@ -9,12 +14,10 @@ import pickItemDialog from './pickItemDialog.js';
 
 import {updateJournal} from './journal.js';
 
-const chris = chrisPremades.helpers;
 
 async function loadJsonData(fileType = 'feats') {
-  const allowedTypes = ['feats', 'abilities', 'items', 'races', 'spells'];
   try {
-    const response = await fetch(`modules/${moduleName}/scripts/data/${allowedTypes.includes(fileType) ? fileType : 'feats'}.json`);
+    const response = await fetch(`modules/${moduleName}/scripts/data/${allowedFeatTypes.includes(fileType) ? fileType : 'feats'}.json`);
     if (!response.ok) {
       // noinspection ExceptionCaughtLocallyJS
       throw new Error('Network response was not ok');
@@ -41,20 +44,39 @@ const processResult = async (actor, {
     pageUuid: `JournalEntry.${page.parent.id}.JournalEntryPage.${page.id}`
   });
 
-  await chris.dialog(game.i18n.localize(`${moduleNameShort}.updateFinished`), [['Закрыть', true]], content);
+  new Dialog({
+    title: game.i18n.localize(`${moduleNameShort}.updateFinished`),
+    content,
+    buttons: {
+      ok: {
+        label: game.i18n.localize(`${moduleNameShort}.CLOSE_DIALOG`),
+        // callback: () => console.log("Chose One")
+      },
+    }
+  }).render(true);
 };
 
 const checkActor = async (doc) => {
+
+
+  const actorItemsData = {}
+  for (const item of doc.items) {
+    if (!actorItemsData[item.type]) {
+      actorItemsData[item.type] = [];
+    }
+    actorItemsData[item.type].push(item);
+  }
+
   const featData = await loadJsonData('feats');
   const abilitiesData = await loadJsonData('abilities');
   const raceData = await loadJsonData('races');
   const spellData = await loadJsonData('spells');
 
   const updatedData = await Promise.all([
-    searchItems(doc, featData, 'feat'),
-    searchClassFeatures(doc, abilitiesData),
-    searchSpells(doc, spellData),
-    searchRaceFeatures(doc, raceData)
+    // searchItems(doc, featData, 'feat'),
+    searchClassFeatures(doc, [...actorItemsData.feat], abilitiesData),
+    searchSpells(doc, [...(actorItemsData.spell || [])], spellData),
+    // searchRaceFeatures(doc, raceData)
   ]);
 
   let {
@@ -115,6 +137,13 @@ Hooks.on('getActorDirectoryEntryContext', (_, options) => {
         await checkActor(actor)
         if (ui.notifications) {
           ui.notifications.info(game.i18n.localize(`${moduleNameShort}.CONVERT_END`));
+        }
+      } else {
+        if (!actor) {
+          ui.notifications.error(game.i18n.localize(`${moduleNameShort}.NO_ACTOR`));
+        }
+        if (!chrisPremades) {
+          ui.notifications.error(game.i18n.localize(`${moduleNameShort}.NO_CPR`));
         }
       }
     },

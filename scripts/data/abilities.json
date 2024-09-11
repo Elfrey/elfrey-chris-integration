@@ -291,7 +291,7 @@
         "ruId": "OdrvL3afwLOPeuYZ",
         "items": [
           {
-            "engName": "Lay on Hands Pool",
+            "engName": "Lay on Hands",
             "engId": "JaiY3Q1Ycbz0QWug"
           }
         ]
@@ -567,7 +567,7 @@
         "ruId": "Qb391hakCfmH4w8p",
         "items": [
           {
-            "engName": "Metamagic - Twinned Spell",
+            "engName": "Metamagic: Twinned Spell",
             "engId": "0ge0BpiLGlCFpbrO"
           }
         ]
@@ -576,7 +576,7 @@
         "ruId": "4MfPjEUMECnMpnyv",
         "items": [
           {
-            "engName": "Metamagic - Seeking Spell",
+            "engName": "Metamagic: Seeking Spell",
             "engId": "CXdSQ5cdQIr6YxU2"
           }
         ]
@@ -585,7 +585,7 @@
         "ruId": "zElYrOcCFFMhB6Xl",
         "items": [
           {
-            "engName": "Metamagic - Careful Spell",
+            "engName": "Metamagic: Careful Spell",
             "engId": "EktbOPhsT2482Rv3"
           }
         ]
@@ -594,7 +594,7 @@
         "ruId": "tNG2qi9zhmXEkecA",
         "items": [
           {
-            "engName": "Metamagic - Heightened Spell",
+            "engName": "Metamagic: Heightened Spell",
             "engId": "FOvyneYKP7j6jN2S"
           }
         ]
@@ -603,7 +603,7 @@
         "ruId": "IWpe0Y9uAStHGiH1",
         "items": [
           {
-            "engName": "Metamagic - Empowered Spell",
+            "engName": "Metamagic: Empowered Spell",
             "engId": "P3yvzrfb7PePl9d4"
           }
         ]
@@ -612,7 +612,7 @@
         "ruId": "hRgizWSgLp78b2gu",
         "items": [
           {
-            "engName": "Metamagic - Transmuted Spell",
+            "engName": "Metamagic: Transmuted Spell",
             "engId": "TXODc8bbGaZFz8ny"
           }
         ]
@@ -2308,31 +2308,31 @@
         "ruId": "8OdTFOd8rAC3AxIS",
         "pick": true,
         "always": [
-          "Elemental Gift - Flight"
+          "Elemental Gift: Flight"
         ],
         "items": [
           {
-            "engName": "Elemental Gift: Elemental Gift (Efreeti)",
+            "engName": "Elemental Gift (Efreeti)",
             "engId": "GNtDcSXYt09uo6ak",
             "ruName": "Стихийный дар - Ифрит"
           },
           {
-            "engName": "Elemental Gift: Elemental Gift (Marid)",
+            "engName": "Elemental Gift (Marid)",
             "engId": "H9wy6uzWz10HbORo",
             "ruName": "Стихийный дар - Марид"
           },
           {
-            "engName": "Elemental Gift: Elemental Gift (Dao)",
+            "engName": "Elemental Gift (Dao)",
             "engId": "X33rAVsRxnckiaKU",
             "ruName": "Стихийный дар - Дао"
           },
           {
-            "engName": "Elemental Gift: Elemental Gift (Djinni)",
+            "engName": "Elemental Gift (Djinni)",
             "engId": "cR5K7c415DQLh6Ie",
             "ruName": "Стихийный дар - Джинн"
           },
           {
-            "engName": "Elemental Gift - Flight",
+            "engName": "Elemental Gift: Flight",
             "engId": "tq9HeAwX46SKf7mz",
             "ruName": "Стихийный дар - Полет"
           }
