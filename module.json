@@ -2,7 +2,7 @@
   "id": "elfrey-chris-integration",
   "title": "Интеграция с модулем Chris's Premades",
   "description": "Быстрая и удобная настройка персонажам способностей из модуля Chris's Premades с русским переводом.",
-  "version": "1.12.0",
+  "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
@@ -52,6 +52,9 @@
       "path": "language/ru.json"
     }
   ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
   "protected": false,
