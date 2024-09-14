@@ -446,6 +446,17 @@
       ]
     }
   },
+  "Эльф высший": {
+    "Наследие фей": {
+      "ruId": "cnTbpPPeGW7vGjOV",
+      "items": [
+        {
+          "engName": "Fey Ancestry",
+          "engId": "d4O33eV9dRFvjCv1"
+        }
+      ]
+    }
+  },
   "Эльф лесной": {
     "Наследие фей": {
       "ruId": "cnTbpPPeGW7vGjOV",

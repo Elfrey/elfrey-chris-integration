@@ -172,8 +172,11 @@ export const searchItems = async (actor, actorItems, chrisItems, searchType = 'f
         };
 
         if (searchType === 'spell') {
+          tmpItem['system.level'] = actorItem.system.level;
+          tmpItem['system.materials'] = actorItem.system.materials;
+          tmpItem['system.properties'] = actorItem.system.properties;
           tmpItem['system.preparation.mode'] = actorItem.system.preparation.mode;
-          tmpItem['system.preparation.value'] = actorItem.system.preparation.value;
+          tmpItem['system.preparation.prepared'] = actorItem.system.preparation.prepared;
         }
         if (chrisItemData.pick) {
           if (!manualUpdate[`${itemNameRu}`]) {
@@ -207,15 +210,15 @@ export const searchSpells = async (actor, actorItems, data) => {
   return await searchItems(actor, actorItems, data, 'spell', chrisSpellsCompendium, laaruSpellsCompendium);
 }
 
-export const searchRaceFeatures = async (actor, data) => {
+export const searchRaceFeatures = async (actor, actorItems, data) => {
   if (actor.type === 'npc') {
     return {...emptyResult};
   }
   let raceFeatures = {};
-  const race = actor.data.items.find(item => item.type === 'race');
+  const race = actor.items.find(item => item.type === 'race');
 
   if (data[race?.name || '']) {
-    raceFeatures = await searchItems(actor, data[race.name], 'race', chrisRaceFeaturesCompendium);
+    raceFeatures = await searchItems(actor, actorItems, data[race.name], 'race', chrisRaceFeaturesCompendium);
   }
   return raceFeatures
 }
