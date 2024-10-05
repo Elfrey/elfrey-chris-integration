@@ -4,6 +4,7 @@ const laaruFeatsCompendium = 'laaru-dnd5-hw.classfeatures';
 const laaruSpellsCompendium = 'laaru-dnd5-hw.spells';
 const chrisFeatsCompendium = 'chris-premades.CPRFeats';
 const chrisClassFeaturesCompendium = 'chris-premades.CPRClassFeatures';
+const chris3rdClassFeaturesCompendium = 'chris-premades.CPRThirdPartyClassFeatures';
 const chrisRaceFeaturesCompendium = 'chris-premades.CPRRaceFeatures';
 const chrisSpellsCompendium = 'chris-premades.CPRSpells';
 const srdSpellCompendium = 'dnd5e.spells';
@@ -57,6 +58,7 @@ export const searchClassFeatures = async (actor, actorItems, chrisItems) => {
   if (actor.type === 'npc') {
     return {...emptyResult};
   }
+
   let classFeatures = {
     addItems: [],
     removeItems: [],
@@ -140,12 +142,21 @@ export const searchItems = async (actor, actorItems, chrisItems, searchType = 'f
     const itemNameRu = actorItem.name;
     const chrisItemData = chrisItems[itemNameRu];
 
+
     if (actorItem != null && chrisItemData != null) {
       for (const item of chrisItemData.items) {
 
         const {engName, ruName = '', ruDesc = ''} = item;
+        let searchPack = cprPack;
         // Work with single feat
-        const chrisItem = await chrisCompendiumUtils.getItemFromCompendium(cprPack, engName, {ignoreNotFound: true});
+        if (engName.indexOf('Fighting Style') !== -1) {
+          searchPack = chrisClassFeaturesCompendium;
+        }
+
+        let chrisItem = await chrisCompendiumUtils.getItemFromCompendium(searchPack, engName, {ignoreNotFound: true});
+        if (!chrisItem && cprPack === chrisClassFeaturesCompendium) {
+          chrisItem = await chrisCompendiumUtils.getItemFromCompendium(chris3rdClassFeaturesCompendium, engName, {ignoreNotFound: true});
+        }
         if (!chrisItem) {
           console.error(`Item not found in ${cprPack}: ${engName}`);
           continue;

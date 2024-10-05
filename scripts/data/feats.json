@@ -155,8 +155,8 @@
     "ruId": "PmUpVIioCb3MIemX",
     "items": [
       {
-        "engName": "Orcish Fury - Extra Damage",
-        "engId": "svxGjhxcDkqbqteK"
+        "engName": "Orcish Fury: Extra Damage",
+        "engId": "NhYTDMRF8E4uY5cj"
       }
     ]
   },
@@ -310,6 +310,52 @@
       {
         "engName": "Vigor of the Hill Giant: Bulwark",
         "engId": "sI14YIlOx5R7E4dJ"
+      }
+    ]
+  },
+  "Черта: Трактирный забияка": {
+    "ruId": "Rykx25ypWXLwJUUf",
+    "pick": true,
+    "items": [
+      {
+        "engName": "Tavern Brawler: Constitution Score",
+        "engId": "AkWfE2KuCndJvCRH"
+      },
+      {
+        "engName": "Tavern Brawler: Strength Score",
+        "engId": "uj5Q3VWzrW3YAoJX"
+      }
+    ]
+  },
+  "Черта: Рукопашный борец": {
+    "ruId": "BVDZcIKGSkojPhwS",
+    "items": [
+      {
+        "engName": "Grappler",
+        "engId": "YgFKtatS6W3q3KR1"
+      }
+    ]
+  },
+  "Боевой стиль: Сражение голыми руками (Опционально)": {
+    "ruId": "hkRHyZSMgXn0edhg",
+    "items": [
+      {
+        "engName": "Fighting Style: Unarmed Fighting",
+        "engId": "1RsWYTERLo0owW0l"
+      }
+    ]
+  },
+  "Боевой стиль: Превосходная техника (Опционально)": {
+    "items": [
+      {
+        "engName": "Fighting Style: Superior Technique"
+      }
+    ]
+  },
+  "Черта: Мастер военного дела": {
+    "items": [
+      {
+        "engName": "Martial Adept"
       }
     ]
   }

@@ -1,5 +1,14 @@
 {
   "Изобретатель": {
+    "base": {
+      "Инфузирование предмета": {
+        "items": [
+          {
+            "engName": "Infuse Item"
+          }
+        ]
+      }
+    },
     "Бронник": {
       "Модель доспеха": {
         "rudId": "FUSNyGJMz7YY5rDr",
@@ -380,6 +389,13 @@
             "engId": "Oro6tcNFxYiBsSUI"
           }
         ]
+      },
+      "Аура ненависти": {
+        "items": [
+          {
+            "engName": "Aura of Hate"
+          }
+        ]
       }
     },
     "Клятва славы": {
@@ -448,6 +464,15 @@
           }
         ]
       }
+    },
+    "Клятва покорения": {
+      "Аура покорения": {
+        "items": [
+          {
+            "engName": "Aura of Conquest"
+          }
+        ]
+      }
     }
   },
   "Друид": {
@@ -478,6 +503,13 @@
           {
             "engName": "Primal Strike",
             "engId": "tBk5cBMlLBiTAc6t"
+          }
+        ]
+      },
+      "Стихийный дикий облик": {
+        "items": [
+          {
+            "engName": "Elemental Wild Shape"
           }
         ]
       }
@@ -550,6 +582,15 @@
           }
         ]
       }
+    },
+    "Круг Пастыря": {
+      "Могущественный призыватель": {
+        "items": [
+          {
+            "engName": "Mighty Summoner"
+          }
+        ]
+      }
     }
   },
   "Чародей": {
@@ -614,6 +655,36 @@
           {
             "engName": "Metamagic: Transmuted Spell",
             "engId": "TXODc8bbGaZFz8ny"
+          }
+        ]
+      },
+      "Метамагия: Незаметное заклинание": {
+        "ruId": "fXa0DMhoVLtbBu9l",
+        "items": [
+          {
+            "engName": "Metamagic: Subtle Spell",
+            "engId": "1HW1ZdZEjzznMbgc"
+          }
+        ]
+      },
+      "Метамагия: Дальнее заклинание": {
+        "items": [
+          {
+            "engName": "Metamagic: Distant Spell"
+          }
+        ]
+      },
+      "Метамагия: Быстрое заклинание": {
+        "items": [
+          {
+            "engName": "Metamagic: Quickened Spell"
+          }
+        ]
+      },
+      "Метамагия: Длительное заклинание": {
+        "items": [
+          {
+            "engName": "Metamagic: Extended Spell"
           }
         ]
       }
@@ -861,6 +932,13 @@
           }
         ]
       },
+      "Манёвр: Командирский напор": {
+        "items": [
+          {
+            "engName": "Maneuvers: Commanding Presence"
+          }
+        ]
+      },
       "Несгибаемость": {
         "ruId": "A9Z2b0uXXXGshcR8",
         "items": [
@@ -925,6 +1003,71 @@
           {
             "engName": "Fighting Spirit",
             "engId": "IQ46nzEV31gyQUcA"
+          }
+        ]
+      }
+    },
+    "Рунный рыцарь": {
+      "Резчик рун": {
+        "ruId": "",
+        "items": [
+          {
+            "engName": "Stone Rune",
+            "engId": "",
+            "ruName": "Резчик рун: Каменная руна"
+          },
+          {
+            "engName": "Frost Rune",
+            "engId": "",
+            "ruName": "Резчик рун: Ледяная руна"
+          },
+          {
+            "engName": "Cloud Rune",
+            "engId": "",
+            "ruName": "Резчик рун: Облачная руна"
+          },
+          {
+            "engName": "Fire Rune",
+            "engId": "",
+            "ruName": "Резчик рун: Огненная руна"
+          },
+          {
+            "engName": "Hill Rune",
+            "engId": "",
+            "ruName": "Резчик рун: Холмовая руна"
+          },
+          {
+            "engName": "Storm Rune",
+            "engId": "",
+            "ruName": "Резчик рун: Штормовая руна"
+          }
+        ]
+      },
+      "Мощь великана": {
+        "items": [
+          {
+            "engName": "Giant's Might"
+          }
+        ]
+      },
+      "Рунический щит": {
+        "items": [
+          {
+            "engName": "Runic Shield"
+          }
+        ]
+      },
+      "Рунический джаггернаут": {
+        "items": [
+          {
+            "engName": "Runic Juggernaut"
+          }
+        ]
+      },
+      "Великий рост": {
+        "items": [
+          {
+            "engName": "Great Stature"
           }
         ]
       }
@@ -996,7 +1139,6 @@
           }
         ]
       },
-
       "Запугивающий выстрел": {
         "ruId": "oOjufyLdnmEJKPiM",
         "items": [
@@ -1069,7 +1211,6 @@
           }
         ]
       }
-
     }
   },
   "Бард": {
@@ -1145,7 +1286,6 @@
           }
         ]
       },
-
       "Мастерское цветение": {
         "ruId": "2CBi1sXX75w4yXTb",
         "items": [
@@ -1343,6 +1483,48 @@
           }
         ]
       },
+      "Обряд пламени": {
+        "items": [
+          {
+            "engName": "Crimson Rite: Rite of the Flame"
+          }
+        ]
+      },
+      "Обряд мороза": {
+        "items": [
+          {
+            "engName": "Crimson Rite: Rite of the Frozen"
+          }
+        ]
+      },
+      "Обряд бури": {
+        "items": [
+          {
+            "engName": "Crimson Rite: Rite of the Storm"
+          }
+        ]
+      },
+      "Обряд мёртвых": {
+        "items": [
+          {
+            "engName": "Crimson Rite: Rite of the Dead"
+          }
+        ]
+      },
+      "Обряд рёва": {
+        "items": [
+          {
+            "engName": "Crimson Rite: Rite of the Roar"
+          }
+        ]
+      },
+      "Обряд провидца": {
+        "items": [
+          {
+            "engName": "Crimson Rite: Rite of the Oracle"
+          }
+        ]
+      },
       "Клеймо наказания": {
         "ruId": "PmvZTcRZZlsyapWp",
         "items": [
@@ -1378,10 +1560,16 @@
             "engId": "V9OqHUkbOzZlUX8a"
           }
         ]
+      },
+      "Проклятая кровь": {
+        "items": [
+          {
+            "engName": "Blood Maledict"
+          }
+        ]
       }
     },
     "Орден Мутантов": {
-
       "Стужа": {
         "ruId": "Rbt22V2T4U5ZFGzQ",
         "items": [
@@ -1562,12 +1750,11 @@
           }
         ]
       },
-
       "Создание мутагенов": {
         "ruId": "OoHhBdRaMarQ0qpU",
         "items": [
           {
-            "engName": "Mutagencraft - Create Mutagen",
+            "engName": "Mutagencraft: Create Mutagen",
             "engId": "XHjrJxx6UfXc10J1"
           }
         ]
@@ -1619,6 +1806,15 @@
           {
             "engName": "Stalker's Prowess",
             "engId": "9BCXuAmNZxJambn8"
+          }
+        ]
+      }
+    },
+    "Орден Истребителей  Призраков": {
+      "Обряд рассвета": {
+        "items": [
+          {
+            "engName": "Crimson Rite: Rite of the Dawn"
           }
         ]
       }
@@ -2126,6 +2322,27 @@
             "engId": "cjoiV4JJ3ex5eFgx"
           }
         ]
+      },
+      "Высшее исцеление": {
+        "items": [
+          {
+            "engName": "Supreme Healing"
+          }
+        ]
+      },
+      "Благословенный целитель": {
+        "items": [
+          {
+            "engName": "Blessed Healer"
+          }
+        ]
+      },
+      "Защитник жизни": {
+        "items": [
+          {
+            "engName": "Disciple of Life"
+          }
+        ]
       }
     },
     "Домен магии": {
@@ -2166,7 +2383,7 @@
         "ruId": "UjN817abnQgZC4aE",
         "items": [
           {
-            "engName": "Maddening Hex",
+            "engName": "Eldritch Invocations: Maddening Hex",
             "engId": "5FZo6NXjgvC2yaH2"
           }
         ]
@@ -2175,7 +2392,7 @@
         "ruId": "05ESzQbiCwZdDofy",
         "items": [
           {
-            "engName": "Eldritch Smite",
+            "engName": "Eldritch Invocations: Eldritch Smite",
             "engId": "CCBN8FCAV2OjMViv"
           }
         ]
@@ -2193,7 +2410,7 @@
         "ruId": "3sN91lT1R3oxcDKd",
         "items": [
           {
-            "engName": "Devil's Sight",
+            "engName": "Eldritch Invocations: Devil's Sight",
             "engId": "T5ocL8WMnSneDZ4R"
           }
         ]
@@ -2202,7 +2419,7 @@
         "ruId": "wzhKnChhNYk2gQAO",
         "items": [
           {
-            "engName": "Relentless Hex",
+            "engName": "Eldritch Invocations: Relentless Hex",
             "engId": "YfEGK27XoalRyL7D"
           }
         ]
@@ -2238,7 +2455,7 @@
         "ruId": "KfnUyjUWAk0bAAus",
         "items": [
           {
-            "engName": "One with Shadows",
+            "engName": "Eldritch Invocations: One with Shadows",
             "engId": "zkb7CEADjtYwiGLN"
           }
         ]
@@ -2375,6 +2592,13 @@
           {
             "engName": "Hex Warrior",
             "engId": "EtbereWLGBsf2GHs"
+          }
+        ]
+      },
+      "Мастер проклятий": {
+        "items": [
+          {
+            "engName": "Master of Hexes"
           }
         ]
       }

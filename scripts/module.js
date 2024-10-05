@@ -73,7 +73,7 @@ const checkActor = async (doc) => {
   const spellData = await loadJsonData('spells');
 
   const updatedData = await Promise.all([
-    // searchItems(doc, featData, 'feat'),
+    searchItems(doc, [...(actorItemsData.feat || [])], featData, 'feat'),
     searchClassFeatures(doc, [...(actorItemsData.feat || [])], abilitiesData),
     searchSpells(doc, [...(actorItemsData.spell || [])], spellData),
     searchRaceFeatures(doc, [...(actorItemsData.feat || [])], raceData)
