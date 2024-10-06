@@ -1243,6 +1243,13 @@
             "engId": "AUwHWCIlPZnSnlvz"
           }
         ]
+      },
+      "Ноты потенциала": {
+        "items": [
+          {
+            "engName": "Mote of Potential"
+          }
+        ]
       }
     },
     "Коллегия Мечей": {
@@ -2657,15 +2664,7 @@
   },
   "Removed": {
     "Bard": {
-      "Ноты потенциала": {
-        "ruId": "45Z4Q9yPCAYnEZph",
-        "items": [
-          {
-            "engName": "Mote of Potential",
-            "engId": "ulp8IlXppnV9Wsrt"
-          }
-        ]
-      }
+
     }
   }
 }

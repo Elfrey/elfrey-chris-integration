@@ -3,18 +3,17 @@
   "title": "Интеграция с модулем Chris's Premades",
   "description": "Быстрая и удобная настройка персонажам способностей из модуля Chris's Premades с русским переводом.",
   "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 12,
-    "verified": 12,
-    "maximum": 12
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
   },
   "authors": [
     {
       "name": "Elfrey",
       "url": "https://github.com/Elfrey/elfrey-chris-integration",
-      "discord": "elfrey"
+      "discord": "elfrey",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -49,7 +48,8 @@
     {
       "lang": "ru",
       "name": "Russian",
-      "path": "language/ru.json"
+      "path": "language/ru.json",
+      "flags": {}
     }
   ],
   "url": "#{URL}#",
@@ -57,11 +57,24 @@
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
-  "protected": false,
   "media": [
     {
       "type": "icon",
-      "url": ""
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "eci-macro",
+      "label": "ECI Макросы",
+      "path": "packs/eci-macro",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ]
 }

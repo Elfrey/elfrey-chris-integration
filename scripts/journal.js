@@ -25,7 +25,7 @@ export const updateJournal = async (actor, sourceData) => {
     ['unknown']: []
   };
   sourceData.forEach((item) => {
-    const itemType = item.type === 'spell' ? item.type : item.system.type.value
+    const itemType = item.type;
 
     data[itemType !== '' ? itemType : 'unknown'].push(item);
   });
