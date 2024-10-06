@@ -358,5 +358,12 @@
         "engName": "Martial Adept"
       }
     ]
+  },
+  "Черта: Меткий стрелок": {
+    "items": [
+      {
+        "engName": "Sharpshooter"
+      }
+    ]
   }
 }
