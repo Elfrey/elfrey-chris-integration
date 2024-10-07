@@ -157,6 +157,7 @@ export const searchItems = async (actor, actorItems, chrisItems, searchType = 'f
         if (!chrisItem && cprPack === chrisClassFeaturesCompendium) {
           chrisItem = await chrisCompendiumUtils.getItemFromCompendium(chris3rdClassFeaturesCompendium, engName, {ignoreNotFound: true});
         }
+
         if (!chrisItem) {
           console.error(`Item not found in ${cprPack}: ${engName}`);
           continue;
@@ -168,6 +169,7 @@ export const searchItems = async (actor, actorItems, chrisItems, searchType = 'f
           ...chrisItem,
           name: keepEngName ? chrisItem.name : `${ruName !== '' ? ruName : newNameRu} / ${chrisItem.name}`,
           system: {
+            ...chrisItem.system,
             description: {
               value: updateDescription(ruDesc !== '' ? ruDesc : actorItem, chrisItem, keepEngName),
             }
@@ -189,6 +191,7 @@ export const searchItems = async (actor, actorItems, chrisItems, searchType = 'f
           tmpItem['system.preparation.mode'] = actorItem.system.preparation.mode;
           tmpItem['system.preparation.prepared'] = actorItem.system.preparation.prepared;
         }
+
         if (chrisItemData.pick) {
           if (!manualUpdate[`${itemNameRu}`]) {
             manualUpdate[`${itemNameRu}`] = {
