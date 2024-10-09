@@ -47,11 +47,12 @@ const emptyResult = {
 }
 
 const updateDescription = (item1, item2, addName = false) => {
-  let ruPart = typeof item1 === 'string' ? item1 : item1.system.description.value;
+  const originalDescription = typeof item1 === 'string' ? item1 : item1.system.description.value;
+  let ruPart = originalDescription.split('<hr class="eci-divider" />')[0];
   if (addName) {
     ruPart = `<p><b>${item1.name}</b></p>${ruPart}`;
   }
-  return `${ruPart} <hr /> ${item2.system.description.value}`
+  return `${ruPart} <hr class="eci-divider" /> ${item2.system.description.value}`
 }
 
 export const searchClassFeatures = async (actor, actorItems, chrisItems) => {
@@ -139,7 +140,7 @@ export const searchItems = async (actor, actorItems, chrisItems, searchType = 'f
   const addItems = [];
   const removeItems = [];
   for (const actorItem of actorItems) {
-    const itemNameRu = actorItem.name;
+    const itemNameRu = actorItem.name.split('/')[0].trim();
     const chrisItemData = chrisItems[itemNameRu];
 
 
@@ -147,6 +148,8 @@ export const searchItems = async (actor, actorItems, chrisItems, searchType = 'f
       for (const item of chrisItemData.items) {
 
         const {engName, ruName = '', ruDesc = ''} = item;
+
+
         let searchPack = cprPack;
         // Work with single feat
         if (engName.indexOf('Fighting Style') !== -1) {
@@ -165,6 +168,7 @@ export const searchItems = async (actor, actorItems, chrisItems, searchType = 'f
         const keepEngName = item.keepEngName || notSafeToRename[searchType].includes(engName);
         const newNameRu = searchType === 'spell' && itemNameRu.indexOf(' / ') !== -1 ? itemNameRu.split(' / ')[0].trim() : itemNameRu;
 
+        const newItemTmp = duplicate(chrisItem);
         const tmpItem = {
           ...chrisItem,
           name: keepEngName ? chrisItem.name : `${ruName !== '' ? ruName : newNameRu} / ${chrisItem.name}`,
@@ -173,6 +177,9 @@ export const searchItems = async (actor, actorItems, chrisItems, searchType = 'f
             description: {
               value: updateDescription(ruDesc !== '' ? ruDesc : actorItem, chrisItem, keepEngName),
             }
+          },
+          effects: {
+            ...chrisItem.effects.map(effect => effect.toObject()),
           },
           flags: {
             ...actorItem.flags,
