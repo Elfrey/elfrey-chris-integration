@@ -2642,5 +2642,12 @@
         "engName": "Wall of Fire"
       }
     ]
+  },
+  "Пылающая сфера": {
+    "items": [
+      {
+        "engName": "Flaming Sphere"
+      }
+    ]
   }
 }
