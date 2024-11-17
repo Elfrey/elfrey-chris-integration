@@ -46,6 +46,9 @@ const emptyResult = {
 }
 
 const updateDescription = (item1, item2, addName = false) => {
+  if (!item1) {
+    return '';
+  }
   let ruPart = typeof item1 === 'string' ? item1 : item1.system.description.value;
   if (addName) {
     ruPart = `<p><b>${item1.name}</b></p>${ruPart}`;
